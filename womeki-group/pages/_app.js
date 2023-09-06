@@ -1,10 +1,8 @@
-
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import "../styles/globals.css";
 import Navbar from '../components/Navbar';
+import 'bootstrap/dist/css/bootstrap.css'
 
 function MyApp({ Component, pageProps }) {
   return (
