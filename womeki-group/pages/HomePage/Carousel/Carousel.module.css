@@ -207,9 +207,6 @@
   .bgoverlay {
     height: 10% !important;
     width: 100%;
-    /* background-color: rgba(0,0,0,0.5); */
-    /* background:linear-gradient(180deg, #F5F5F5 66.34%, rgba(245, 245, 245, 0) 100%); */
-
     position: absolute;
     top: 0;
     z-index: 0;

@@ -11,7 +11,7 @@ import Image from 'next/Image'
 
 const Carousel = () => {
   return (
-    <div className={styles.maindiv} >
+    <div className={` ${styles.maindiv} `}>
         <Swiper
      modules={[ Pagination, A11y, Autoplay]}
      spaceBetween={5}
@@ -29,8 +29,8 @@ const Carousel = () => {
         data.map((Newdata) =>{
            return(
             <SwiperSlide>
-            <div>
-                <Image className={styles.videobg} width={1500} height={700} src={Newdata.Image} alt="kk" />
+            <div className=' mt-2 ' >
+                <Image className={`mt-5 ${styles.videobg}`} width={1500} height={700} src={Newdata.Image} alt="kk" />
                 <div className={styles.bgoverlay}></div>
                 <div className={styles.hometext}>
                 <h3 className={styles.bannerheading} >{Newdata.Heading}</h3>
