@@ -1,9 +1,13 @@
 import Carousel from "./HomePage/Carousel/Carousel";
+import Aboutcard from "./HomePage/AboutCard/Aboutcard";
 
-export default function Home() {
+
+ const  Home = () => {
   return (
     <div>
-     <Carousel/>  
+     <Carousel/> 
+     <Aboutcard/>
     </div>
   );
 }
+export default Home
