@@ -29,10 +29,9 @@ const Buisness_Card = () => {
               />
               <p>{BuisnessCardData.Heading1}</p>
               <p className={styles.KnowMoreBtn} >
-                <a   href="">{BuisnessCardData.Content1}</a>
+                <a className={styles.KnowMoreText}  href="">{BuisnessCardData.Content1}</a>
               </p>
             </div>
-          
         );
       })}
       </div>
