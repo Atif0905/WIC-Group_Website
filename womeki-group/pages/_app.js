@@ -1,4 +1,8 @@
+
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import "../styles/globals.css";
 import Navbar from '../components/Navbar';
 
@@ -7,6 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
 	</script> 
