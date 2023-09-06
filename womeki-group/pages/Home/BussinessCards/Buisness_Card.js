@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/Image";
-import data from "../components/Buisness_Card.json";
+import data from "./Buisness_Card.json";
 import styles from './Buisness_Card.module.css';
+import Image from "next/Image";
 
 const Buisness_Card = () => {
   return (

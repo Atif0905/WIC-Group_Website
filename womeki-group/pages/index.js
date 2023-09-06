@@ -1,7 +1,9 @@
+import Buisness_Card from "./Home/BussinessCards/Buisness_Card";
+
 export default function Home() {
   return (
     <div className="center">
-     <h1>Home</h1>
+     <Buisness_Card/>
     </div>
   );
 }
