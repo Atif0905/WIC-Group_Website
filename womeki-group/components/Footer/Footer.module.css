@@ -1,0 +1,37 @@
+.footer{
+  background-color: rgb(248,248,248);
+}
+
+ .footicon{
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+ }
+ .foottext{
+  font-size: small;
+ }
+
+ .formfooter{
+  padding: 7px;
+  height: 40px;
+  width: 200px;
+  font-size: 11px;
+ }
+ .footerbtn{
+  height: 40px;
+  width: 40px;
+ }
+.arrowbtn{
+  height: 25px;
+  width: 32px;
+}
+.wiclogo{
+  width: 200px;
+  height: 120px;
+}
+.womekilogo{
+  width: 250px;
+  height: 150px;
+}
+
+ 
