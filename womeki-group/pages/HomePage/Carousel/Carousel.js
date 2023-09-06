@@ -7,22 +7,22 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import data from './Carousel.json'
-import Image from 'next/image'
+import Image from 'next/Image'
 
 const Carousel = () => {
   return (
-    <div>
+    <div className={styles.maindiv} >
         <Swiper
-     modules={[Navigation, Pagination, A11y, Autoplay]}
-     spaceBetween={10}
+     modules={[ Pagination, A11y, Autoplay]}
+     spaceBetween={5}
      slidesPerView={1}
      loop={true}
-     speed={1000}
+     speed={1500}
      autoplay={{
-        delay: 2000,
+        delay: 2500,
         disableOnInteraction: false
     }}
-     navigation
+    //  navigation
      pagination={{ clickable: true }}
     >
      {
@@ -30,15 +30,19 @@ const Carousel = () => {
            return(
             <SwiperSlide>
             <div>
-                <Image width={1500} height={550} src={Newdata.Image} alt="kk" />
+                <Image className={styles.videobg} width={1500} height={700} src={Newdata.Image} alt="kk" />
+                <div className={styles.bgoverlay}></div>
+                <div className={styles.hometext}>
                 <h3 className={styles.bannerheading} >{Newdata.Heading}</h3>
-                <p>{Newdata.Description}</p>
+                <p className={styles.Description} >{Newdata.Description}</p>
+                </div>
             </div>
             </SwiperSlide>
            )
         })
      }
     </Swiper>
+    
     </div>
   )
 }
