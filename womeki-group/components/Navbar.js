@@ -1,13 +1,16 @@
 import Link from "next/link";
-import Image from "next/image";
 import React, { useState } from "react";
-import Logo from "./Logo";
 import NavItem from "./NavItem";
+import Image from "next/image";
+import img from '../public/vercel.svg'
 
 const MENU_LIST = [
-  { text: "Home", href: "/" },
-  { text: "About Us", href: "/about" },
-  { text: "Contact", href: "/contact" },
+  { text: "Business", href: "business" },
+  { text: "About", href: "/about" },
+  { text: "Blog", href: "/blog" },
+  { text: "Careers", href: "/careers" },
+  { text: "News", href: "/news" },
+  { text: "Connect", href: "/connect" },
 ];
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
@@ -18,13 +21,16 @@ const Navbar = () => {
       <nav className={`nav`}>
         <Link href={"/"}>
           <a>
-            <h1 className="logo">LOGO</h1>
+           <Image src={img} alt="kk" />
           </a>
         </Link>
         <div
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
         >
+          <div></div>
+          <div></div>
+          <div></div>
           <div></div>
           <div></div>
           <div></div>
