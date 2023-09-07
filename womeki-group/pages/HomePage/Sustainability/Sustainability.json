@@ -1,0 +1,22 @@
+{
+    "Section1":[
+        {
+            "Heading": "Sustainability",
+            "Content": "Helping India meet its energy needs while minimising the impact on the environment is a crucial challenge. Our environment protection initiatives aim to help curb the dangers of eroding landscapes and convert them into fertile, greener blankets of land."
+        }
+    ],
+    "Section2":[
+        {
+            "Image": "/../public/lake.jpg",
+            "Heading": "Community Empowerment by Adani Foundation",
+            "Content": "Touching over 500,000 families through Adani Foundation, CSR arm of Adani Group"
+        }
+    ],
+    "Section3":[
+        {
+            "Image": "/../public/photo-1577774438656-768f1e5d9ed6.jpg",
+            "Heading": "Environment",
+            "Content": "Afforested over 3000+ Ha of Mangroves and planted over 4.4 million trees"
+        }
+    ]
+}
