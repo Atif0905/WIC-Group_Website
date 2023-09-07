@@ -37,14 +37,11 @@
 .KnowMoreBtn {
   display: none;
 }
-
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
    .Img_Cards{
     display: flex;
     flex-direction: column;
    }
-
    .Img_Card {
    margin-left: 30%;
   }
@@ -54,6 +51,5 @@
     border: 2px solid #008cba;
     margin-right: 10%;
     text-decoration: none;
-  }
-   
+  }   
   }
