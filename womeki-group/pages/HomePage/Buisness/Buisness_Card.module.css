@@ -13,7 +13,7 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   cursor: pointer;
-  transition: top ease 0.5s;
+  transition: top ease 0.6s;
   top: -10px;
   .KnowMoreBtn {
     display: block;
@@ -36,6 +36,10 @@
 }
 .KnowMoreBtn {
   display: none;
+}
+.KnowMoreText{
+  text-decoration: none;
+  font-weight: bold;
 }
 
 
