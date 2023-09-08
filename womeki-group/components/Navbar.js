@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
         </li>
         <li>
-          <a>Blog</a>
+          <a href="/Blogs">Blog</a>
         </li>
         <li>
           <a href="#" className="desktop-item">Careers</a>
