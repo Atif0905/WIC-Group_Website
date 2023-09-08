@@ -11,7 +11,7 @@ const BlogsHome = () => {
         data.Section1.map((NewData) => {
         return (
             <> 
-            <div className={styles.container}>
+            <div className={`mt-5 ${styles.container}`}>
             <Image width={800} height={400} src={NewData.Image} />
             <div className={styles.overlay}>
                 <div className={styles.text}>
