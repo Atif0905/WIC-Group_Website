@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Carousel.module.css';
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import {  Pagination, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -11,7 +11,7 @@ import Image from 'next/Image'
 
 const Carousel = () => {
   return (
-    <div className={styles.maindiv} >
+    <div className={` ${styles.maindiv} `}>
         <Swiper
      modules={[ Pagination, A11y, Autoplay]}
      spaceBetween={5}
@@ -22,15 +22,13 @@ const Carousel = () => {
         delay: 2500,
         disableOnInteraction: false
     }}
-    //  navigation
-     pagination={{ clickable: true }}
-    >
+     pagination={{ clickable: true }}    >
      {
         data.map((Newdata) =>{
            return(
             <SwiperSlide>
-            <div>
-                <Image className={styles.videobg} width={1500} height={700} src={Newdata.Image} alt="kk" />
+            <div className=' mt-2 ' >
+                <Image className={`mt-5 ${styles.videobg}`} width={1500} height={700} src={Newdata.Image} alt="kk" />
                 <div className={styles.bgoverlay}></div>
                 <div className={styles.hometext}>
                 <h3 className={styles.bannerheading} >{Newdata.Heading}</h3>
@@ -38,13 +36,8 @@ const Carousel = () => {
                 </div>
             </div>
             </SwiperSlide>
-           )
-        })
-     }
+           )})}
     </Swiper>
-    
     </div>
-  )
-}
-
+  )}
 export default Carousel

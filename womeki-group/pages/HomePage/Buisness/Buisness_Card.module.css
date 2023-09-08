@@ -1,0 +1,59 @@
+.sectionHeading::after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 4px;
+  background: #17b677;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.Img_Card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  cursor: pointer;
+  transition: top ease 0.6s;
+  top: -10px;
+  .KnowMoreBtn {
+    display: block;
+  }
+}
+.Img_Card {
+  position: relative;
+  top: 0;
+}
+.Explorebtn {
+  background-color: white;
+  color: #008cba;
+  border: 2px solid #008cba;
+  text-decoration: none;
+}
+.Explorebtn:hover {
+  background-color: #008cba;
+  color: white;
+  transition: ease all 1s;
+}
+.KnowMoreBtn {
+  display: none;
+}
+.KnowMoreText{
+  text-decoration: none;
+  font-weight: bold;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+   .Img_Cards{
+    display: flex;
+    flex-direction: column;
+   }
+   .Img_Card {
+   margin-left: 30%;
+  }
+  .Explorebtn {
+    background-color: white;
+    color: #008cba;
+    border: 2px solid #008cba;
+    margin-right: 10%;
+    text-decoration: none;
+  }   
+  }

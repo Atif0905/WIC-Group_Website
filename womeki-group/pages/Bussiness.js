@@ -4,7 +4,7 @@ import styles from './Sty.module.css';
 const Bussiness = () => {
   return (
     <div className={styles.Bussiness} >
-        dhcbhfebh
+        dhcbhfebh00
     </div>
   )
 }
