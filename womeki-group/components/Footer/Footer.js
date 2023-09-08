@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Footer.module.css'
+import Image from 'next/Image';
 
 const Footer = () => {
   return (
@@ -58,29 +59,29 @@ const Footer = () => {
                 </div>
                 <div className='col-lg-4 col-md-12 col-sm-12 justify-content-center'>
                     <div className='footer-icons d-flex justify-content-center'>
-                    <a href='https://www.facebook.com/womekiinvestorsclub'>
-                    <img className={styles.footicon} src="/fb.png"/>
+                    <a className=' mx-2' href='https://www.facebook.com/womekiinvestorsclub'>
+                    <Image width={20} height={20} className={styles.socialicon} src="/fb.png"/>
                     </a>
-                    <a href='https://www.instagram.com/womekiinvestorsclub/'>
-                    <img className={styles.footicon} src="/insta.png"/>
+                    <a className=' mx-2' href='https://www.instagram.com/womekiinvestorsclub/'>
+                    <Image width={20} height={20} className={styles.socialicon} src="/insta.png"/>
                     </a>
-                    <a href='https://www.linkedin.com/company/womeki-investors-club-wic/'>
-                    <img className={styles.footicon} src="/linkdin.png"/>
+                    <a className=' mx-2' href='https://www.linkedin.com/company/womeki-investors-club-wic/'>
+                    <Image width={20} height={20} className={styles.socialicon} src="/linkdin.png"/>
                     </a>
-                    <a href=' https://twitter.com/wicdotin?t=zHgR8m2u9Q4qH63z5ao-Sw&s=08'>
-                    <img className={styles.footicon} src="/twitter.png"/>
+                    <a className=' mx-2' href='https://twitter.com/wicdotin?t=zHgR8m2u9Q4qH63z5ao-Sw&s=08'>
+                    <Image width={20} height={20} className={styles.socialicon} src="/twitter.png"/>
                     </a>
-                    <a href=''>
-                    <img className={styles.footicon} src="/mail.png"/>
+                    <a className=' mx-2' href=''>
+                    <Image width={20} height={20} className={styles.socialicon} src="/mail.png"/>
                     </a>
-                    <a href='https://www.youtube.com/results?search_query=womeki+investors+club'>
-                    <img className={styles.footicon} src="youtube.svg"/>
+                    <a className=' mx-2' href='https://www.youtube.com/results?search_query=womeki+investors+club'>
+                    <Image width={20} height={20} className={styles.socialicon} src="/youtube.svg"/>
                     </a>
                     </div>
                     <div className='form-outline form-black mt-4 d-flex justify-content-center'>
                     <input type="email" className={styles.formfooter} placeholder="Enter your email ID to subscribe"/>
                     <button type="submit" className={styles.footerbtn}>
-                        <img className={styles.arrowbtn} src='/right-arrow.jpg'></img>
+                    <Image width={15} height={15} className={styles.arrowbtn} src='/arrow-right.svg'/>
                     </button>
                     </div> 
                   
@@ -92,14 +93,14 @@ const Footer = () => {
                     </div>
                 
                     <div className='col-md-12 d-none d-lg-block justify-content-center p-5'>
-                    <img className={styles.wiclogo} src="/womeki.jpeg"/>
+                    <Image width={200} height={100} className={styles.wiclogo} src="/womeki.jpeg"/>
                     </div> 
                 </div>
                
             </div>
         </div>
         <div className={` row d-lg-none justify-content-center mt-4 ${styles.footerbottom}`}>
-        <img className={styles.womekilogo} src="/womeki.jpeg"/>
+        <Image width={200} height={150} className={styles.womekilogo} src="/womeki.jpeg"/>
         </div>
     </div>
   )
