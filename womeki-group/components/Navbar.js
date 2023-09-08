@@ -66,7 +66,7 @@ const Navbar = () => {
           <a>Blog</a>
         </li>
         <li>
-          <a href="#" className="desktop-item">Careers</a>
+          <a href="/Career" className="desktop-item">Careers</a>
         </li>
         <li><a href="#">News</a></li>
         <li>

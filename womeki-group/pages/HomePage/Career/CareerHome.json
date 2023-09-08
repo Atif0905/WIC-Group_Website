@@ -1,0 +1,32 @@
+{
+    "Section1":[
+        {
+            "Heading": "Welcome",
+            "Content": "Create the future you want",
+            "Image": "/../public/careerbg.jpg"
+        }
+    ],
+
+    "Section2":[
+        {
+            "Heading": "Career",
+            "Content": "kvndoi[djfewmfewjernfiodjv",
+            "Image": "/../public/career1.jpg"
+        },
+        {
+            "Heading": "Career",
+            "Content": "kvndoi[djfewmfewjernfiodjv",
+            "Image": "/../public/career2.png"
+        },
+        {
+            "Heading": "Career",
+            "Content": "kvndoi[djfewmfewjernfiodjv",
+            "Image": "/../public/career3.png"
+        },
+        {
+            "Heading": "Career",
+            "Content": "kvndoi[djfewmfewjernfiodjv",
+            "Image": "/../public/career4.png"
+        }
+    ]
+}
