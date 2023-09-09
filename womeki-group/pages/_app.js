@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Component {...pageProps} />
       <Footer />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>

@@ -1,0 +1,41 @@
+.bgImgText{
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 100px;
+    color: rgb(226, 218, 218);
+    border-left:  5px solid rgb(253, 239, 239);
+    padding-left: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .bgImgText{
+        margin-top: -60px;
+        position: absolute;
+        margin-left: 30px;
+        color: rgb(226, 218, 218);
+        border-left:  5px solid rgb(253, 239, 239);
+        padding-left: 10px;
+        font-size: 15px;
+    }
+  }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .bgImgText{
+        margin-top: -60px;
+        position: absolute;
+        margin-left: 40px;
+        color: rgb(226, 218, 218);
+        border-left:  5px solid rgb(253, 239, 239);
+        padding-left: 10px;
+        font-size: 20px;
+    }
+  }
+  .AboutHeading{
+    border-left: 5px solid black;
+  }
+  
+  .accordioncontent {
+    display: none;
+  }
+  
+  .accordioncontent {
+    display: block;
+  }

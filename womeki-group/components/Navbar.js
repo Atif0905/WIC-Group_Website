@@ -6,7 +6,7 @@ const Navbar = () => {
   <div>
     <nav>
     <div className="wrapper">
-      <div className="logo"><a href="#">
+      <div className="logo"><a href="/">
         <Image src={img} alt="ll" width={140} height={80} />
         </a></div>
       <input type="radio" name="slider" id="menu-btn"/>
@@ -43,7 +43,7 @@ const Navbar = () => {
           </div>
         </li>
         <li>
-          <a href="#" className="desktop-item">About</a>
+          <a href="about" className="desktop-item">About</a>
           <input type="checkbox" id="showMega"/>
           <label for="showMega" className="mobile-item">Mega Menu</label>
           <div className="mega-box">
