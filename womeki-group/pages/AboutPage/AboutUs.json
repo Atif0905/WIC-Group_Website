@@ -1,15 +1,76 @@
 {
-    "Section1":[
-        {
-            "Image": "/../public/AboutBackground.webp",
-            "Heading": "India's fastest growing corporate catering to a billion aspirations"
-        }
-    ],
-    "Section2":[
-        {
-            "Heading": "About Us",
-            "Content1": "Adani Group is a diversified organisation in India comprising 7 publicly traded companies. It has created a world class transport and utility infrastructure portfolio that has a pan-India presence. Adani Group is headquartered in Ahmedabad, in the state of Gujarat, India. Over the years, Adani Group has positioned itself to be the market leader in its transport logistics and energy utility portfolio businesses focusing on large scale infrastructure development in India with O & M practices benchmarked to global standards. With four IG rated businesses, it is the only Infrastructure Investment Grade issuer in India.",
-            "Content2": "Adani owes its success and leadership position to its core philosophy of 'Nation Building' driven by 'Growth with Goodness' - a guiding principle for sustainable growth. Adani is committed to increase its ESG footprint by realigning its businesses with emphasis on climate protection and increasing community outreach through its CSR programme based on the principles of sustainability, diversity and shared values."
-        }
-    ]
+  "Section1": [
+    {
+      "Image": "/../public/AboutBackground.webp",
+      "Heading": "India's fastest growing corporate catering to a billion aspirations"
+    }
+  ],
+  "Section2": [
+    {
+      "Heading": "About Us",
+      "Content1": "Adani Group is a diversified organisation in India comprising 7 publicly traded companies. It has created a world class transport and utility infrastructure portfolio that has a pan-India presence. Adani Group is headquartered in Ahmedabad, in the state of Gujarat, India. Over the years, Adani Group has positioned itself to be the market leader in its transport logistics and energy utility portfolio businesses focusing on large scale infrastructure development in India with O & M practices benchmarked to global standards. With four IG rated businesses, it is the only Infrastructure Investment Grade issuer in India.",
+      "Content2": "Adani owes its success and leadership position to its core philosophy of 'Nation Building' driven by 'Growth with Goodness' - a guiding principle for sustainable growth. Adani is committed to increase its ESG footprint by realigning its businesses with emphasis on climate protection and increasing community outreach through its CSR programme based on the principles of sustainability, diversity and shared values."
+    }
+  ],
+  "Section3": [
+    {
+      "Heading": "At a glance"
+    }
+  ],
+  "Section4": [
+    {
+      "Image": "/../public/team-strength.png",
+      "Number": "2300+",
+      "Content": "Team Strength"
+    },
+    {
+      "Image": "/../public/mangrove-afforested.png",
+      "Number": "3000+ HA",
+      "Content": "Mangroves Afforested"
+    },
+    {
+      "Image": "/../public/Trees Planted.png",
+      "Number": "4.4+ Mn",
+      "Content": "Trees Planted"
+    },
+    {
+      "Image": "/../public/CSR Beneficiaries.png",
+      "Number": "3.4 MN",
+      "Content": "CSR Beneficiaries"
+    }
+  ],
+  "Section5": [
+    {
+        "Heading": "Vision",
+        "Content": "To be a world class leader in businesses that enrich lives and contribute to nations in building infrastructure through sustainable value creation."
+    }
+  ],
+  "Section6": [
+    {
+      "Heading": "Our Leadership - One Vision One Team",
+      "Content": "We are a team of more than 23,000+ people across the globe working for a common purpose. We are led by one of India's most visionary Chairman who is supported by a talented and experienced management team."
+    }
+  ],
+  "Section7":[
+    {
+      "Image": "/Chairman.jpg",
+      "Content": "Chairman, Adani Group",
+      "Url":"./AboutPage/DetailsPage/DetailsPage1"
+    },
+    {
+      "Image": "/MD.jpg",
+      "Content": "Managing Director",
+      "Url":"./AboutPage/DetailsPage/DetailsPage2"
+    },
+    {
+      "Image": "/FemaleChairman.jpg",
+      "Content": "Chairperson, Adani Foundation",
+      "Url":"./AboutPage/DetailsPage/DetailsPage3"
+    },
+    {
+      "Image": "/WTD.jpg",
+      "Content": "Whole Time Director - APSEZ, and CEO - AAHL",
+      "Url":"./AboutPage/DetailsPage/DetailsPage4"
+    }
+  ]
 }

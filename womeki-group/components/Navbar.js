@@ -55,8 +55,8 @@ const Navbar = () => {
               <div className="row">
                 <header>Explore About Us</header>
                 <ul className="mega-links">
-                  <li><a className=" h6 mt-3 " href="#">One Vision One Team</a></li>
-                  <li><a className=" h6 mt-3 " href="# ">CEO's Message</a></li>
+                  <li><a className=" h6 mt-3 " href="./AboutPage/OneVission/OneVission">One Vision One Team</a></li>
+                  <li><a className=" h6 mt-3 " href="./AboutPage/CEO/Ceo">CEO's Message</a></li>
                 </ul>
               </div>
             </div>

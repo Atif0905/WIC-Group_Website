@@ -29,13 +29,57 @@
     }
   }
   .AboutHeading{
-    border-left: 5px solid black;
+    border-left: 5px solid #1378BE;
   }
+ .UpDownBtnImg{
+  cursor: pointer;
   
-  .accordioncontent {
-    display: none;
-  }
-  
-  .accordioncontent {
-    display: block;
-  }
+ }
+ .UpDownBtn{
+  border: none;
+ }
+ .AboutCard {
+  position: relative;
+  top: 0;
+}
+ .AboutCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  cursor: pointer;
+  transition: top ease 0.6s;
+  top: -10px;
+}
+.AboutCeoDiv{
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  cursor: pointer;
+}
+.AboutCeoDiv:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.TeamImg{
+  border: 2px solid #E30F50 !important;
+  border-radius: 100%;
+  padding: 10px !important;
+}
+.CeoText{
+  color: #1378BE;
+  font-weight: bold;
+}
+.ViewMoreBtn {
+  background-color: white;
+  color: #008cba;
+  border: 2px solid #008cba;
+  text-decoration: none;
+}
+.ViewMoreBtn:hover {
+  background-color: #008cba;
+  color: white;
+  transition: ease all 1s;
+}
+
+
+
+
+
+
+
