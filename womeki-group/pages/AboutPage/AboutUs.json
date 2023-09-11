@@ -41,8 +41,8 @@
   ],
   "Section5": [
     {
-        "Heading": "Vision",
-        "Content": "To be a world class leader in businesses that enrich lives and contribute to nations in building infrastructure through sustainable value creation."
+      "Heading": "Vision",
+      "Content": "To be a world class leader in businesses that enrich lives and contribute to nations in building infrastructure through sustainable value creation."
     }
   ],
   "Section6": [
@@ -51,26 +51,26 @@
       "Content": "We are a team of more than 23,000+ people across the globe working for a common purpose. We are led by one of India's most visionary Chairman who is supported by a talented and experienced management team."
     }
   ],
-  "Section7":[
+  "Section7": [
     {
       "Image": "/Chairman.jpg",
       "Content": "Chairman, Adani Group",
-      "Url":"./AboutPage/DetailsPage/DetailsPage1"
+      "Url": "./AboutPage/DetailsPage/DetailsPage1"
     },
     {
       "Image": "/MD.jpg",
       "Content": "Managing Director",
-      "Url":"./AboutPage/DetailsPage/DetailsPage2"
+      "Url": "./AboutPage/DetailsPage/DetailsPage2"
     },
     {
       "Image": "/FemaleChairman.jpg",
       "Content": "Chairperson, Adani Foundation",
-      "Url":"./AboutPage/DetailsPage/DetailsPage3"
+      "Url": "./AboutPage/DetailsPage/DetailsPage3"
     },
     {
       "Image": "/WTD.jpg",
       "Content": "Whole Time Director - APSEZ, and CEO - AAHL",
-      "Url":"./AboutPage/DetailsPage/DetailsPage4"
+      "Url": "./AboutPage/DetailsPage/DetailsPage4"
     }
   ]
 }

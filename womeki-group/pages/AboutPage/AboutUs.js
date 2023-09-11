@@ -60,8 +60,8 @@ const AboutUs = () => {
         );
       })}
       {data.Section3.map((HeadingAbout) => {
-        return(
-          <div className="container mt-5">
+        return (
+          <div className={`container mt-5 ${styles.GlanceHeading}`}>
             <div className="row">
               <h3 className={styles.AboutHeading}>{HeadingAbout.Heading}</h3>
             </div>
@@ -70,25 +70,26 @@ const AboutUs = () => {
       })}
 
       <div className="container mt-5">
-        <div className="row d-flex">
+        <div className={`row d-flex ${styles.GlanceDiv}`}>
           {data.Section4.map((AboutData3) => {
             return (
               <div className={`col-3 text-center ${styles.AboutCard}`}>
-                <Image className={` ${styles.TeamImg} `}
+                <Image
+                  className={` ${styles.TeamImg} `}
                   src={AboutData3.Image}
                   alt="errr"
                   height={70}
                   width={80}
                 />
-                <h3 className="p-1" >{AboutData3.Number}</h3>
-                <p className="p-1" >{AboutData3.Content}</p>
+                <h3 className="p-1">{AboutData3.Number}</h3>
+                <p className="p-1">{AboutData3.Content}</p>
               </div>
             );
           })}
         </div>
       </div>
       {data.Section5.map((AboutSection5) => {
-        return(
+        return (
           <div className="container mt-5">
             <div className="row">
               <h3 className={styles.AboutHeading}>{AboutSection5.Heading}</h3>
@@ -98,7 +99,7 @@ const AboutUs = () => {
         );
       })}
       {data.Section6.map((AboutSection6) => {
-        return(
+        return (
           <div className="container mt-5">
             <div className="row">
               <h3 className={styles.AboutHeading}>{AboutSection6.Heading}</h3>
@@ -107,34 +108,39 @@ const AboutUs = () => {
           </div>
         );
       })}
-       <div className="container mt-5">
+      <div className="container mt-5">
         <div className="row d-flex">
           {data.Section7.map((AboutData7) => {
             return (
-           
-              <div className={`col-md-3 mb-4  text-center ${styles.AboutCeoDiv} `}>
-                 <a href={AboutData7.Url}>
-                <Image className="mt-2 "
-                  src={AboutData7.Image}
-                  alt="errr"
-                  height={320}
-                  width={350}
-                />
-                <p className={`p-1 mt-3 ${styles.CeoText} `} >{AboutData7.Content}</p>
+              <div
+                className={`col-md-3 mb-4  text-center ${styles.AboutCeoDiv} `}
+              >
+                <a href={AboutData7.Url} className={styles.AboutDivAnchor}>
+                  <Image
+                    className=" mt-2 "
+                    src={AboutData7.Image}
+                    alt="errr"
+                    height={320}
+                    width={350}
+                  />
+                  <p className={`p-1 mt-3 ${styles.CeoText} `}>
+                    {AboutData7.Content}
+                  </p>
                 </a>
               </div>
-            
             );
           })}
         </div>
       </div>
       <div className={`text-center mt-5`}>
-        <p ><a   className={`p-2 ${styles.ViewMoreBtn}`} href="">View More</a></p>
+        <p>
+          <a className={`p-2 ${styles.ViewMoreBtn}`} href="">
+            View More
+          </a>
+        </p>
       </div>
-      
     </div>
   );
 };
-
 
 export default AboutUs;
