@@ -1,0 +1,36 @@
+{
+    "Section1":[
+        {
+            "Heading": "Welcome",
+            "Content": "Create the future you want",
+            "Image": "/CareerImg/careerbg.jpg"
+        }
+    ],
+
+    "Section2":[
+        {
+            "Heading": "Career",
+            "Content": "kvndoi[djfewmfewjernfiodjv",
+            "Image": "/CareerImg/career1.png",
+            "Link": "./Career/CarrerCard1/CareerCard1"
+        },
+        {
+            "Heading": "Career",
+            "Content": "kvndoi[djfewmfewjernfiodjv",
+            "Image":  "/CareerImg/career2.png",
+            "Link": "./Career/CarrerCard2/CareerCard2"
+        },
+        {
+            "Heading": "Career",
+            "Content": "kvndoi[djfewmfewjernfiodjv",
+            "Image":  "/CareerImg/career3.png",
+            "Link": "./Career/CareerCard3/CareerCard3"
+        },
+        {
+            "Heading": "Career",
+            "Content": "kvndoi[djfewmfewjernfiodjv",
+            "Image":  "/CareerImg/career4.png",
+            "Link": "./Career/CareerCard4/CareerCard4"
+        }
+    ]
+}

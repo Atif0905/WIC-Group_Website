@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Carousel.module.css';
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import {  Pagination, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -22,9 +22,7 @@ const Carousel = () => {
         delay: 2500,
         disableOnInteraction: false
     }}
-    //  navigation
-     pagination={{ clickable: true }}
-    >
+     pagination={{ clickable: true }}    >
      {
         data.map((Newdata) =>{
            return(
@@ -38,13 +36,8 @@ const Carousel = () => {
                 </div>
             </div>
             </SwiperSlide>
-           )
-        })
-     }
+           )})}
     </Swiper>
-    
     </div>
-  )
-}
-
+  )}
 export default Carousel
