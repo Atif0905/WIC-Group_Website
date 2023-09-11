@@ -13,7 +13,7 @@ const Sustainability = () => {
                     return(
                         <div className="SustainMain1">
                             <div className={styles.sustain1}>
-                            <h2>{SustainData1.Heading}</h2>
+                            <h4>{SustainData1.Heading}</h4>
                             <p>{SustainData1.Content}</p>
                             </div>
                             <button class={styles.ViewMoreBtn}><span className={styles.BtnSpan}>View more </span></button>
@@ -23,12 +23,12 @@ const Sustainability = () => {
                 {data.Section2.map((SustainData2) => {
                     return(
                         <div className="SustainMain2 d-flex">
-                            <div className="sustain2">
-                                <Image src={SustainData2.Image} alt='img' height={300} width={500} />
+                            <div className="mt-2">
+                                <Image src={SustainData2.Image} alt='img' height={280} width={550} />
                             </div>
-                            <div className="sustain2.0">
-                                <h2>{SustainData2.Heading}</h2>
-                                <p className='mt-5'>{SustainData2.Content}</p>
+                            <div className="mt-5  ms-3 p-2">
+                                <h4>{SustainData2.Heading}</h4>
+                                <p className='mt-1'>{SustainData2.Content}</p>
                             </div>
                         </div>
                     )
@@ -42,8 +42,8 @@ const Sustainability = () => {
                             <div className="sustain3">
                             <Image  src={SustainData3.Image} alt='img' height={180} width={350} />
                             </div>
-                            <div className="sustain3 0">
-                                <h2>{SustainData3.Heading}</h2>
+                            <div className="mt-5">
+                                <h4>{SustainData3.Heading}</h4>
                                 <p>{SustainData3.Content}</p>
                             </div>
                         </div>
