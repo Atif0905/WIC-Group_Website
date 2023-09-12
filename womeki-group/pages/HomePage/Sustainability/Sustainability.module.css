@@ -40,4 +40,80 @@
     opacity: 1;
     right: 0;
   }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .SustainDiv2{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .SustainDiv1{
+      display: flex;
+      flex-direction: column;
+      width: auto;
+
+    }
+    .sustain1{
+      border: none;
+      padding-left: 0px;
+  }
+  .sustain1Heading{
+    border-left: 5px solid rgb(0, 110, 255);
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  .sustain1Content{
+    padding-left: 14px;
+    font-size: 14px;
+  }
+  .ViewMoreBtn {
+    border-radius: 4px;
+    background-color: #1e8df4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+    width: 80px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .ViewMoreBtn .BtnSpan {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .ViewMoreBtn .BtnSpan:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .ViewMoreBtn:hover .BtnSpan {
+    padding-right: 25px;
+  }
+  
+  .ViewMoreBtn:hover .BtnSpan:after {
+    opacity: 1;
+    right: 0;
+  }
+  .SustainDiv2{
+    width: auto;
+
+  }
+  .SustainDiv3{
+    width: auto;
+  }
+  .SustainRowDiv{
+    display: flex;
+    flex-direction: column;
+  }
+  
+   }
   
