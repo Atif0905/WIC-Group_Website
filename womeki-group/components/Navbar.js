@@ -68,7 +68,7 @@ const Navbar = () => {
         <li>
           <a href="/Career" className="desktop-item">Careers</a>
         </li>
-        <li><a href="#">News</a></li>
+        <li><a href="/News">News</a></li>
         <li>
           <a href="contact" className="desktop-item">Connect</a>
           <input type="checkbox" id="showMega"/>

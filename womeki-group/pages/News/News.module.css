@@ -1,0 +1,28 @@
+.newstitle{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight:bolder;
+    width: fit-content;
+    height: fit-content;
+    border-bottom: 5px solid red;
+    margin-bottom: 2%;
+}
+.headsec1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.headsec2{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.headsec4{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.paratxt{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
