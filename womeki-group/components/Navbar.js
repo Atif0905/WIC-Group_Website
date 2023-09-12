@@ -82,8 +82,8 @@ const Navbar = () => {
               <div className="row">
                 <header>Explore About Us</header>
                 <ul className="mega-links">
-                  <li><a className=" h6 mt-3 " href="#">Book An Appointment</a></li>
-                  <li><a className=" h6 mt-3 " href="# ">Contact For Query</a></li>
+                  <li><a className=" h6 mt-3 " href="/BookAnAppoinment">Book An Appointment</a></li>
+                  <li><a className=" h6 mt-3 " href="/ConatctForQuery">Contact For Query</a></li>
                 </ul>
               </div>
             </div>
