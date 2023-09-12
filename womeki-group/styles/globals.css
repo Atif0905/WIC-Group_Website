@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.nav-div-main{
+  position: relative;
+  padding-bottom: 6%;
+}
 nav{
   position: fixed;
   z-index: 999;
   width: 100%;
   background-color:#F8F8F8;
   height: 60px;
-  /* margin-top: %; */
 }
 nav .wrapper {
   position: relative;

@@ -3,7 +3,7 @@ import img from "../public/Logo.png";
 
 const Navbar = () => {
   return (
-  <div>
+  <div className=" nav-div-main" >
     <nav>
     <div className="wrapper">
       <div className="logo"><a href="/">
