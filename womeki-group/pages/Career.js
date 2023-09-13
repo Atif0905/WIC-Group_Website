@@ -5,7 +5,7 @@ import CareerHome from './Career/CareerHome'
 
 const Career = () => {
   return (
-    <div>
+    <div className=" pt-5 ">
         <CareerHome/>
     </div>
   )

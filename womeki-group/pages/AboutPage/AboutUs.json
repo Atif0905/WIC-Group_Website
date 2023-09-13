@@ -8,8 +8,8 @@
   "Section2": [
     {
       "Heading": "About Us",
-      "Content1": "Adani Group is a diversified organisation in India comprising 7 publicly traded companies. It has created a world class transport and utility infrastructure portfolio that has a pan-India presence. Adani Group is headquartered in Ahmedabad, in the state of Gujarat, India. Over the years, Adani Group has positioned itself to be the market leader in its transport logistics and energy utility portfolio businesses focusing on large scale infrastructure development in India with O & M practices benchmarked to global standards. With four IG rated businesses, it is the only Infrastructure Investment Grade issuer in India.",
-      "Content2": "Adani owes its success and leadership position to its core philosophy of 'Nation Building' driven by 'Growth with Goodness' - a guiding principle for sustainable growth. Adani is committed to increase its ESG footprint by realigning its businesses with emphasis on climate protection and increasing community outreach through its CSR programme based on the principles of sustainability, diversity and shared values."
+      "Content1": "Welcome to the Womeki Group, an elegant union of three related companies. WOMKEI  INVESTORS CLUB has contributed significantly to India's real estate market since its  establishment in 2021 by facilitating the sale and purchase of prestigious properties all  around the country. As organizations are propelled into the digital era, WOMEKI TECH  SOLUTIONS has revolutionized productivity and profitability.  ",
+      "Content2": "MC GOPICHAND, a leader in education, enlightens young minds and gets them ready for a changing world. We stand as a testament to undying devotion, faith, and the hope for a  better future. Beyond a conglomerate, we cordially invite you to engage in this extraordinary    adventure with us."
     }
   ],
   "Section3": [
@@ -19,12 +19,12 @@
   ],
   "Section4": [
     {
-      "Image": "/../public/team-strength.png",
+      "Image": "/team-strength.png",
       "Number": "2300+",
       "Content": "Team Strength"
     },
     {
-      "Image": "/../public/mangrove-afforested.png",
+      "Image": "/mangrove-afforested.png",
       "Number": "3000+ HA",
       "Content": "Mangroves Afforested"
     },
@@ -34,7 +34,7 @@
       "Content": "Trees Planted"
     },
     {
-      "Image": "/../public/CSR Beneficiaries.png",
+      "Image": "/CSR Beneficiaries.png",
       "Number": "3.4 MN",
       "Content": "CSR Beneficiaries"
     }
@@ -53,23 +53,23 @@
   ],
   "Section7": [
     {
-      "Image": "/Chairman.jpg",
-      "Content": "Chairman, Adani Group",
+      "Image": "/gaurav.jpg",
+      "Content": "CEO & Founder, Womeki Group Gaurav Tonger",
       "Url": "./AboutPage/DetailsPage/DetailsPage1"
     },
     {
-      "Image": "/MD.jpg",
-      "Content": "Managing Director",
+      "Image": "/rohit-khari.jpg",
+      "Content": "Sales Territory Director Womeki Rohit Khari",
       "Url": "./AboutPage/DetailsPage/DetailsPage2"
     },
     {
-      "Image": "/FemaleChairman.jpg",
-      "Content": "Chairperson, Adani Foundation",
+      "Image": "/Paras-Goyal.jpg",
+      "Content": "Director Sales Womeki Group Paras Goyal",
       "Url": "./AboutPage/DetailsPage/DetailsPage3"
     },
     {
-      "Image": "/WTD.jpg",
-      "Content": "Whole Time Director - APSEZ, and CEO - AAHL",
+      "Image": "/Shiv.jpeg",
+      "Content": "Director Womeki Group......... Ankit Tonger",
       "Url": "./AboutPage/DetailsPage/DetailsPage4"
     }
   ]

@@ -3,7 +3,7 @@ import AboutUs from "./AboutPage/AboutUs";
 
 const About = () => {
   return (
-    <div>
+    <div className=" pt-5 " >
       <AboutUs/>
     </div>
   );

@@ -7,7 +7,7 @@ import HomeBlog from "./HomePage/HomeBlog/HomeBlog";
 
  const  Home = () => {
   return (
-    <div>
+    <div  className=" pt-1 ">
      <Carousel/>
      <Buisness_Card/>
      <Aboutcard/>

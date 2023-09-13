@@ -3,7 +3,7 @@ import Appoinment from './ContactPage/Appoinment'
 
 const BookAnAppoinment = () => {
   return (
-    <div>
+    <div className=" py-5 ">
       <Appoinment/>
     </div>
   )

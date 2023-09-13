@@ -6,7 +6,7 @@ import Image from "next/Image";
 const Buisness_Card = () => {
   return (
     <div>
-      <div className="Buisness_Card container">
+      <div className="Buisness_Card container mt-5 ">
         {data.Section1.map((BuisnessCardData) => {
           return (
             <div className="row">

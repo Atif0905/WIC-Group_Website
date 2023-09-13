@@ -6,7 +6,7 @@ import Image from "next/Image";
 const NewsCard = () => {
   return (
     <div>
-      <div className="container mb-5 ">
+      <div className="container mb-5 mt-5 ">
         {data.Section.map((NewsCardData) => {
           return (
             <div className="row">

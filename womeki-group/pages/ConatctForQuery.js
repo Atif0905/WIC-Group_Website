@@ -3,7 +3,7 @@ import Query from './ContactPage/Query'
 
 const ConatctForQuery = () => {
   return (
-    <div>
+    <div className=" pt-5 ">
       <Query/>
     </div>
   )
