@@ -4,6 +4,7 @@ import Buisness_Card from './HomePage/Buisness/Buisness_Card'
 import NewsCard from "./HomePage/NewsCard/NewsCard";
 import Sustainability from "./HomePage/Sustainability/Sustainability";
 import HomeBlog from "./HomePage/HomeBlog/HomeBlog";
+import OurCommitment from "./HomePage/OurCommitment/OurCommitment";
 
  const  Home = () => {
   return (
@@ -14,6 +15,7 @@ import HomeBlog from "./HomePage/HomeBlog/HomeBlog";
      <HomeBlog/>
      <NewsCard/>
      <Sustainability/>
+     <OurCommitment/>
 
     </div>
   );
