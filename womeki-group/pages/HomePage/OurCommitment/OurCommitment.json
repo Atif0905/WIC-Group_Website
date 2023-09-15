@@ -1,0 +1,36 @@
+{
+  "Section1": [
+    {
+      "Heading": "Our commitment",
+      "Content": "At Womeki, We pledge to elevate your experience in real estate, education, technology, and efficiency. Excellence, innovation, and transparency drive everything we do for your success."
+    }
+  ],
+  "Section2": [
+    {
+      "Image": "/../public/icons8-real-estate-48.png",
+      "Heading": "Real Estate Excellence",
+      "Content": "We are your trusted partner in real estate, committed to excellence. Our services encompass buying, selling, and property management. With expertise, transparency, and customer satisfaction at our core, we ensure your property journey is seamless, secure, and successful."
+    }
+  ],
+  "Section3":[
+    {
+        "Image": "/../public/icons8-story-book-48.png",
+        "Heading": "Empowering Education",
+        "Content": "We're dedicated to empowering individuals through education. Our wide range of courses and resources fosters lifelong learning and personal growth. Our promise is to provide quality education, helping you build a better future through knowledge and skill development."
+      }
+  ],
+  "Section4": [
+    {
+      "Image": "/../public/icons8-efficiency-64.png",
+      "Heading": "Improving efficiency",
+      "Content": "Our commitment is to redefine efficiency. We prioritize streamlined solutions across real estate, education, and tech. Experience smoother processes, save time, and achieve maximum productivity with our services. We're dedicated to delivering results that make your life easier and more efficient."
+    }
+  ],
+  "Section5":[
+    {
+        "Image": "/../public/icons8-developer-64.png",
+        "Heading": "Tech Excellence",
+        "Content": "We guarantee tech innovation to keep you at the forefront. Stay updated with the latest trends and access cutting-edge solutions for your technological needs. Our commitment is to provide excellence in the tech industry, offering reliability, insight, and innovation for your digital journey"
+      }
+  ]
+}
