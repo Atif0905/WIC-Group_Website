@@ -1,27 +1,37 @@
 {
     "Section1":[
         {
-            "Heading":"Make the most of life",
-            "Content":"At Microsoft, you'll take risks, push boundaries, and grow more than you thought possible. And you won't be alone on that journey. We have something special here; we put our employees at the center of everything we do, and we know that what we offer is essential not only to your work but to your life too. In addition to world-class benefits designed to help you and your family live well, we offer competitive pay, bonuses and stock awards to eligible employees based on individual performance, as well as benefits to help you lead a healthy life, invest in your future, and enjoy your journey here at Microsoft. Empowering you. So, you can empower the world. There may be some variances in specific benefits across regions.",
+            "Heading":"Pioneering Your IT Career: Womeki IT Solutions",
+            "Content":"Welcome to Womeki, where we invite you to embark on an extraordinary journey in the realm of Information Technology. At Womeki, we're not just another IT company; we're a catalyst for your IT career's growth and innovation. When you join WIT, you're stepping into a world of endless IT opportunities. Whether you're a seasoned IT professional or an aspiring tech enthusiast, our diverse portfolio spans across IT domains, ensuring that you'll find your niche to thrive. We are dedicated to nurturing your talents helping you dream big, and turning your IT passions into reality.",
             "Image":"/../public/CareerImg/careercard2img1.png"
 
         },
         {
-            "Heading":"Our commitment to pay equity",
-            "Content":"We are committed to the principle of pay equity-paying our employees equitably for substantially similar work.To learn more about pay equity and our other commitments to increase representation and strengthen our culture of inclusion, check out our annual",
+            "Heading":" Shape Tomorrow with Womeki",
+            "Content":"At Womeki, innovation isn't just a buzzword it's in our DNA. We pride ourselves on being at the forefront of pioneering IT projects that redefine industries. As a member of our IT team, you'll be part of a group of brilliant minds that turn tech ideas into transformative solutions. From developing cutting-edge software to ensuring robust cybersecurity measures, your contributions will shape the future of IT.",
             "Image":"/../public/CareerImg/careercard2img2.png"
+        },
+        {
+            "Heading":" Unity in Innovation",
+            "Content":"Collaboration isn't just encouraged; it's the driving force behind our success. At Womeki, you'll have the privilege of working alongside fellow tech enthusiasts who share your passion for making an impact. Together, we tackle complex IT challenges, push the boundaries of tech innovation, and transform industries through our collective expertise.",
+            "Image":"/../public/CareerImg/careercard2img3.png"
+        },
+        {
+            "Heading":"Grow and Thrive with Womeki",
+            "Content":"We understand that your IT career is a journey of continuous growth. At Womeki, we're committed to providing you with abundant opportunities for skill development, mentorship, and career advancement. Whether you're looking to specialize further in a specific IT field or explore new horizons, Womeki is the launchpad for your IT career's ascent.",
+            "Image":"/../public/CareerImg/careercard2img4.png"
         }
     ],
 
         "Section2":[
             {
-                "Heading": "Enjoy flexibility to care for you and your family",
-                "Content": "We give you time away to focus on the people who matter most with leave for new parent and family caregiver leave, adoption assistance, parenting classes and family support programs, as well as subsidized and discounted childcare and back-up care for children, adults, and elders. We offer flexible work schedules, generous vacation, and holidays to spend with family or pursue your interests outside of work. Microsoft is committed to giving employees support and time away to focus on the people who matter most in their life",
+                "Heading": "Empower Your IT Journey at Womeki",
+                "Content": "Join us at Womeki, where your IT career isn't just about the job you perform; it's about the lasting impact you make on the IT world. Explore the limitless IT opportunities that await you and become part of a team that thrives on tech innovation, collaboration, and a shared commitment to pioneering the future of IT. Your journey to a fulfilling IT career starts here.",
                 "Image": "/../public/CareerImg/card2carouselimg1.png"
             },
             {
-                "Heading": "Enjoy flexibility to care for you and your family",
-                "Content": "We give you time away to focus on the people who matter most with leave for new parent and family caregiver leave, adoption assistance, parenting classes and family support programs, as well as subsidized and discounted childcare and back-up care for children, adults, and elders. We offer flexible work schedules, generous vacation, and holidays to spend with family or pursue your interests outside of work. Microsoft is committed to giving employees support and time away to focus on the people who matter most in their life",
+                "Heading": "Join Our Close-Knit Community",
+                "Content": "Beyond the work we do, Womeki is a close-knit IT community that cares. We celebrate each other's IT achievements, support one another through tech challenges, and give back to the IT community we serve. Your well-being and career satisfaction are our shared priorities.",
                 "Image": "/../public/CareerImg/card2carouselimg2.png"
             }
     ]
