@@ -1,11 +1,10 @@
-.form-container {
+  .form-container {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
   }
   .form-container .form-element {
     margin-bottom: 15px;
@@ -13,13 +12,11 @@
   .form-element{
     margin-top: 10px;
   }
-  
   .form-container .form-label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
   }
-  
   .form-container input,
   .form-container select {
     width: 100%;
@@ -36,7 +33,13 @@
     cursor: pointer;
     transition: background-color 0.3s;
   }
-  
+  .success-message {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
   .form-container .form-button:hover {
     background-color: #0056b3;
   }
@@ -45,13 +48,11 @@
       width: 100%;
       padding: 10px;
     }
-  
     .form-container input,
     .form-container select {
       width: 100%;
       padding: 8px;
     }
-  
     .form-container .form-button {
       width: 100%;
     }
