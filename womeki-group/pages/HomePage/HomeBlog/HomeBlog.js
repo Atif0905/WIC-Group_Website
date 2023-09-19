@@ -16,8 +16,8 @@ const HomeBlog = () => {
                   <Image width={400} height={360} alt='bloghome' className={`card-img ${styles.blogcardimg}`} src={NewData.Image}/>
                   </div> 
                   <div className={`col-md-6 col-sm-12 ${styles.card2blog}`}>
-                  <h5 className={`card-title`}>{NewData.Heading}</h5>
-                  <p className='card-text'>{NewData.Content}</p>
+                  <h5 className={`card-title ${styles.blogtext}`}>{NewData.Heading}</h5>
+                  <p className={`card-text ${styles.blogtext} `}>{NewData.Content}</p>
                   </div> 
                   </div>
               </div>
