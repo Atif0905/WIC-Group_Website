@@ -6,3 +6,19 @@
     margin-top: 2%;
     margin-left: 35%;
 }
+.cardblogimg{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    /* padding-top:20%; */
+}
+.blogcardimg{
+    transition: transform .2s;
+    margin:0 auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.blogcardimg:hover{
+    transform:scale(1.1);
+}
