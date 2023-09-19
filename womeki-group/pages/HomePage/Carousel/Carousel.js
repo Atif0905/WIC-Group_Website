@@ -28,7 +28,7 @@ const Carousel = () => {
            return(
             <SwiperSlide>
             <div className=' mt-2 ' >
-                <Image className={`mt-5 ${styles.videobg}`} width={1500} height={700} src={Newdata.Image} alt="kk" />
+                <Image className={` ${styles.videobg}`} width={1500} height={700} src={Newdata.Image} alt="kk" />
                 <div className={styles.bgoverlay}></div>
                 <div className={styles.hometext}>
                 <h3 className={styles.bannerheading} >{Newdata.Heading}</h3>

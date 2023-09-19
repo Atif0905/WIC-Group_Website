@@ -5,12 +5,12 @@ import Image from "next/Image";
 const Ceo = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container mt-5">
         <div className="row">
           {data.Section1.map((DetailData) => {
             return (
               <>
-                <div className="col-3 mt-5">
+                <div className="col-3">
                   <Image
                     src={DetailData.Image}
                     alt="err"
@@ -18,7 +18,7 @@ const Ceo = () => {
                     width={400}
                   />
                 </div>
-                <div className="col-9 mt-5">
+                <div className="col-9">
                   <h3>{DetailData.Heading}</h3>
                   <h6>{DetailData.SubHeading}</h6>
                   <p>{DetailData.Content}</p>

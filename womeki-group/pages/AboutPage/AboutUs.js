@@ -10,8 +10,8 @@ const AboutUs = () => {
     <div>
       {data.Section1.map((AboutData) => {
         return (
-          <div className="bg-about">
-            <div className="about-img">
+          <div>
+            <div>
               <Image
                 src={AboutData.Image}
                 alt="img"

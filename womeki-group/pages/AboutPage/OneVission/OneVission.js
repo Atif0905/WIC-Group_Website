@@ -8,9 +8,9 @@ const OneVission = () => {
     <div>
       {data.Section6.map((AboutSection6) => {
         return (
-          <div className="container">
+          <div className="container mt-5">
             <div className="row">
-              <h3 className={styles.AboutHeading}>{AboutSection6.Heading}</h3>
+              <h3 className={` ${styles.AboutHeading}`}>{AboutSection6.Heading}</h3>
               <p className="mt-4">{AboutSection6.Content}</p>
             </div>
           </div>
