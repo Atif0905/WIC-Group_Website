@@ -24,10 +24,10 @@ const CareerHome = () => {
         <h4 className=' mt-5'>Life at Womeki</h4>
         {data.Section2.map((NewData) => {
             return(
-        <div className='col-lg-3 col-sm-12  col-md-6 mt-4'>
+        <div className='col-md-4 col-sm-12 mt-4'>
                         <div className={`card ${styles.cardbox}`}>
                         <a className={styles.alink}  href={NewData.Link}>
-                        <Image className={`card-img-top ${styles.careercardimg}`} width={500} height={200}  src={NewData.Image}/>
+                        <Image className={`card-img-top ${styles.careercardimg}`} width={500} height={230}  src={NewData.Image}/>
                         <div className='card-body'>
                         <h5 className="card-title">{NewData.Heading}</h5>
                         <p className="card-text">{NewData.Content}</p>

@@ -9,28 +9,22 @@
 
     "Section2":[
         {
-            "Heading": "Career",
-            "Content": "kvndoi[djfewmfewjernfiodjv",
-            "Image": "/CareerImg/career1.png",
+            "Heading": "Real Estate ",
+            "Content": "Making your Real Estate Career Shine",
+            "Image": "/CareerImg/career1.jpg",
             "Link": "./Career/CarrerCard1/CareerCard1"
         },
         {
-            "Heading": "Career",
-            "Content": "kvndoi[djfewmfewjernfiodjv",
-            "Image":  "/CareerImg/career2.png",
+            "Heading": "IT Solution",
+            "Content": "Pioneering Your IT Career",
+            "Image":  "/CareerImg/career2.jpg",
             "Link": "./Career/CarrerCard2/CareerCard2"
         },
         {
-            "Heading": "Career",
-            "Content": "kvndoi[djfewmfewjernfiodjv",
-            "Image":  "/CareerImg/career3.png",
+            "Heading": "Education",
+            "Content": "Join the Womeki Education Revolution",
+            "Image":  "/CareerImg/career3.jpg",
             "Link": "./Career/CareerCard3/CareerCard3"
-        },
-        {
-            "Heading": "Career",
-            "Content": "kvndoi[djfewmfewjernfiodjv",
-            "Image":  "/CareerImg/career4.png",
-            "Link": "./Career/CareerCard4/CareerCard4"
         }
     ]
 }

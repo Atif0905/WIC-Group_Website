@@ -1,27 +1,32 @@
 {
     "Section1":[
         {
-            "Heading":"Make the most of life",
-            "Content":"At Microsoft, you'll take risks, push boundaries, and grow more than you thought possible. And you won't be alone on that journey. We have something special here; we put our employees at the center of everything we do, and we know that what we offer is essential not only to your work but to your life too. In addition to world-class benefits designed to help you and your family live well, we offer competitive pay, bonuses and stock awards to eligible employees based on individual performance, as well as benefits to help you lead a healthy life, invest in your future, and enjoy your journey here at Microsoft. Empowering you. So, you can empower the world. There may be some variances in specific benefits across regions.",
+            "Heading":"Welcome to Womeki Investors Club's Careers Page",
+            "Content":"Hello and welcome to the job opportunities at Womeki Investors Club! We're excited to introduce you to the world of investing and how you can be a part of it. We're not just a team; we're a family, and we're all about helping people manage their money better. Join us on a journey where your career can be extraordinary, and you'll play a crucial role in reimagining how people invest their money supporting sustainable financial growth, and making sure our members' finances are secure.",
             "Image":"/../public/CareerImg/careercard1img1.png"
 
         },
         {
-            "Heading":"Our commitment to pay equity",
-            "Content":"We are committed to the principle of pay equity-paying our employees equitably for substantially similar work.To learn more about pay equity and our other commitments to increase representation and strengthen our culture of inclusion, check out our annual",
+            "Heading":"Our Dedication to Doing Great Work",
+            "Content":"At Womeki Investors Club, we're all about doing excellent work. When it comes to coming up with new ideas, planning smart investment strategies, and putting those plans into action, you'll be right in the middle of exciting projects. You'll work with financial experts, analysts, and business leaders to create innovative investment strategies that make a real impact. Your ideas will help shape how our members manage their money, whether it's building a diverse investment portfolio, creating cutting-edge strategies, or securing a stable financial future.",
             "Image":"/../public/CareerImg/careercard1img2.png"
+        },
+        {
+            "Heading":"Making Money Management Easy",
+            "Content":"If you're interested in helping people manage their money, your role will be essential in making sure our investment portfolio not only grows but also meets our members' financial goals. Your dedication to maintaining and improving our investment values, along with your commitment to providing top-notch service, will help ensure that our investments stay successful and secure over the long term.",
+            "Image":"/../public/CareerImg/careercard1img3.png"
         }
     ],
 
         "Section2":[
             {
-                "Heading": "Enjoy flexibility to care for you and your family",
-                "Content": "We give you time away to focus on the people who matter most with leave for new parent and family caregiver leave, adoption assistance, parenting classes and family support programs, as well as subsidized and discounted childcare and back-up care for children, adults, and elders. We offer flexible work schedules, generous vacation, and holidays to spend with family or pursue your interests outside of work. Microsoft is committed to giving employees support and time away to focus on the people who matter most in their life",
+                "Heading": "Connecting with People through Sales and Marketing",
+                "Content": "If you're good at sales and marketing, you'll have a chance to connect with potential partners and investors in the financial world. You'll build relationships, organize investment seminars, and come up with creative ways to let people know about investment opportunities. Your work will help people get closer to their financial goals and investment dreams.",
                 "Image": "/../public/CareerImg/card1carouselimg1.png"
             },
             {
-                "Heading": "Enjoy flexibility to care for you and your family",
-                "Content": "We give you time away to focus on the people who matter most with leave for new parent and family caregiver leave, adoption assistance, parenting classes and family support programs, as well as subsidized and discounted childcare and back-up care for children, adults, and elders. We offer flexible work schedules, generous vacation, and holidays to spend with family or pursue your interests outside of work. Microsoft is committed to giving employees support and time away to focus on the people who matter most in their life",
+                "Heading": "Join Our Close-Knit Community",
+                "Content": "At Womeki Investors Club, we're not just colleagues; we're like a family. Here, your hard work is recognized, your ideas are valued, and your career will have a meaningful impact. Discover the many opportunities available with us and become a part of a team dedicated to improving the financial well-being and security of all our members. Your path to financial success is right here, waiting for you.",
                 "Image": "/../public/CareerImg/card1carouselimg2.png"
             }
     ]
