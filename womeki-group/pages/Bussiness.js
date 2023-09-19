@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from './Sty.module.css';
+import Business from './Business/Business'
 
 const Bussiness = () => {
   return (
-    <div className={styles.Bussiness} >
-        dhcbhfebh00
+    <div>
+      <Business/>
     </div>
   )
 }
