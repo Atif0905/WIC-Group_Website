@@ -6,7 +6,7 @@ import Image from "next/Image";
 const NewsCard = () => {
   return (
     <div>
-      <div className="container mb-5 mt-5 ">
+      <div className="container mt-5">
         {data.Section.map((NewsCardData) => {
           return (
             <div className="row">
@@ -15,10 +15,10 @@ const NewsCard = () => {
           );
         })}
 
-        <div className={` d-flex mt-5 ${styles.News_Card} `}>
+        <div className={` d-flex mt-3 ${styles.News_Card} `}>
           {data.Section1.map((NewsCardData, index) => {
             return (
-              <div className={`col-3  text-left p-3 ${styles.NewsSection} `}>
+              <div className={`col-3 p-3 ${styles.NewsSection} `}>
                 <p className={styles.newspara}>
                   <Image
                     src={NewsCardData.Image}

@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 .sectionHeading::after {
   content: "";
   display: block;
   position: relative;
   height: 4px;
-  background: #17b677;
-  width: 120px;
+  background: rgb(0,35,73);
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+.BuisnessCardBgColor{
+  background-color: rgb(241,242,242);
+}
+.sectionHeading{
+  letter-spacing: 2px;
+  font-weight: 700;
+  color: rgb(0,35,73);
+  font-family: 'Roboto', sans-serif;
+}
+.sectioncontent{
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
 }
 .Img_Card:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
@@ -15,22 +30,32 @@
   cursor: pointer;
   transition: top ease 0.6s;
   top: -10px;
+  background-color: white;
   .KnowMoreBtn {
     display: block;
+    
   }
+}
+.businesscontent1{
+  color: rgb(127,50,141);
+  font-weight: 500;
 }
 .Img_Card {
   position: relative;
   top: 0;
 }
+.businesshead1{
+  font-family: 'Roboto', sans-serif;
+}
 .Explorebtn {
   background-color: white;
-  color: #008cba;
-  border: 2px solid #008cba;
+  color: rgb(0,35,73);
+  font-weight: 500;
+  border: 2px solid rgb(0,35,73);
   text-decoration: none;
 }
 .Explorebtn:hover {
-  background-color: #008cba;
+  background-color: rgb(0,35,73);
   color: white;
   transition: ease all 1s;
 }
@@ -51,8 +76,8 @@
   }
   .Explorebtn {
     background-color: white;
-    color: #008cba;
-    border: 2px solid #008cba;
+    color: rgb(0,35,73);
+    border: 2px solid rgb(0,35,73);
     margin-right: 10%;
     text-decoration: none;
   }   

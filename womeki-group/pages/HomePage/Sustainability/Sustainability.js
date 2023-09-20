@@ -6,7 +6,7 @@ import Image from 'next/Image';
 const Sustainability = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container mt-5">
         <div className={`row ${styles.SustainRowDiv}`}>
             <div className={` col-8 ${ styles.SustainDiv1}`}>
                 {data.Section1.map((SustainData1) => {

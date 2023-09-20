@@ -10,8 +10,8 @@ const AboutUs = () => {
     <div>
       {data.Section1.map((AboutData) => {
         return (
-          <div className="bg-about">
-            <div className="about-img">
+          <div>
+            <div>
               <Image
                 src={AboutData.Image}
                 alt="img"
@@ -73,7 +73,7 @@ const AboutUs = () => {
         <div className={`row d-flex ${styles.GlanceDiv}`}>
           {data.Section4.map((AboutData3) => {
             return (
-              <div className={`col-3 text-center ${styles.AboutCard}`}>
+              <div className={`col-3 text-center pt-3 ${styles.AboutCard}`}>
                 <Image
                   className={` ${styles.TeamImg} `}
                   src={AboutData3.Image}
@@ -81,8 +81,8 @@ const AboutUs = () => {
                   height={70}
                   width={80}
                 />
-                <h3 className="p-1">{AboutData3.Number}</h3>
-                <p className="p-1">{AboutData3.Content}</p>
+                {/* <h3>{AboutData3.Number}</h3> */}
+                <p className={`mt-3 ${styles.aboutimgtxt}`}>{AboutData3.Content}</p>
               </div>
             );
           })}
@@ -117,14 +117,16 @@ const AboutUs = () => {
               >
                 <a href={AboutData7.Url} className={styles.AboutDivAnchor}>
                   <Image
-                    className=" mt-2 "
                     src={AboutData7.Image}
                     alt="errr"
-                    height={320}
+                    height={350}
                     width={350}
                   />
-                  <p className={`p-1 mt-3 ${styles.CeoText} `}>
-                    {AboutData7.Content}
+                  <p className={`p-1 mt-3 ${styles.CeoText1} `}>
+                    {AboutData7.Content1}
+                  </p>
+                  <p className={` ${styles.CeoText2} `}>
+                    {AboutData7.Content2}
                   </p>
                 </a>
               </div>

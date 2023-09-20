@@ -10,7 +10,7 @@ const DetailsPage2 = () => {
           {data.Section2.map((DetailData) => {
             return (
               <>
-                <div className="col-3 mt-5">
+                <div className="col-md-3 col-sm-12 mt-5">
                   <Image
                     src={DetailData.Image}
                     alt="err"
@@ -18,7 +18,7 @@ const DetailsPage2 = () => {
                     width={400}
                   />
                 </div>
-                <div className="col-9 mt-5">
+                <div className="col-md-9 col-sm-12 mt-5">
                   <h3>{DetailData.Heading}</h3>
                   <h6>{DetailData.SubHeading}</h6>
                   <p>{DetailData.Content}</p>

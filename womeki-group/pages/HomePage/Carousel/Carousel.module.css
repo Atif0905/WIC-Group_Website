@@ -67,7 +67,7 @@
   margin-top: -25%;
   text-align: center;
   color: white;
-}
+} 
 .Description {
   justify-self: flex-end;
   font-size: 1.5rem;
@@ -97,7 +97,6 @@
       opacity: 1;
   }
 }
-
 @media (min-width:320px) and (max-width:480px) {
   .videobg {
     width: 100%;

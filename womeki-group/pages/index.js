@@ -8,7 +8,7 @@ import OurCommitment from "./HomePage/OurCommitment/OurCommitment";
 
  const  Home = () => {
   return (
-    <div  className=" pt-1 ">
+    <div>
      <Carousel/>
      <Buisness_Card/>
      <Aboutcard/>

@@ -6,20 +6,20 @@ import Image from "next/Image";
 const Buisness_Card = () => {
   return (
     <div>
-      <div className="Buisness_Card container mt-5 ">
+      <div className={`Buisness_Card container mt-5 ${styles.BuisnessCardBgColor}`}>
         {data.Section1.map((BuisnessCardData) => {
           return (
             <div className="row">
-              <h2 className={` text-center ${styles.sectionHeading}`}>
+              <h4 className={` text-center mt-3 ${styles.sectionHeading}`}>
                 {BuisnessCardData.Heading}
-              </h2>
-              <p className="text-center h6 mt-5 mb-5 ">
+              </h4>
+              <p className={`text-center h6 mt-5 mb-5 ${styles.sectioncontent}`}>
                 {BuisnessCardData.Content}
               </p>
             </div>
           );
         })}
-        <div className={`row d-flex ml-100 ${styles.Img_Cards} `}>
+        <div className={`row d-flex mt-3 ${styles.Img_Cards} `}>
           {data.Section2.map((BuisnessCardData) => {
             return (
               <div className={`col-4 text-center ${styles.Img_Card}`}>
@@ -29,9 +29,9 @@ const Buisness_Card = () => {
                   width={100}
                   height={100}
                 />
-                <p>{BuisnessCardData.Heading1}</p>
+                <p className={styles.businesshead1}>{BuisnessCardData.Heading1}</p>
                 <p className={styles.KnowMoreBtn}>
-                  <a href="">{BuisnessCardData.Content1}</a>
+                  <a className={styles.businesscontent1} href="">{BuisnessCardData.Content1}</a>
                 </p>
               </div>
             );
