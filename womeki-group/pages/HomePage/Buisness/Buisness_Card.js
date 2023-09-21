@@ -2,18 +2,21 @@ import React from "react";
 import data from "./Buisness_Card.json";
 import styles from "./Buisness_Card.module.css";
 import Image from "next/Image";
-
 const Buisness_Card = () => {
   return (
     <div>
-      <div className={`Buisness_Card container mt-5 ${styles.BuisnessCardBgColor}`}>
+      <div
+        className={`Buisness_Card container mt-5 ${styles.BuisnessCardBgColor}`}
+      >
         {data.Section1.map((BuisnessCardData) => {
           return (
             <div className="row">
               <h4 className={` text-center mt-3 ${styles.sectionHeading}`}>
                 {BuisnessCardData.Heading}
               </h4>
-              <p className={`text-center h6 mt-5 mb-5 ${styles.sectioncontent}`}>
+              <p
+                className={`text-center h6 mt-5 mb-5 ${styles.sectioncontent}`}
+              >
                 {BuisnessCardData.Content}
               </p>
             </div>
@@ -29,9 +32,13 @@ const Buisness_Card = () => {
                   width={100}
                   height={100}
                 />
-                <p className={styles.businesshead1}>{BuisnessCardData.Heading1}</p>
+                <p className={styles.businesshead1}>
+                  {BuisnessCardData.Heading1}
+                </p>
                 <p className={styles.KnowMoreBtn}>
-                  <a className={styles.businesscontent1} href="">{BuisnessCardData.Content1}</a>
+                  <a className={styles.businesscontent1} href="">
+                    {BuisnessCardData.Content1}
+                  </a>
                 </p>
               </div>
             );

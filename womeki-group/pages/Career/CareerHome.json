@@ -1,29 +1,28 @@
 {
-    "Section1":[
-        {
-            "Heading": "Nurturing India's growth- Start Your career Journey  with Womeki Group",
-            "Image": "/CareerImg/carrier.jpeg"
-        }
-    ],
-
-    "Section2":[
-        {
-            "Heading": "Real Estate ",
-            "Content": "Making your Real Estate Career Shine",
-            "Image": "/CareerImg/career1.jpg",
-            "Link": "./Career/CarrerCard1/CareerCard1"
-        },
-        {
-            "Heading": "IT Solution",
-            "Content": "Pioneering Your IT Career",
-            "Image":  "/CareerImg/career2.jpg",
-            "Link": "./Career/CarrerCard2/CareerCard2"
-        },
-        {
-            "Heading": "Education",
-            "Content": "Join the Womeki Education Revolution",
-            "Image":  "/CareerImg/career3.jpg",
-            "Link": "./Career/CareerCard3/CareerCard3"
-        }
-    ]
+  "Section1": [
+    {
+      "Heading": "Nurturing India's growth- Start Your career Journey  with Womeki Group",
+      "Image": "/CareerImg/carrier.jpeg"
+    }
+  ],
+  "Section2": [
+    {
+      "Heading": "Real Estate ",
+      "Content": "Making your Real Estate Career Shine",
+      "Image": "/CareerImg/career1.jpg",
+      "Link": "./Career/CarrerCard1/CareerCard1"
+    },
+    {
+      "Heading": "IT Solution",
+      "Content": "Pioneering Your IT Career",
+      "Image": "/CareerImg/career2.jpg",
+      "Link": "./Career/CarrerCard2/CareerCard2"
+    },
+    {
+      "Heading": "Education",
+      "Content": "Join the Womeki Education Revolution",
+      "Image": "/CareerImg/career3.jpg",
+      "Link": "./Career/CareerCard3/CareerCard3"
+    }
+  ]
 }

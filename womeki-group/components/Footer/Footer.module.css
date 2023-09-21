@@ -1,24 +1,23 @@
-.footer{
-  background-color: rgb(248,248,248);
+.footer {
+  background-color: rgb(248, 248, 248);
 }
- .foottext{
+.foottext {
   font-size: 10px;
   color: black;
   text-decoration: none;
- }
- .foothead{
+}
+.foothead {
   font-size: small;
   color: black;
   text-decoration: none;
- }
-
- .formfooter{
+}
+.formfooter {
   padding: 7px;
   height: 40px;
   width: 200px;
   font-size: 11px;
- }
- .footerbtn{
+}
+.footerbtn {
   height: 40px;
   width: 40px;
- }
+}

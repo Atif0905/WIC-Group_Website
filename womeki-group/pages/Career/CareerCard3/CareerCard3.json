@@ -1,33 +1,31 @@
 {
-    "Section1":[
-        {
-            "Heading":"Mission-Driven",
-            "Content":"At Womeki Education, our mission is clear: to provide a quality education that inspires, enlightens, and transforms lives. We believe that education is not just about acquiring knowledge; it's about instilling a passion for learning, fostering critical thinking skills, and empowering individuals to reach their full potential. When you become a part of our team, you are joining a community of educators and professionals who are deeply committed to this mission. Our commitment to our mission is evident in everything we do, from designing innovative curricula to creating a supportive and inclusive learning environment. As an employee of Womeki, you'll have the opportunity to make a lasting impact on the lives of our students and contribute to the growth of a brighter and more educated future.",
-            "Image":"/../public/CareerImg/careercard3img1.png"
-
-        },
-        {
-            "Heading":"Innovation",
-            "Content":"Innovation is at the core of our educational approach. We understand that the world is constantly evolving, and so is education. That's why we embrace cutting-edge teaching methods, technology, and pedagogical approaches. Our institution is a hub of creativity and experimentation, where educators have the freedom to explore new ways of engaging students and enhancing learning outcomes. When you choose a career with Womeki, you'll have access to the latest educational tools and resources. Whether you're a faculty member exploring innovative teaching techniques or an IT professional implementing state-of-the-art technology solutions, you'll be part of a team that values and encourages innovation at every level.",
-            "Image":"/../public/CareerImg/careercard3img2.png"
-        },
-        {
-            "Heading":"Diverse and Inclusive",
-            "Content":"Diversity and inclusion are not just buzzwords at Womeki; they are fundamental principles that guide our institution. We celebrate the rich tapestry of backgrounds, cultures, and perspectives that our students and employees bring to our community. We believe that a diverse and inclusive environment fosters creativity, empathy, and a deeper understanding of the world. When you join our team, you'll experience a workplace where your unique experiences and viewpoints are not only welcomed but actively sought after. We are committed to creating an inclusive culture that promotes equity and fairness, ensuring that all individuals have equal opportunities to excel and thrive.",
-            "Image":"/../public/CareerImg/careercard3img3.png"
-        }
-    ],
-
-        "Section2":[
-            {
-                "Heading": "Professional Development",
-                "Content": "At Womeki, we are dedicated to the growth and development of our employees. We believe that investing in our team's professional development is an investment in the success of our institution. Whether you're a faculty member seeking advanced degrees or a staff member interested in expanding your skillset, we provide numerous opportunities for growth.",
-                "Image": "/../public/CareerImg/card3carouselimg1.png"
-            },
-            {
-                "Heading": "Collaborative Culture",
-                "Content": "Collaboration is a cornerstone of our institution's success. We understand that by working together we can achieve more. When you join Womeki, you'll become part of a community that values teamwork, open communication, and shared goals. In our collaborative culture, ideas are shared freely, and everyone's contributions are respected and valued. Whether you're working with fellow educators to enhance the curriculum or collaborating with colleagues in different departments to improve administrative processes, you'll experience the power of collective effort and the satisfaction of achieving shared objectives. We hope this expanded content provides a more in-depth look at what it's like to have a career at Womeki. This information can help prospective candidates gain a deeper understanding of the institution's values, culture, and commitment to education.",
-                "Image": "/../public/CareerImg/card3carouselimg2.png"
-            }
-    ]
+  "Section1": [
+    {
+      "Heading": "Mission-Driven",
+      "Content": "At Womeki Education, our mission is clear: to provide a quality education that inspires, enlightens, and transforms lives. We believe that education is not just about acquiring knowledge; it's about instilling a passion for learning, fostering critical thinking skills, and empowering individuals to reach their full potential. When you become a part of our team, you are joining a community of educators and professionals who are deeply committed to this mission. Our commitment to our mission is evident in everything we do, from designing innovative curricula to creating a supportive and inclusive learning environment. As an employee of Womeki, you'll have the opportunity to make a lasting impact on the lives of our students and contribute to the growth of a brighter and more educated future.",
+      "Image": "/../public/CareerImg/careercard3img1.png"
+    },
+    {
+      "Heading": "Innovation",
+      "Content": "Innovation is at the core of our educational approach. We understand that the world is constantly evolving, and so is education. That's why we embrace cutting-edge teaching methods, technology, and pedagogical approaches. Our institution is a hub of creativity and experimentation, where educators have the freedom to explore new ways of engaging students and enhancing learning outcomes. When you choose a career with Womeki, you'll have access to the latest educational tools and resources. Whether you're a faculty member exploring innovative teaching techniques or an IT professional implementing state-of-the-art technology solutions, you'll be part of a team that values and encourages innovation at every level.",
+      "Image": "/../public/CareerImg/careercard3img2.png"
+    },
+    {
+      "Heading": "Diverse and Inclusive",
+      "Content": "Diversity and inclusion are not just buzzwords at Womeki; they are fundamental principles that guide our institution. We celebrate the rich tapestry of backgrounds, cultures, and perspectives that our students and employees bring to our community. We believe that a diverse and inclusive environment fosters creativity, empathy, and a deeper understanding of the world. When you join our team, you'll experience a workplace where your unique experiences and viewpoints are not only welcomed but actively sought after. We are committed to creating an inclusive culture that promotes equity and fairness, ensuring that all individuals have equal opportunities to excel and thrive.",
+      "Image": "/../public/CareerImg/careercard3img3.png"
+    }
+  ],
+  "Section2": [
+    {
+      "Heading": "Professional Development",
+      "Content": "At Womeki, we are dedicated to the growth and development of our employees. We believe that investing in our team's professional development is an investment in the success of our institution. Whether you're a faculty member seeking advanced degrees or a staff member interested in expanding your skillset, we provide numerous opportunities for growth.",
+      "Image": "/../public/CareerImg/card3carouselimg1.png"
+    },
+    {
+      "Heading": "Collaborative Culture",
+      "Content": "Collaboration is a cornerstone of our institution's success. We understand that by working together we can achieve more. When you join Womeki, you'll become part of a community that values teamwork, open communication, and shared goals. In our collaborative culture, ideas are shared freely, and everyone's contributions are respected and valued. Whether you're working with fellow educators to enhance the curriculum or collaborating with colleagues in different departments to improve administrative processes, you'll experience the power of collective effort and the satisfaction of achieving shared objectives. We hope this expanded content provides a more in-depth look at what it's like to have a career at Womeki. This information can help prospective candidates gain a deeper understanding of the institution's values, culture, and commitment to education.",
+      "Image": "/../public/CareerImg/card3carouselimg2.png"
+    }
+  ]
 }

@@ -1,12 +1,10 @@
-import React from 'react'
-import Business from './Business/Business'
-
+import React from "react";
+import Business from "./Business/Business";
 const Bussiness = () => {
   return (
     <div>
-      <Business/>
+      <Business />
     </div>
-  )
-}
-
-export default Bussiness
+  );
+};
+export default Bussiness;

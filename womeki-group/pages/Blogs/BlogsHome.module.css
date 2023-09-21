@@ -1,73 +1,66 @@
 .gallerydiv {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 12px;
+}
+.gallery {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+@media (max-width: 991px) {
+  .gallerydiv {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    -webkit-column-width: 33%;
-    -moz-column-width: 33%;
-    column-width: 33%;
-    padding: 0 12px;
   }
-  .gallery {
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
-    cursor: pointer;
-    margin-bottom: 12px;
+}
+@media (max-width: 480px) {
+  .gallerydiv {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
   }
-  
-  @media (max-width: 991px) {
-    .gallerydiv {
-      -webkit-column-count: 2;
-      -moz-column-count: 2;
-      column-count: 2;
-    }
-  }
-  @media (max-width: 480px) {
-    .gallerydiv {
-      -webkit-column-count: 1;
-      -moz-column-count: 1;
-      column-count: 1;
-      -webkit-column-width: 100%;
-      -moz-column-width: 100%;
-      column-width: 100%;
-    }
-  }
-
-  .container {
-    position: relative;
-  }
-  
-  .image {
-    display: block;
-  
-  }
-  
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #f1ebeb;
-    overflow: hidden;
-    opacity: 0.5;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-  }
-  
-  .container:hover .overlay {
-    height: 100%;
-    cursor: pointer;
-  }
-  
-  .text {
-    color: rgb(10, 10, 10);
-    font-size: 20px;
-    font-weight: 900;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+}
+.container {
+  position: relative;
+}
+.image {
+  display: block;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f1ebeb;
+  overflow: hidden;
+  opacity: 0.5;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.container:hover .overlay {
+  height: 100%;
+  cursor: pointer;
+}
+.text {
+  color: rgb(10, 10, 10);
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

@@ -2,7 +2,6 @@ import { useContext, useEffect, useState } from "react";
 import { UserContext } from "./UserContext";
 import Link from "next/link";
 import styles from "./Admin.module.css";
-
 const Header = () => {
   const { setUserInfo, userInfo } = useContext(UserContext);
   useEffect(() => {
@@ -40,5 +39,4 @@ const Header = () => {
     </div>
   );
 };
-
 export default Header;

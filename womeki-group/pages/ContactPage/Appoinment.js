@@ -1,18 +1,15 @@
-import { useState } from 'react';
-import styles from './Appoinment.module.css';
-import emailjs from 'emailjs-com';
-
+import { useState } from "react";
+import styles from "./Appoinment.module.css";
+import emailjs from "emailjs-com";
 const AppointmentForm = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    companyName: '',
-    reason: '',
-    personToTalk: 'Gaurav Tonger',
+    name: "",
+    email: "",
+    companyName: "",
+    reason: "",
+    personToTalk: "Gaurav Tonger",
   });
-
   const [isSubmitted, setIsSubmitted] = useState(false);
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -20,12 +17,15 @@ const AppointmentForm = () => {
       [name]: value,
     });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
-
     emailjs
-      .sendForm('service_bapecsi', 'template_u94g49o', e.target, 'FX1JN9-1U-8-AEoN5')
+      .sendForm(
+        "service_bapecsi",
+        "template_u94g49o",
+        e.target,
+        "FX1JN9-1U-8-AEoN5"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -36,17 +36,18 @@ const AppointmentForm = () => {
         }
       );
   };
-
   return (
     <div>
       {isSubmitted ? (
-        <div className={styles['success-message']}>
+        <div className={styles["success-message"]}>
           <p>Form submitted successfully!</p>
         </div>
       ) : (
-        <form className={styles['form-container']} onSubmit={handleSubmit}>
-          <div className={styles['form-element']}>
-            <label className={styles['form-label']} htmlFor="name">Name</label>
+        <form className={styles["form-container"]} onSubmit={handleSubmit}>
+          <div className={styles["form-element"]}>
+            <label className={styles["form-label"]} htmlFor="name">
+              Name
+            </label>
             <input
               type="text"
               id="name"
@@ -57,8 +58,10 @@ const AppointmentForm = () => {
               required
             />
           </div>
-          <div className={styles['form-element']}>
-            <label className={styles['form-label']} htmlFor="email">Email</label>
+          <div className={styles["form-element"]}>
+            <label className={styles["form-label"]} htmlFor="email">
+              Email
+            </label>
             <input
               type="email"
               id="email"
@@ -69,8 +72,10 @@ const AppointmentForm = () => {
               required
             />
           </div>
-          <div className={styles['form-element']}>
-            <label className={styles['form-label']} htmlFor="companyName">Company Name</label>
+          <div className={styles["form-element"]}>
+            <label className={styles["form-label"]} htmlFor="companyName">
+              Company Name
+            </label>
             <input
               type="text"
               id="companyName"
@@ -81,8 +86,10 @@ const AppointmentForm = () => {
               required
             />
           </div>
-          <div className={styles['form-element']}>
-            <label className={styles['form-label']} htmlFor="reason">Reason</label>
+          <div className={styles["form-element"]}>
+            <label className={styles["form-label"]} htmlFor="reason">
+              Reason
+            </label>
             <input
               type="text"
               id="reason"
@@ -93,8 +100,10 @@ const AppointmentForm = () => {
               required
             />
           </div>
-          <div className={styles['form-element']}>
-            <label className={styles['form-label']} htmlFor="personToTalk">With whom do you want to talk</label>
+          <div className={styles["form-element"]}>
+            <label className={styles["form-label"]} htmlFor="personToTalk">
+              With whom do you want to talk
+            </label>
             <select
               id="personToTalk"
               name="personToTalk"
@@ -106,11 +115,12 @@ const AppointmentForm = () => {
               <option value="Rohit Khari">Rohit Khari</option>
             </select>
           </div>
-          <button className={styles['form-button']} type="submit">Submit</button>
+          <button className={styles["form-button"]} type="submit">
+            Submit
+          </button>
         </form>
       )}
     </div>
   );
 };
-
 export default AppointmentForm;

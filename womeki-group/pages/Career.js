@@ -1,14 +1,10 @@
-import React from 'react'
-import CareerHome from './Career/CareerHome'
-
-
-
+import React from "react";
+import CareerHome from "./Career/CareerHome";
 const Career = () => {
   return (
     <div className=" pt-5 ">
-        <CareerHome/>
+      <CareerHome />
     </div>
-  )
-}
-
-export default Career
+  );
+};
+export default Career;

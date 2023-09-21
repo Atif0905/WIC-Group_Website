@@ -1,17 +1,17 @@
 [
-    {
-        "Image":"/Carousel-3.jpg",
-        "Heading":"REAL ESTATE ",
-        "Description":"Building A Secure Tomorrow"
-    },
-    {
-        "Image":"/Carousel-1.jpg",
-        "Heading":"REAL ESTATE ",
-        "Description":"Building A Secure Tomorrow"
-    },
-    {
-        "Image":"/Carousel-2.jpg",
-        "Heading":"REAL ESTATE ",
-        "Description":"Building A Secure Tomorrow"
-    }
+  {
+    "Image": "/Carousel-3.jpg",
+    "Heading": "REAL ESTATE ",
+    "Description": "Building A Secure Tomorrow"
+  },
+  {
+    "Image": "/Carousel-1.jpg",
+    "Heading": "REAL ESTATE ",
+    "Description": "Building A Secure Tomorrow"
+  },
+  {
+    "Image": "/Carousel-2.jpg",
+    "Heading": "REAL ESTATE ",
+    "Description": "Building A Secure Tomorrow"
+  }
 ]

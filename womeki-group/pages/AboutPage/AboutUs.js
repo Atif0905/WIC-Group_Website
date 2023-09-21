@@ -4,7 +4,6 @@ import styles from "./AboutUs.module.css";
 import Image from "next/Image";
 import img from "../../public/SlideDown.png";
 import img1 from "../../public/SlideUp.png";
-
 const AboutUs = () => {
   return (
     <div>
@@ -23,7 +22,6 @@ const AboutUs = () => {
           </div>
         );
       })}
-
       {data.Section2.map((AboutData1) => {
         const [isExpanded, setIsExpanded] = useState(false);
 
@@ -45,7 +43,6 @@ const AboutUs = () => {
                 <button onClick={toggleReadMore} className={styles.UpDownBtn}>
                   {isExpanded ? "Read less" : "Read more"}
                 </button>
-
                 <Image
                   onClick={toggleReadMore}
                   className={styles.UpDownBtnImg}
@@ -68,7 +65,6 @@ const AboutUs = () => {
           </div>
         );
       })}
-
       <div className="container mt-5">
         <div className={`row d-flex ${styles.GlanceDiv}`}>
           {data.Section4.map((AboutData3) => {
@@ -81,8 +77,9 @@ const AboutUs = () => {
                   height={70}
                   width={80}
                 />
-                {/* <h3>{AboutData3.Number}</h3> */}
-                <p className={`mt-3 ${styles.aboutimgtxt}`}>{AboutData3.Content}</p>
+                <p className={`mt-3 ${styles.aboutimgtxt}`}>
+                  {AboutData3.Content}
+                </p>
               </div>
             );
           })}
@@ -144,5 +141,4 @@ const AboutUs = () => {
     </div>
   );
 };
-
 export default AboutUs;

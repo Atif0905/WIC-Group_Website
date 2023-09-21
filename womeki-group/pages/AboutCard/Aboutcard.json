@@ -1,16 +1,15 @@
 {
-    "Section1":[
-        {
-           "Heading": "About",
-            "Content": "The Making of kjrngrngklrnhrtognkdlgntrigdrklgrtnhtklhdfkjvnfdvbnmdfklbvmfdkbndfoibdofibkdflmbldfkflkbvmdflkbmdfklbmdfsbdfklvbdfklmdfidfskkbdfkbdfkbfdkbkfdbkfbmgfkklgblkgmblkfmbklfmblkfmblkfmblkfmklfmbklfmblkfdmblkfmblkbmkk bktnhiotrnhtrnhlktrhtrkhntrhlktrhmltrhmtrlhmlktrmhltrmhtrmhrtmhklrthmtrmhlkrthmrtohrtpohrt'lhmr'porgmtriohjtrihmtihjtrohmthmtoh056ky5ohmtoh5]kg5h]56kyh56hi67jk65omgithntrihntrkhtrhtohotg5khoth,th,tjnimmmmmmmmmm[oyo5mgo5ky5khth45op54yk5oihtohk5pohyk65oihmtpohk5h0k5hotykpo5"
-        }
-
-    ],
-    "Section2":[
-        {
-            "Heading":"Lorem epson",
-            "Content":"nbiudfbndf,vnsdoifmskvndfogksekvdkvdsvlsdmvldskfmopew",
-            "Image": "/../public/ceo.jpg"
-        }
-    ]
+  "Section1": [
+    {
+      "Heading": "About",
+      "Content": "The Making of kjrngrngklrnhrtognkdlgntrigdrklgrtnhtklhdfkjvnfdvbnmdfklbvmfdkbndfoibdofibkdflmbldfkflkbvmdflkbmdfklbmdfsbdfklvbdfklmdfidfskkbdfkbdfkbfdkbkfdbkfbmgfkklgblkgmblkfmbklfmblkfmblkfmblkfmklfmbklfmblkfdmblkfmblkbmkk bktnhiotrnhtrnhlktrhtrkhntrhlktrhmltrhmtrlhmlktrmhltrmhtrmhrtmhklrthmtrmhlkrthmrtohrtpohrt'lhmr'porgmtriohjtrihmtihjtrohmthmtoh056ky5ohmtoh5]kg5h]56kyh56hi67jk65omgithntrihntrkhtrhtohotg5khoth,th,tjnimmmmmmmmmm[oyo5mgo5ky5khth45op54yk5oihtohk5pohyk65oihmtpohk5h0k5hotykpo5"
+    }
+  ],
+  "Section2": [
+    {
+      "Heading": "Lorem epson",
+      "Content": "nbiudfbndf,vnsdoifmskvndfogksekvdkvdsvlsdmvldskfmopew",
+      "Image": "/../public/ceo.jpg"
+    }
+  ]
 }

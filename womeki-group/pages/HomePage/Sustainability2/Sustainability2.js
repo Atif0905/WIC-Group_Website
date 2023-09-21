@@ -1,14 +1,12 @@
-import React from 'react';
+import React from "react";
 import data from "./Sustainability2.json";
 import styles from "./Sustainability2.module.css";
 import Image from "next/Image";
-
 const Sustainability2 = () => {
   return (
     <div>
       <div className="container  bg-light text-dark ">
         <div className={`row mt-5 mb-5 ${styles.MobileView}`}>
-         
           <div className={`col-6 ${styles.ColDiv}`}>
             <div className={styles.DivHover}>
               {data.Section2.map((NewData) => {
@@ -53,7 +51,6 @@ const Sustainability2 = () => {
               })}
             </div>
           </div>
-         
           <div className={`col-6 mt-4 ${styles.ColDiv}`}>
             {data.Section1.map((NewData) => {
               return (
@@ -67,7 +64,6 @@ const Sustainability2 = () => {
         </div>
       </div>
     </div>
-  )
-}
-
-export default Sustainability2
+  );
+};
+export default Sustainability2;

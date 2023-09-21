@@ -2,7 +2,6 @@ import React from "react";
 import data from "./NewsCard.json";
 import styles from "./NewsCard.module.css";
 import Image from "next/Image";
-
 const NewsCard = () => {
   return (
     <div>
@@ -10,11 +9,12 @@ const NewsCard = () => {
         {data.Section.map((NewsCardData) => {
           return (
             <div className="row">
-              <h2 className={`text-center ${styles.NewsHeading} `} >{NewsCardData.Heading}</h2>
+              <h2 className={`text-center ${styles.NewsHeading} `}>
+                {NewsCardData.Heading}
+              </h2>
             </div>
           );
         })}
-
         <div className={` d-flex mt-3 ${styles.News_Card} `}>
           {data.Section1.map((NewsCardData, index) => {
             return (
@@ -49,5 +49,4 @@ const NewsCard = () => {
     </div>
   );
 };
-
 export default NewsCard;

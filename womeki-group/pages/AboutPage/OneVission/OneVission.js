@@ -2,7 +2,6 @@ import React from "react";
 import data from "../AboutUs.json";
 import Image from "next/Image";
 import styles from "../AboutUs.module.css";
-
 const OneVission = () => {
   return (
     <div>
@@ -43,5 +42,4 @@ const OneVission = () => {
     </div>
   );
 };
-
 export default OneVission;

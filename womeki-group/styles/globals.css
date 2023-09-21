@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-nav{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+nav {
   position: absolute;
   z-index: 999;
   width: 100%;
-  background-color:#F8F8F8;
+  background-color: #f8f8f8;
   height: 60px;
   margin-bottom: 10%;
 }
-.nav-div-main{
+.nav-div-main {
   position: relative;
-
 }
 nav .wrapper {
   position: relative;
@@ -85,7 +84,7 @@ nav .wrapper {
   visibility: hidden;
 }
 .mega-box .content {
-  background: #F8F8F8;
+  background: #f8f8f8;
   padding: 25px 20px;
   border-radius: 10px;
   display: flex;
@@ -161,15 +160,15 @@ nav .wrapper {
     background: #242526;
   }
   ::-webkit-scrollbar-thumb {
-    background: #3A3B3C;
+    background: #3a3b3c;
   }
-  #menu-btn:checked~.nav-links {
+  #menu-btn:checked ~ .nav-links {
     left: 0%;
   }
-  #menu-btn:checked~.btn.menu-btn {
+  #menu-btn:checked ~ .btn.menu-btn {
     display: none;
   }
-  #close-btn:checked~.btn.menu-btn {
+  #close-btn:checked ~ .btn.menu-btn {
     display: block;
   }
   .nav-links li {
@@ -192,16 +191,16 @@ nav .wrapper {
     box-shadow: none;
     transition: all 0.3s ease;
   }
-  #showDrop:checked~.drop-menu,
-  #Business:checked~.mega-box {
+  #showDrop:checked ~ .drop-menu,
+  #Business:checked ~ .mega-box {
     max-height: 100%;
   }
-  #showDrop:checked~.drop-menu,
-  #About:checked~.mega-box {
+  #showDrop:checked ~ .drop-menu,
+  #About:checked ~ .mega-box {
     max-height: 100%;
   }
-  #showDrop:checked~.drop-menu,
-  #Connect:checked~.mega-box {
+  #showDrop:checked ~ .drop-menu,
+  #Connect:checked ~ .mega-box {
     max-height: 100%;
   }
   .nav-links .desktop-item {
@@ -218,7 +217,7 @@ nav .wrapper {
     transition: all 0.3s ease;
   }
   .nav-links .mobile-item:hover {
-    background: #3A3B3C;
+    background: #3a3b3c;
   }
   .drop-menu li {
     margin: 0;
@@ -278,13 +277,13 @@ nav input {
   font-size: 45px;
   font-weight: 600;
 }
-a{
+a {
   text-decoration: none !important;
 }
-.navmargin{
+.navmargin {
   margin-top: 1% !important;
 }
-.header-backend{
+.header-backend {
   margin-top: 20% !important;
   position: absolute;
 }

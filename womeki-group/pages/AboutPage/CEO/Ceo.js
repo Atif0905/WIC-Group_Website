@@ -1,7 +1,6 @@
-import React from 'react';
+import React from "react";
 import data from "../DetailsPage/DetailsPage.json";
 import Image from "next/Image";
-
 const Ceo = () => {
   return (
     <div>
@@ -29,7 +28,6 @@ const Ceo = () => {
         </div>
       </div>
     </div>
-  )
-}
-
-export default Ceo
+  );
+};
+export default Ceo;

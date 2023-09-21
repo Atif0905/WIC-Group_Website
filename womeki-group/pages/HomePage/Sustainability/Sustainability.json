@@ -1,22 +1,22 @@
 {
-    "Section1":[
-        {
-            "Heading": "Sustainability",
-            "Content": "At Womeki, we are aware of the connection between environmental health and communities    our support and ability to succeed. Our commitment to sustainability is based on our core  beliefs   and goes through all the functions of our company in real estate, IT solutions and training fields 1. Responsible construction in real estate  We proactively consider environmental responsibility in our real estate. We provide high value on the use of environmentally friendly building materials, energy efficient architecture and sustainable practices  reduce our carbon footprint"
-        }
-    ],
-    "Section2":[
-        {
-            "Image": "/../public/lake.jpg",
-            "Heading": "Community Empowerment",
-            "Content": "Touching over 1 Lakh plus families through M.C Gopi Chand Foundation, CSR arm of Womeki Group"
-        }
-    ],
-    "Section3":[
-        {
-            "Image": "/../public/photo-1577774438656-768f1e5d9ed6.jpg",
-            "Heading": "Environment",
-            "Content": "Afforested over 3000+ Ha of Mangroves and planted over 4.4 million trees"
-        }
-    ]
+  "Section1": [
+    {
+      "Heading": "Sustainability",
+      "Content": "At Womeki, we are aware of the connection between environmental health and communities    our support and ability to succeed. Our commitment to sustainability is based on our core  beliefs   and goes through all the functions of our company in real estate, IT solutions and training fields 1. Responsible construction in real estate  We proactively consider environmental responsibility in our real estate. We provide high value on the use of environmentally friendly building materials, energy efficient architecture and sustainable practices  reduce our carbon footprint"
+    }
+  ],
+  "Section2": [
+    {
+      "Image": "/../public/lake.jpg",
+      "Heading": "Community Empowerment",
+      "Content": "Touching over 1 Lakh plus families through M.C Gopi Chand Foundation, CSR arm of Womeki Group"
+    }
+  ],
+  "Section3": [
+    {
+      "Image": "/../public/photo-1577774438656-768f1e5d9ed6.jpg",
+      "Heading": "Environment",
+      "Content": "Afforested over 3000+ Ha of Mangroves and planted over 4.4 million trees"
+    }
+  ]
 }

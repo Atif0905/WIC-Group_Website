@@ -1,22 +1,22 @@
 {
-    "Section1":[
-        {
-            "Heading": "Realestate",
-            "Content": "mgrrgmrg",
-            "Image": "/../public/blogimg1.png"
-        },
-        {
-            "Heading": "Realestate",
-            "Content": "mgrrgmrg",
-            "Image": "/../public/blogimg2.png"
-        },
-        {
-            "Heading": "Realestate",
-            "Content": "mgrrgmrg",
-            "Image": "/../public/blogimg3.png"
-        },
-        {
-            "Image":"/../public/blogimg4.jpg"
-        }
-    ]
+  "Section1": [
+    {
+      "Heading": "Realestate",
+      "Content": "mgrrgmrg",
+      "Image": "/../public/blogimg1.png"
+    },
+    {
+      "Heading": "Realestate",
+      "Content": "mgrrgmrg",
+      "Image": "/../public/blogimg2.png"
+    },
+    {
+      "Heading": "Realestate",
+      "Content": "mgrrgmrg",
+      "Image": "/../public/blogimg3.png"
+    },
+    {
+      "Image": "/../public/blogimg4.jpg"
+    }
+  ]
 }

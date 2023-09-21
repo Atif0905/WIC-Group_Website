@@ -2,7 +2,6 @@ import React from "react";
 import data from "./OurCommitment.json";
 import styles from "./OurCommitment.module.css";
 import Image from "next/Image";
-
 const OurCommitment = () => {
   return (
     <div>
@@ -97,7 +96,6 @@ const OurCommitment = () => {
                         height={40}
                       />
                     </h6>
-
                     <p className={styles.RealEstateContent}>
                       {NewData.Content}
                     </p>
@@ -111,5 +109,4 @@ const OurCommitment = () => {
     </div>
   );
 };
-
 export default OurCommitment;

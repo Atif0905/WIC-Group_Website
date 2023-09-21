@@ -1,14 +1,12 @@
-import { useState } from 'react';
-import styles from './Query.module.css';
-
+import { useState } from "react";
+import styles from "./Query.module.css";
 const Query = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    contact: '',
-    query: '',
+    name: "",
+    email: "",
+    contact: "",
+    query: "",
   });
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -16,18 +14,18 @@ const Query = () => {
       [name]: value,
     });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
   };
-
   return (
-    <form className={styles['query-container']} onSubmit={handleSubmit}>
-      <div className={styles['query-input-container']}>
-        <label className={styles['query-label']} htmlFor="name">Name</label>
+    <form className={styles["query-container"]} onSubmit={handleSubmit}>
+      <div className={styles["query-input-container"]}>
+        <label className={styles["query-label"]} htmlFor="name">
+          Name
+        </label>
         <input
-          className={styles['query-input']}
+          className={styles["query-input"]}
           type="text"
           id="name"
           name="name"
@@ -37,10 +35,12 @@ const Query = () => {
           required
         />
       </div>
-      <div className={styles['query-input-container']}>
-        <label className={styles['query-label']} htmlFor="email">Email</label>
+      <div className={styles["query-input-container"]}>
+        <label className={styles["query-label"]} htmlFor="email">
+          Email
+        </label>
         <input
-          className={styles['query-input']}
+          className={styles["query-input"]}
           type="email"
           id="email"
           name="email"
@@ -50,10 +50,12 @@ const Query = () => {
           required
         />
       </div>
-      <div className={styles['query-input-container']}>
-        <label className={styles['query-label']} htmlFor="contact">Contact</label>
+      <div className={styles["query-input-container"]}>
+        <label className={styles["query-label"]} htmlFor="contact">
+          Contact
+        </label>
         <input
-          className={styles['query-input']}
+          className={styles["query-input"]}
           type="text"
           id="contact"
           name="contact"
@@ -63,10 +65,12 @@ const Query = () => {
           required
         />
       </div>
-      <div className={styles['query-input-container']}>
-        <label className={styles['query-label']} htmlFor="query">Enter your query</label>
+      <div className={styles["query-input-container"]}>
+        <label className={styles["query-label"]} htmlFor="query">
+          Enter your query
+        </label>
         <textarea
-          className={styles['query-textarea']}
+          className={styles["query-textarea"]}
           id="query"
           name="query"
           placeholder="Enter your query"
@@ -75,9 +79,10 @@ const Query = () => {
           required
         />
       </div>
-      <button className={styles['query-button']} type="submit">Submit</button>
+      <button className={styles["query-button"]} type="submit">
+        Submit
+      </button>
     </form>
   );
 };
-
 export default Query;

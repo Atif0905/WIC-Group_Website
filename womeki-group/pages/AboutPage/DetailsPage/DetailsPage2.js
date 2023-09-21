@@ -1,7 +1,6 @@
-import React from 'react';
+import React from "react";
 import data from "./DetailsPage.json";
 import Image from "next/Image";
-
 const DetailsPage2 = () => {
   return (
     <div>
@@ -29,7 +28,6 @@ const DetailsPage2 = () => {
         </div>
       </div>
     </div>
-  )
-}
-
-export default DetailsPage2
+  );
+};
+export default DetailsPage2;

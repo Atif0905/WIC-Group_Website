@@ -1,15 +1,14 @@
-.card2{
-    background-color: rgb(67, 67, 243);
-} 
-
+.card2 {
+  background-color: rgb(67, 67, 243);
+}
 .cardarrow:before {
-    border-left: 14px solid transparent;
-    border-right: 14px solid transparent;
-    border-bottom: 22px solid #d3d308;
-    position: absolute;
-    display: block;
-    content: "";
-    top: 20px;
-    left: 343px;
-    transform: rotate(-90deg);
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 22px solid #d3d308;
+  position: absolute;
+  display: block;
+  content: "";
+  top: 20px;
+  left: 343px;
+  transform: rotate(-90deg);
 }

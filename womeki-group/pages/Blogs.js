@@ -1,12 +1,10 @@
-import React from 'react'
-import BlogsHome from './Blogs/BlogsHome'
-
+import React from "react";
+import BlogsHome from "./Blogs/BlogsHome";
 const Blogs = () => {
   return (
     <div className=" pt-5 ">
-      <BlogsHome/>
+      <BlogsHome />
     </div>
-  )
-}
-
-export default Blogs
+  );
+};
+export default Blogs;
