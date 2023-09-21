@@ -1,29 +1,32 @@
 .bgImgText {
   margin-top: -100px;
   position: absolute;
-  margin-left: 100px;
-  color: rgb(226, 218, 218);
-  border-left: 5px solid rgb(253, 239, 239);
+  margin-left: 70px;
+  color: white;
+  font-style: initial;
   padding-left: 10px;
+}
+.aboutimgtxt{
+  font-weight: bold;
 }
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .bgImgText {
-    margin-top: -60px;
+    margin-top: -50px;
     position: absolute;
-    margin-left: 30px;
-    color: rgb(226, 218, 218);
-    border-left: 5px solid rgb(253, 239, 239);
+    margin-left: 10px;
+    color: white;
+   font-style: initial;
     padding-left: 10px;
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .bgImgText {
     margin-top: -60px;
     position: absolute;
-    margin-left: 40px;
-    color: rgb(226, 218, 218);
-    border-left: 5px solid rgb(253, 239, 239);
+    margin-left: 20px;
+    color: white;
+   font-style: initial;
     padding-left: 10px;
     font-size: 20px;
   }
@@ -61,10 +64,19 @@
   border-radius: 100%;
   padding: 10px !important;
 }
-.CeoText {
+.CeoText1 {
+  color: black;
+  text-decoration: none !important;
+  font-weight: 500px;
+  font-size: 15px;
+  margin-bottom: -4px;
+  font-style: oblique;
+}
+.CeoText2 {
   color: #1378be;
   text-decoration: none !important;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 15px;
 }
 .ViewMoreBtn {
   background-color: white;

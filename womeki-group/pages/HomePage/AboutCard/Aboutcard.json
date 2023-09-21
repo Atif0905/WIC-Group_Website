@@ -1,16 +1,19 @@
 {
     "Section1":[
         {
-           "Heading": "About",
-            "Content": "We are pleased to welcome you to the Womeki Group, where we effortlessly combine three different yet related business facets. Since 2021, our real estate division, WOMKEI INVESTORS CLUB, has made waves in India. We specialize in enabling the sale and  purchase of premier commercial properties, including desirable office and retail spaces in Delhi NCR and other major cities, as well as residential developments, hotels, farms, and plots around the nation. Our information technology dynamo, WOMEKI TECH SOLUTIONS, is at the forefront of   innovation. We advance companies into   "
+           "Heading": "About Womeki",
+            "Content": "We are pleased to welcome you to the Womeki Group, where we effortlessly combine three different yet related business facets. Since 2021, our real estate division, WOMKEI INVESTORS CLUB, has made waves in India. We specialize in enabling the sale and  purchase of premier commercial properties, including desirable office and retail spaces in Delhi NCR and other major cities"
         }
-
     ],
     "Section2":[
         {
-            "Heading":"About Tonger Family",
-            "Content":"Welcome to Womeki, a place where a heritage of dedication, creativity, and social influence is brought  to life. Our CEO, Mr Gaurav Tonger, is a visionary with a heart committed to making a difference in the world. Through the MC Gopichand Group of Institutions, the Tonger family, which has a strong  entrepreneurial background, has made a significant contribution",
             "Image": "/../public/ceo.jpg"
+        }
+    ],
+    "Section3":[
+        {
+            "Heading":"About Tonger Family",
+            "Content":"Welcome to Womeki, a place where a heritage of dedication, creativity, and social influence is brought  to life. Our CEO, Mr Gaurav Tonger, is a visionary with a heart committed to making a difference in the world. Through the MC Gopichand Group of Institutions, the Tonger family, which has a strong  entrepreneurial background, has made a significant contribution"
         }
     ]
 }

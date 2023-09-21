@@ -7,12 +7,12 @@ const OurCommitment = () => {
   return (
     <div>
       <div className="container  bg-light text-dark ">
-        <div className={`row mt-5 mb-5 ${styles.MobileView}`}>
-          <div className={`col-4 mt-4 ${styles.ColDiv}`}>
+        <div className={`row mt-5 ${styles.MobileView}`}>
+          <div className={`col-4 mt-5 ${styles.ColDiv}`}>
             {data.Section1.map((NewData) => {
               return (
                 <div className={styles.OurCmtHeading}>
-                  <h3 className="text-center mt-2">{NewData.Heading}</h3>
+                  <h3 className="text-center">{NewData.Heading}</h3>
                   <p>{NewData.Content}</p>
                 </div>
               );

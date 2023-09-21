@@ -2,7 +2,7 @@
   "Section1": [
     {
       "Image": "/../public/AboutBackground.webp",
-      "Heading": "India's fastest growing corporate catering to a billion aspirations"
+      "Heading": "Weaving 36 years of expertise into every venture, from bricks to bits to minds"
     }
   ],
   "Section2": [
@@ -19,57 +19,61 @@
   ],
   "Section4": [
     {
-      "Image": "/team-strength.png",
+      "Image": "/Protfolio.png",
       "Number": "2300+",
-      "Content": "Team Strength"
+      "Content": "Buisness Protfolios"
     },
     {
-      "Image": "/mangrove-afforested.png",
+      "Image": "/Expertise.png",
       "Number": "3000+ HA",
-      "Content": "Mangroves Afforested"
+      "Content": "Specific Expertise"
     },
     {
-      "Image": "/../public/Trees Planted.png",
+      "Image": "/icons8-client-48.png",
       "Number": "4.4+ Mn",
-      "Content": "Trees Planted"
+      "Content": "Client-Centered Approach"
     },
     {
-      "Image": "/CSR Beneficiaries.png",
+      "Image": "/Tesimonials.png",
       "Number": "3.4 MN",
-      "Content": "CSR Beneficiaries"
+      "Content": "Testimonials"
     }
   ],
   "Section5": [
     {
       "Heading": "Vision",
-      "Content": "To be a world class leader in businesses that enrich lives and contribute to nations in building infrastructure through sustainable value creation."
+      "Content": "Empowering Talent: We are dedicated to promoting the personal and professional development of our partners, employees, and the students we educate"
     }
   ],
   "Section6": [
     {
       "Heading": "Our Leadership - One Vision One Team",
-      "Content": "We are a team of more than 23,000+ people across the globe working for a common purpose. We are led by one of India's most visionary Chairman who is supported by a talented and experienced management team."
+      "Content": "Our Womeki Group leaders personify the 'One Vision, One Team' ethos, guiding us towards a peaceful future of excellence and innovation, the statement reads."
     }
   ],
   "Section7": [
     {
       "Image": "/gaurav.jpg",
-      "Content": "CEO & Founder, Womeki Group Gaurav Tonger",
+      "Content1": "Gaurav Tonger",
+      "Content2": "CEO & Founder, Womeki Group",
       "Url": "./AboutPage/DetailsPage/DetailsPage1"
     },
     {
       "Image": "/rohit-khari.jpg",
-      "Content": "Sales Territory Director Womeki Rohit Khari",
+      "Content1": "Rohit Khari",
+      "Content2": "Sales Territory Director Womeki ",
       "Url": "./AboutPage/DetailsPage/DetailsPage2"
     },
     {
       "Image": "/Paras-Goyal.jpg",
-      "Content": "Director Sales Womeki Group Paras Goyal",
+      "Content1": "Paras Goyal",
+      "Content2": "Director Sales Womeki Group ",
       "Url": "./AboutPage/DetailsPage/DetailsPage3"
     },
     {
       "Image": "/Shiv.jpeg",
-      "Content": "Director Womeki Group......... Ankit Tonger",
+      "Content1": "Ankit Tonger",
+      "Content2": "Director Womeki Group",
       "Url": "./AboutPage/DetailsPage/DetailsPage4"
     }
   ]

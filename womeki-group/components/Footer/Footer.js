@@ -99,11 +99,14 @@ const Footer = () => {
                     </a>
                     </div>
                     </div> 
+
+                </div>
+
                 </div>               
             </div>
         </div>
         <div className={` row d-lg-none justify-content-center mt-4 ${styles.footerbottom}`}>
-        <img className={styles.womekilogo} src="/womeki.jpeg"/>
+        <Image height={200} width={300} className={styles.womekilogo} src="/womeki.jpeg"/>
         </div>
     </div>
   )

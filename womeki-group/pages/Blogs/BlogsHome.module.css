@@ -29,9 +29,6 @@
       -webkit-column-width: 100%;
       -moz-column-width: 100%;
       column-width: 100%;
-      margin: auto;
-      margin-left: 8%;
-      margin-top: 2%;
     }
   }
 
@@ -41,7 +38,7 @@
   
   .image {
     display: block;
-    height: auto;
+  
   }
   
   .overlay {
