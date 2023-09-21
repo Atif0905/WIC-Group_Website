@@ -1,28 +1,89 @@
-.newstitle{
+.newswomekihead{
     font-family:'Times New Roman', Times, serif;
-    font-size: 80px;
+    font-size: 100px;
+    margin-left: 20px;
     font-weight:bolder;
     width: fit-content;
-    height: fit-content;
-    border-bottom: 5px solid red;
-    margin-bottom: 2%;
+    border-bottom: 8px solid red;
 }
-.headsec1{
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 40px;
+.newswomekisubhead{
+    font-weight: 400;
+    font-size: medium;
+    margin-left: 120px;
+    color: rgb(0,35,73);
 }
-.headsec2{
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 25px;
+.newsmaintitle{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    margin-top: 10%;
 }
-.headsec4{
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 30px;
+.newshead{
+    font-style: normal;
 }
-.paratxt{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.newscontent{
+    font-size: medium; 
+}
+.newspara{
+    font-size: 10px;
+    margin-left: 70%;
+}
+@media (max-width:320px) {
+    .newsimg{
+        height: 300px;
+        width: 300px;
+    }
+    .newswomekihead{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 60px;
+        font-weight:bolder;
+        width: fit-content;
+        border-bottom: 5px solid red;
+    }
+    .newswomekisubhead{
+        font-weight: 400;
+        font-size: medium;
+        margin-left: 20px;
+        color: rgb(0,35,73);
+    }   
+}
+@media (min-width:321px) and (max-width:375px) {
+    .newsimg{
+        height: 330px;
+        width: 360px;
+    }
+    .newswomekihead{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 60px;
+        font-weight:bolder;
+        width: fit-content;
+        border-bottom: 5px solid red;
+    }
+    .newswomekisubhead{
+        font-weight: 400;
+        font-size: medium;
+        margin-left: 20px;
+        color: rgb(0,35,73);
+    }
+    
+}
+@media (min-width:376px) and (max-width:425px) {
+    .newsimg{
+        height: 350px;
+        width: 410px;
+    }
+    .newswomekihead{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 60px;
+        font-weight:bolder;
+        width: fit-content;
+        border-bottom: 5px solid red;
+    }
+    .newswomekisubhead{
+        font-weight: 400;
+        font-size: medium;
+        margin-left: 20px;
+        color: rgb(0,35,73);
+    }
+    
+}
 
-}
