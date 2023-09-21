@@ -94,12 +94,15 @@ const Footer = () => {
                 
                     <div className='col-md-12 d-none d-lg-block justify-content-center p-5'>
                     <div>
-                        <a href='./Amin/AdminUser' >
+                        <a href='./Amin/Header' >
                     <Image height={200} width={300} className={styles.wiclogo} src="/womeki.jpeg"/>
                     </a>
                     </div>
                     </div> 
+
                 </div>
+
+                </div>               
             </div>
         </div>
         <div className={` row d-lg-none justify-content-center mt-4 ${styles.footerbottom}`}>
