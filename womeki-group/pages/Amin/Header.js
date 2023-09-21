@@ -23,9 +23,11 @@ const Header = () => {
   return (
     <div >
         <div  className=' pt-5 header-backend ' >
-        <Link href="./AdminLogin">Login</Link>
-            <Link href="./AdminUser">Register</Link>
-            <a onClick={logout} >Log-Out</a>
+          <div > <Link href="./AdminLogin">Login</Link></div>
+          <div><Link href="./AdminUser">Register</Link></div>
+       
+            
+            {/* <a onClick={logout} >Log-Out</a> */}
         </div>
     </div>
   )

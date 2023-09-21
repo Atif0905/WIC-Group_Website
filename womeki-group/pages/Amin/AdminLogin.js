@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import UploadOptions from '../UploadOptions/UploadOptions';
 
 export default function AdminLogin() {
   const [username, setUsername] = useState('');
@@ -43,7 +44,7 @@ export default function AdminLogin() {
         onChange={(ev) => setPassword(ev.target.value)}
       />
       <button type="submit">Login</button>
-      {redirect && <Link href="./Upload">Go to Upload Page</Link>}
+      {redirect && <UploadOptions/>}
     </form>
   );
 }

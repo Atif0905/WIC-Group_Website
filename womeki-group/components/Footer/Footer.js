@@ -56,6 +56,9 @@ const Footer = () => {
                     <h6 className={`mb-3 ${styles.foothead}`}>Equal Opportunity</h6>
                     <h6 className={`mb-3 ${styles.foothead}`}>Privacy Policy</h6>
                     <h6 className={`mb-3 ${styles.foothead}`}>Legal Disclaimer</h6>
+                    <a href='./Amin/Header' >
+                    <h6 className={`mb-3 ${styles.foothead}`}>Admin Login</h6>
+                    </a>
                     </div>
                 </div>
                 <div className='col-lg-4 col-md-12 col-sm-12 justify-content-center'>
