@@ -12,12 +12,8 @@ const Footer = () => {
                 <h6 className={`mb-3 ${styles.foothead}`}>Business</h6>
                     <ul className='list-unstyled text-black'>
                         <li><a href="#" className={styles.foottext}>Technology</a></li>
-                        <li><a href="#" className={styles.foottext}>Steel</a></li>
-                        <li><a href="#" className={styles.foottext}>Automotive</a></li>
-                        <li><a href="#" className={styles.foottext}>Consumer & Retail</a></li>
                         <li><a href="#" className={styles.foottext}>Infrastructure</a></li>
                         <li><a href="#" className={styles.foottext}>Financial Services</a></li>
-                        <li><a href="#" className={styles.foottext}>Aerospace & Defence</a></li>
                         <li><a href="#" className={styles.foottext}>Tourism & Travel</a></li>
                         <li><a href="#" className={styles.foottext}>Telcom & Media</a></li>
                         <li><a href="#" className={styles.foottext}>Trading & Investment</a></li>
@@ -36,8 +32,7 @@ const Footer = () => {
                 <div className='col-lg-2 d-none d-lg-block'>
                 <h6 className={`mb-3 ${styles.foothead}`}>About</h6>
                     <ul className='list-unstyled text-black'>
-                    <li><a href="#" className={styles.foottext}>The Tata group</a></li>
-                        <li><a href="#" className={styles.foottext}>Tata Sons</a></li>
+                    <li><a href="#" className={styles.foottext}>Womeki group</a></li>
                         <li><a href="#" className={styles.foottext}>Values and Purpose</a></li>
                         <li><a href="#" className={styles.foottext}>Leadership</a></li>
                         <li><a href="#" className={styles.foottext}>Heritage</a></li>
@@ -45,7 +40,6 @@ const Footer = () => {
                         <li><a href="#" className={styles.foottext}>Innovation</a></li>
                         <li><a href="#" className={styles.foottext}>Sponsorships</a></li>
                         <li><a href="#" className={styles.foottext}>Investors</a></li>
-                        <li><a href="#" className={styles.foottext}>Tata Code of Conducte</a></li>
                     </ul>
                 </div>
                 <div className='col-lg-2 d-none d-lg-block'>

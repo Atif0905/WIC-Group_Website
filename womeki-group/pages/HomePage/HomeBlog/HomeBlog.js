@@ -32,7 +32,7 @@ const HomeBlog = () => {
               <div  className='col-lg-8 col-sm-12'>
               <div className={`card shadow rounded-0 border-0 ${styles.bloghomecard}`}>
                   <div className={`row d-flex`}>
-                  <div data-aos="fade-right" data-aos-duration="2000" className={`col-md-6 col-sm-12`}>
+                  <div data-aos="fade-up" data-aos-duration="2000" className={`col-md-6 col-sm-12`}>
                   <Image width={520} height={400} alt='bloghome' className={`card-img ${styles.blogcardimg}`} src={NewData.Image}/>
                   </div> 
                   <div className={`col-md-6 col-sm-12 p-4`}>
@@ -54,7 +54,7 @@ const HomeBlog = () => {
                   <h5 className={`card-title mt-2`}>{NewData.Heading}</h5>
                   <p className='card-text'>{NewData.Content}</p>
                   </div> 
-                  <div data-aos="fade-left"  data-aos-duration="2000" className={`col-md-6 col-sm-12`}>
+                  <div data-aos="fade-up"  data-aos-duration="2000" className={`col-md-6 col-sm-12`}>
                   <Image width={520} height={400} alt='bloghome' className={`card-img ${styles.blogcardimg} `} src={NewData.Image}/>
                   </div>
                   </div>

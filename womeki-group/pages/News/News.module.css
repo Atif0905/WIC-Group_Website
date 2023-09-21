@@ -15,7 +15,7 @@
 .newsmaintitle{
     font-family:'Courier New', Courier, monospace;
     font-weight: 900;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .newshead{
     font-style: normal;
@@ -48,7 +48,7 @@
 }
 @media (min-width:321px) and (max-width:375px) {
     .newsimg{
-        height: 330px;
+        height: 300px;
         width: 360px;
     }
     .newswomekihead{
