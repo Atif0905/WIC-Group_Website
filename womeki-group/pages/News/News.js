@@ -1,10 +1,5 @@
 import React from "react";
 import styles from "./News.module.css";
-import data from "./News.json";
-
-
-
-      
 
 const   News = ({ title, cover, summary, createdAt, content }) => {
   return (
@@ -23,5 +18,4 @@ const   News = ({ title, cover, summary, createdAt, content }) => {
       </div>
   );
 };
-
 export default News;
