@@ -4,6 +4,7 @@ import Image from 'next/Image';
 
 const Footer = () => {
   return (
+    <>
     <div className={styles.footer}>
         <div className='container pt-5'>
             <div className='row'>
@@ -106,9 +107,10 @@ const Footer = () => {
             </div>
         </div>
         <div className={` row d-lg-none justify-content-center mt-4 ${styles.footerbottom}`}>
-        <Image height={200} width={300} className={styles.womekilogo} src="/womeki.jpeg"/>
+        <Image height={200} width={300} className={styles.womekilogo} alt='oo' src="/womeki.jpeg"/>
         </div>
-    </div>
+   
+    </>
   )
 }
 
