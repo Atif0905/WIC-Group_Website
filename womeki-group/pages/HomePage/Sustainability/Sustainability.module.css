@@ -40,7 +40,7 @@
     opacity: 1;
     right: 0;
   }
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  /* @media screen and (min-width: 320px) and (max-width: 767px) {
     .SustainDiv2{
       display: flex;
       flex-direction: column;
@@ -116,4 +116,4 @@
   }
   
    }
-  
+   */

@@ -10,21 +10,23 @@ const BusinessRealestate = () => {
             {data.RealEstate.map((NewData) => {
                 return(
                     <div className={`col-lg-4 col-md-6 mt-3`}>
-                    
                       <div className={`card border-0 rounded-0 ${styles.businesscardbox}`}>
+                      <a className={styles.alink} href={NewData.Link}>
                         <Image className={`card-img-top ${styles.businesscardimg}`} width={500} height={250}  src={NewData.Image}/>
                         <div className='card-body'>
                         <h5 className="card-title">{NewData.Heading}</h5>
                         <p className="card-text">{NewData.Content}</p>
                         </div>
+                      </a>
                       </div>
-                      
+                     
+                     
                     </div>
                 )
             })}
            
         </div>
-      
+
     </div>
   )
 }

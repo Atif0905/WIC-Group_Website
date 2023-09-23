@@ -1,28 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato:ital,wght@1,300&display=swap');
 .sectionHeading::after {
   content: "";
   display: block;
   position: relative;
-  height: 4px;
+  height: 2px;
   background: rgb(0,35,73);
   width: 200px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .BuisnessCardBgColor{
   background-color: rgb(241,242,242);
+  margin-bottom: 10%;
 }
 .sectionHeading{
   letter-spacing: 2px;
-  font-weight: 700;
+  font-weight: 800;
   color: rgb(0,35,73);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Cormorant Garamond', serif
 }
 .sectioncontent{
   word-spacing: 4px;
+  line-height: 25px;
   letter-spacing: 1px;
-  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+font-family: 'Lato', sans-serif;
 }
 .Img_Card:hover {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
@@ -38,19 +43,22 @@
 }
 .businesscontent1{
   color: rgb(127,50,141);
-  font-weight: 500;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
 }
 .Img_Card {
   position: relative;
   top: 0;
 }
 .businesshead1{
-  font-family: 'Roboto', sans-serif;
+ font-weight: 900;
+  font-family: 'Cormorant Garamond', serif;
 }
 .Explorebtn {
   background-color: white;
   color: rgb(0,35,73);
-  font-weight: 500;
+  font-weight: 900;
+  font-family: 'Cormorant Garamond', serif;
   border: 2px solid rgb(0,35,73);
   text-decoration: none;
 }

@@ -1,12 +1,18 @@
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import data from "./Buisness_Card.json";
 import styles from "./Buisness_Card.module.css";
 import Image from "next/Image";
 
 const Buisness_Card = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div>
-      <div className={`Buisness_Card container mt-5 ${styles.BuisnessCardBgColor}`}>
+      <div className={` fluid mt-5 ${styles.BuisnessCardBgColor}`}>
+        <div className="container"  data-aos="fade-up"  data-aos-duration="2000" >
         {data.Section1.map((BuisnessCardData) => {
           return (
             <div className="row">
@@ -38,12 +44,13 @@ const Buisness_Card = () => {
           })}
         </div>
         <div className={`text-center mt-5`}>
-          <p>
+          <h6>
             <a className={`p-2 ${styles.Explorebtn}`} href="">
               Explore More
             </a>
-          </p>
+          </h6>
         </div>
+      </div>
       </div>
     </div>
   );

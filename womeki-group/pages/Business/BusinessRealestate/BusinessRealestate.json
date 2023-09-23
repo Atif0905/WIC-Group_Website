@@ -1,34 +1,40 @@
 {
     "RealEstate":[
     {
-        "Heading": "eofjree",
+        "Heading": "Womeki Investors Club",
         "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
-        "Image": "/BusinessImg/realestatecardimg1.jpg "
+        "Image": "/BusinessImg/realestatecardimg1.jpg ",
+        "Link": "/Business/BusinessRealestate/Businessrealestatecards/Realestatecard1"
     },
     {
-        "Heading": "eofjree",
+        "Heading": "Shree Shayam Township",
         "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
-        "Image": "/BusinessImg/realestatecardimg2.jpg "
+        "Image": "/BusinessImg/realestatecardimg2.jpg ",
+        "Link": "/Business/BusinessRealestate/Businessrealestatecards/Realestatecard2"
     },
     {
-        "Heading": "eofjree",
+        "Heading": ".Paras avenue",
         "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
-        "Image": "/BusinessImg/realestatecardimg3.jpg "
+        "Image": "/BusinessImg/realestatecardimg3.jpg ",
+        "Link": "/Business/BusinessRealestate/Businessrealestatecards/Realestatecard3"
     },
     {
-        "Heading": "eofjree",
+        "Heading": "Etherea",
         "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
-        "Image": "/BusinessImg/realestatecardimg4.jpg "
+        "Image": "/BusinessImg/realestatecardimg4.jpg ",
+        "Link": "/Business/BusinessRealestate/Businessrealestatecards/Realestatecard4"
     },
     {
-        "Heading": "eofjree",
+        "Heading": "Clark Inn Suites",
         "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
-        "Image": "/BusinessImg/realestatecardimg5.jpg "
+        "Image": "/BusinessImg/realestatecardimg5.jpg ",
+        "Link": "/Business/BusinessRealestate/Businessrealestatecards/Realestatecard5"
     },
     {
-        "Heading": "eofjree",
+        "Heading": "Sikka Mall",
         "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
-        "Image": "/BusinessImg/realestatecardimg6.jpg "
+        "Image": "/BusinessImg/realestatecardimg6.jpg ",
+        "Link": "/Business/BusinessRealestate/Businessrealestatecards/Realestatecard6"
     }
 ]
 }
