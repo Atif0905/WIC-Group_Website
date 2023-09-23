@@ -3,32 +3,64 @@
     display: block;
     position: relative;
     height: 4px;
-    background: #17b677;
-    width: 120px;
+    background: rgb(213,0,10);
+    width: 170px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
   }
+  .NewsHeading{
+    color: rgb(213,0,10);
+    letter-spacing: 2px;
+  }
+  .FeatureHeading::after{
+    content: "";
+    display: block;
+    position: relative;
+    height: 4px;
+    background: rgb(0,35,73);
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+  }
+  .FeatureHeading{
+    color: rgb(0,35,73);
+    letter-spacing: 2px;
+  }
 .newspara {
   font-weight: lighter;
   font-size: 14px;
+  margin-top: 70px;
+ 
 }
 .newspara1 {
   font-weight: bold;
   font-size: 12px;
 }
+.newspara1::after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 2px;
+  background: rgb(192, 186, 186);
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
 .TextLink {
   text-decoration: none;
   color: black;
 }
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .News_Card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .NewsSection {
-    width: 300px;
-  }
+.businesscardbox:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.businessnav{
+  background-color: rgb(32,146,155);
+  color: white;
+}
+.businessnavcol:hover{
+  background-color: white;
+  color: rgb(32,146,155);
 }
