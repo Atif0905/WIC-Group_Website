@@ -6,7 +6,8 @@ import Image from "next/Image";
 const Sustainability2 = () => {
   return (
     <div>
-      <div className="container  bg-light text-dark ">
+      <div className="fluid  bg-light text-dark ">
+        <div className="container">
         <div className={`row mt-5 mb-5 ${styles.MobileView}`}>
          
           <div className={`col-6 ${styles.ColDiv}`}>
@@ -65,6 +66,7 @@ const Sustainability2 = () => {
             })}
           </div>
         </div>
+      </div>
       </div>
     </div>
   )

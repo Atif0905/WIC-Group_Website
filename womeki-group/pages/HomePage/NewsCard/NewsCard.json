@@ -1,34 +1,84 @@
 {
-  "Section": [
-    {
-      "Heading": "Latest news"
-    }
-],
 "Section1":[
     {
-        "Image":"/../public/twitter.png",
+        "Image":"/icons8-twitter-24.png",
       "Content": " Carbon capture and storage could help the city of Houston achieve its goal of becoming #CarbonNeutral by 2050. Here's how we're working to help make",
       "Content1": "@ExxonMobil •Aug. 22, 2023",
       "Image1": "/../public/external-link.png"
     },
     {
-        "Image":"/../public/insta.png",
+        "Image":"/icons8-instagram-24.png",
       "Content": "  Carbon capture and storage could help the city of Houston achieve its goal of becoming #CarbonNeutral by 2050. Here's how we're working to help make",
       "Content1": "@ExxonMobil •Aug. 22, 2023",
       "Image1": "/../public/external-link.png"
     },
     {
-        "Image":"/../public/linkdin.png",
+        "Image":"/icons8-linkedin-24.png",
         "Content": "  Carbon capture and storage could help the city of Houston achieve its goal of becoming #CarbonNeutral by 2050. Here's how we're working to help make",
         "Content1": "@ExxonMobil •Aug. 22, 2023",
         "Image1": "/../public/external-link.png"
     },
     {
-        "Image":"/../public/news.png",
+        "Image":"/icons8-facebook-24.png",
         "Content": " Carbon capture and storage could help the city of Houston achieve its goal of becoming #CarbonNeutral by 2050. Here's how we're working to help make",
         "Content1":"@ExxonMobil •Aug. 22, 2023",
         "Image1": "/../public/external-link.png"
-    }
+    },
+    {
+      "Image":"/icons8-news-24.png",
+      "Content": " Carbon capture and storage could help the city of Houston achieve its goal of becoming #CarbonNeutral by 2050. Here's how we're working to help make",
+      "Content1":"@ExxonMobil •Aug. 22, 2023",
+      "Image1": "/../public/external-link.png"
+  }
     
-  ]
+  ],
+    "Section2":[
+      {
+          "Heading": "eofjree",
+          "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
+          "Image": "/BusinessImg/realestatecardimg1.jpg "
+      },
+      {
+          "Heading": "eofjree",
+          "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
+          "Image": "/BusinessImg/realestatecardimg2.jpg "
+      }
+    ],
+    
+      "Section3":[
+        {
+          "Heading": "eofjree",
+          "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
+          "Image": "/BusinessImg/realestatecardimg3.jpg "
+      },
+      {
+          "Heading": "eofjree",
+          "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
+          "Image": "/BusinessImg/realestatecardimg4.jpg "
+      }
+      ],
+      "Section4":[
+        {
+          "Heading": "eofjree",
+          "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
+          "Image": "/BusinessImg/realestatecardimg5.jpg "
+      },
+      {
+          "Heading": "eofjree",
+          "Content": "nfidogreoigmfdiogjdriogmdoigoihrtiohjrtgmfiogjfoi",
+          "Image": "/BusinessImg/realestatecardimg6.jpg "
+      }
+      ],
+      "FeaturedTopic":[
+        {
+          "Heading" : "Featured topics"
+        }
+      ],
+      
+        "LatestNews": [
+          {
+            "Heading": "Latest News"
+          }
+        ]
+      
 }
