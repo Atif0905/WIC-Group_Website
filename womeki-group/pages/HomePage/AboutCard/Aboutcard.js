@@ -30,8 +30,8 @@ const Aboutcard = () => {
         {data.Section1.map((NewData) => {
           return(
         <div data-aos="fade-up" data-aos-duration="2000" className={`col-lg-4 col-sm-12 shadow p-4 ${styles.card1}`}>
-        <h4 className={`mt-2 ${styles.aboutcardhead1}`}>{NewData.Heading}</h4>
-        <p className={`mt-4 ${styles.aboutcardcontent1}`}>{NewData.Content}</p>
+        <h4 className={`mt-2 ${styles.aboutcardhead}`}>{NewData.Heading}</h4>
+        <p className={`mt-4 ${styles.aboutcardcontent}`}>{NewData.Content}</p>
         </div>
         );
         })}
@@ -45,8 +45,8 @@ const Aboutcard = () => {
         {data.Section3.map((NewData) => {
           return(
              <div  data-aos="fade-up"  data-aos-duration="2000"  className={`col-lg-4 col-md-6 col-sm-12 shadow p-4 ${styles.card3}`}>
-              <h4 className={`mt-2 ${styles.aboutcardhead2}`}>{NewData.Heading}</h4>
-              <p className={`mt-4 ${styles.aboutcardcontent2}`}>{NewData.Content}</p>
+              <h4 className={`mt-2 ${styles.aboutcardhead}`}>{NewData.Heading}</h4>
+              <p className={`mt-4 ${styles.aboutcardcontent}`}>{NewData.Content}</p>
               </div>
           );
         })}

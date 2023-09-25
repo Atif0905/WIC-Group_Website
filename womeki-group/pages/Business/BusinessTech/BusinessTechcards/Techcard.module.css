@@ -1,0 +1,15 @@
+.techcardrow{
+    background-color: rgb(248,248,248);
+}
+.techhead{
+    font: 20px Lato, sans-serif;
+    border-bottom: 2px solid rgb(219,169,3);
+    width: fit-content;
+}
+.techpara{
+    font: 14px Lato, sans-serif;
+}
+.techcontent{
+    font: 14px Lato, sans-serif;
+    margin-left: 10px;
+}

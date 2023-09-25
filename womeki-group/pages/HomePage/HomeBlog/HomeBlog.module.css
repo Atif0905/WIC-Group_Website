@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato:ital,wght@1,300&display=swap');
 .bloghomecard:hover{
     background-color: rgb(246,248,250);
 }
@@ -14,25 +16,37 @@
 }
 }
 .homeblogmainhead{
+    font-family: 'Cormorant Garamond', serif;
     text-align: center;
     letter-spacing: 2px;
-    font-weight: 700;
+    font-weight: 800;
     color: rgb(0,35,73);
 }
 .homeblogmainhead::after {
     content: "";
     display: block;
     position: relative;
-    height: 4px;
+    height: 2px;
     background: rgb(0,35,73);
-    width: 200px;
+    width: 80px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 10px;
+  }
+  .homebloghead{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  .homeblogcontent{
+    font-style: Lato, sans-serif;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 13px;
   }
 
 @media (min-width:992px) {
-  
 .colsection2{
     margin-top: 2%;
     margin-left: 32%;
