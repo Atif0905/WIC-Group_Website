@@ -1,5 +1,6 @@
 .maindiv{
     background-color: rgb(235,235,235);
+    padding-bottom: 5%;
 }
 .bgImgHead {
     margin-top: -150px;
@@ -29,11 +30,13 @@
     background-color: rgb(32,146,155);
     color: white;
     cursor: pointer;
+    margin-bottom: 2%;
   }
   .businessnavcol:hover{
     background-color: white;
     color: rgb(32,146,155);
   }
+  
   @media (max-width:768px) {
     .bgImgHead {
       font-size: 25px;

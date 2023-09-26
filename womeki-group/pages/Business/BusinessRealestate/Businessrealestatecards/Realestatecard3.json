@@ -1,0 +1,27 @@
+{
+    "Section1":[
+        {
+            "Image": "/BusinessImg/realestatecardimg1.jpg ",
+            "Heading":"Paras avenue",
+            "Content":"The esteemed Paras Avenue is another highlight of our achievements, displaying our commitment to providing top-quality homes. This residential project demonstrates our constant drive for excellence in design and construction. It's not just a place to live; it's a community where families can grow, connect, and build lasting memories. Client reviews of Paras Avenue consistently show the happiness and satisfaction our homes bring to their lives. "
+        }
+
+        ],
+        "Section2":[
+            {
+                "Image":"/BusinessImg/realestatecard1img1.jpg",
+                "Content": ""
+            }
+        ],
+        "Section3":[
+            {
+                "Image":"/BusinessImg/realestatecard1img1.jpg",
+                "Content": ""
+            }
+        ],
+        "Section4":[
+            {
+                "Content": ""
+            }
+        ]
+}
