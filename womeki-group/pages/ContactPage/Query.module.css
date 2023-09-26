@@ -1,56 +1,42 @@
-.query-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  }
-  .query-input-container {
-    margin-bottom: 15px;
-  }
-  
-  .query-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .query-input,
-  .query-textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .query-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .query-button:hover {
-    background-color: #0056b3;
-  }
-  @media (max-width: 767px) {
-    .query-container {
-      width: 100%;
-      padding: 10px;
-    }
-    
-    .query-input,
-    .query-textarea {
-      width: 100%;
-      padding: 8px;
-    }
-    
-    .query-button {
-      width: 100%;
-    }
-  }
-  
+.maindiv{
+  padding-bottom: 2%;
+
+}
+.head4{
+  font-weight: 800;
+}
+.head5{
+  font-weight: 800;
+  padding-top: 1%;
+}
+.head6{
+  font-size: 13px;
+  font-weight: 700;
+  padding-right: 1%;
+}
+.labeltxt{
+  font-size: small;
+  padding-bottom: 1%;
+}
+.paratxt{
+  font-size: 13px;
+}
+.formgroup{
+  padding-top: 3%;
+}
+.subbtn:focus{
+  box-shadow: none;
+}
+.subbtn{
+  width: 110px;
+  height: 40px;
+  font-size: 10px;
+  font-weight: 700;
+}
+.formcontrol:focus{
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+
+

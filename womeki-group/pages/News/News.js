@@ -3,7 +3,7 @@ import styles from "./News.module.css";
 
 const   News = ({ title, cover, summary, createdAt, content }) => {
   return (
-    <div className="container mt-5">
+    <div className={`container mt-5 ${styles.maindiv}`}>
       <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-12">
           <img className={styles.newsimg} height={300} width={300} src={"http://localhost:4000/" + cover} alt="nn" />

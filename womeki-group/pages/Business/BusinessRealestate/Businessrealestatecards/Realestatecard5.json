@@ -1,0 +1,27 @@
+{
+    "Section1":[
+        {
+            "Image": "/BusinessImg/realestatecardimg1.jpg ",
+            "Heading":"Clark Inn Suites",
+            "Content":"Clark Inn Suites, a distinguished luxury hotel project under the umbrella of Womeki Investors Club, is more than just a place to stay; it's a gateway to experiencing India's diverse landscape in all its splendor. Nestled strategically in the prime locale of Vasundhara, Ghaziabad, this opulent establishment offers not only a luxurious retreat but also optimal connectivity to enrich the overall guest experience "
+        }
+
+        ],
+        "Section2":[
+            {
+                "Image":"/BusinessImg/realestatecard1img1.jpg",
+                "Content": "At Clark Inn Suites, we are proud of our modern and forward-thinking approach to hospitality. We seamlessly blend India's rich cultural heritage and values into every aspect of our services. This unique combination allows us to provide an authentic yet innovative experience to our perceptive guests."
+            }
+        ],
+        "Section3":[
+            {
+                "Image":"/BusinessImg/realestatecard1img1.jpg",
+                "Content": "We are committed to providing an exceptional luxury living experience. Some of the things we offer include our spacious hotel suites, excellent dining options, flexible banquet halls, state-of-the-art conference rooms, and a rooftop infinity pool. Each part was carefully designed to meet the needs of business professionals, frequent travelers, and people visiting the Delhi NCR region for vacations."
+            }
+        ],
+        "Section4":[
+            {
+                "Content": ""
+            }
+        ]
+}

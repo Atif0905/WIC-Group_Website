@@ -5,7 +5,7 @@ import Image from "next/Image";
 
 const CareerHome = () => {
   return (
-    <div>
+    <div className={styles.maindiv}>
       {data.Section1.map((NewData) => {
         return (
           <div>

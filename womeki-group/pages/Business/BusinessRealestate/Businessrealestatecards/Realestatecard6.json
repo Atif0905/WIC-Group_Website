@@ -1,0 +1,27 @@
+{
+    "Section1":[
+        {
+            "Image": "/BusinessImg/realestatecardimg1.jpg ",
+            "Heading":"Sikka Mall",
+            "Content":"Sikka Mall, a remarkable project proudly presented by Womeki Investors Club, stands out as Noida's top shopping spot. This impressive building showcases the careful blending of art and business, intended to serve the diverse needs of both visitors and knowledgeable commercial investors. Sikka Mall is a masterpiece that also serves as a business location. This creative project seamlessly brings together elements inspired by nature with modern technology. The result is a breathtaking building that not only captivates tourists but also represents the pursuit of top-notch design."
+        }
+
+        ],
+        "Section2":[
+            {
+                "Image":"/BusinessImg/realestatecard1img1.jpg",
+                "Content": "Sikka Mall of Noida provides a varied experience. Inside, you'll find a wide range of options, including office spaces for businesses, a lively retail section, an entertaining gaming area, and a pleasant food court. Every part of the mall has been carefully selected to offer a complete and enjoyable experience for visitors."
+            }
+        ],
+        "Section3":[
+            {
+                "Image":"/BusinessImg/realestatecard1img1.jpg",
+                "Content": "Deciding to invest in Sikka Mall isn't just about money; it's an investment in an excellent experience. The high-quality features and facilities here guarantee that your investment will bring significant rewards. It shows our dedication to creating a place where business succeeds, and visitors leave with memorable experiences."
+            }
+        ],
+        "Section4":[
+            {
+                "Content": "What truly sets Womeki Investors Club apart is our exceptional team of seasoned professionals. With a collective wealth of experience in sales and investment, our experts bring invaluable knowledge to every project. Their diverse backgrounds in real estate and multinational corporations (MNCs) empower us to offer a professional and systematic approach to assisting and servicing our clients. We view our team as the driving force behind our achievements."
+            }
+        ]
+}
