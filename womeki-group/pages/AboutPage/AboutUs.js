@@ -7,7 +7,7 @@ import img1 from "../../public/SlideUp.png";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className={styles.maindiv}>
       {data.Section1.map((AboutData) => {
         return (
           <div>

@@ -9,11 +9,11 @@ import BusinessTech from './BusinessTech/BusinessTech';
 
 
 const Business = () => {
-  const [active,setActive] = useState("Realestate");
-
+  const [active,setActive] = useState("Realestate");  
 
   return (
-    <div className={styles.maindiv}>
+    <div className={` fluid ${styles.maindiv}`}>
+  
          {data.Section1.map((NewData) => {
         return (
             <div>
@@ -21,7 +21,7 @@ const Business = () => {
               <Image
                 src={NewData.Image}
                 height={600}
-                width={1500}
+                width={1400}
               />
             </div>
             <h1 className={styles.bgImgHead}>{NewData.Heading}</h1>
@@ -29,6 +29,8 @@ const Business = () => {
             </div>
             );
       })}
+      
+      <div className={`container ${styles.maindiv2}`}>
     <div className='row p-5'>
 {data.Section2.map((NewData) => {
         return (
@@ -39,23 +41,18 @@ const Business = () => {
             );
       })}
        </div>
-
-
-    <div className='container'>
       <div className={`row text-center ${styles.businessnav}`}>
         <div className={`col-4 p-2 border-end ${styles.businessnavcol}`}  onClick={ () => setActive("Realestate")}>Realestate</div>
         <div className={`col-4 p-2 border-end ${styles.businessnavcol}`} onClick={ () => setActive("Education")}>Education</div>
         <div className={`col-4 p-2 border-end ${styles.businessnavcol}`} onClick={ () => setActive("Tech")}>IT Solution</div>
       </div>
     </div>
+    <div className={styles.lastdiv}>
     {active === "Realestate" && <BusinessRealestate/>}
         {active === "Education" && <BusinessEducation/>}
         {active === "Tech" && <BusinessTech/>}
-
-
 </div>
-        
-
+</div>
   )
 }
 
