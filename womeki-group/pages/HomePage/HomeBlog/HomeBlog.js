@@ -24,9 +24,10 @@ const HomeBlog = () => {
     };
 }, []);
   return (
+    <div>
     <div className={`container mt-5 ${styles.homeblogmain} `}>
        <div className='row'>
-        <h4 className={`mt-5 mb-5 ${styles.homeblogmainhead}`}>BLOGS</h4>
+        <h4 className={`mt-5 mb-5 text-center ${styles.homeblogmainhead}`}>BLOGS</h4>
         {data.Section1.map((NewData) => {
             return(
               <div  className='col-lg-8 col-sm-12'>
@@ -62,6 +63,7 @@ const HomeBlog = () => {
             </div>
             );
           })}
+          </div>
         </div>
       
         </div>

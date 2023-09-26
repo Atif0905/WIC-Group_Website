@@ -1,0 +1,105 @@
+.bgImgText {
+    margin-top: -100px;
+    position: absolute;
+    margin-left: 70px;
+    color: white;
+    font-style: initial;
+    padding-left: 10px;
+  }
+  .aboutimgtxt{
+    font-weight: bold;
+  }
+  @media screen and (min-width: 320px) and (max-width: 425px) {
+    .bgImgText {
+      margin-top: -50px;
+      position: absolute;
+      margin-left: 10px;
+      color: white;
+     font-style: initial;
+      padding-left: 10px;
+      font-size: 10px;
+    }
+  }
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    .bgImgText {
+      margin-top: -60px;
+      position: absolute;
+      margin-left: 20px;
+      color: white;
+     font-style: initial;
+      padding-left: 10px;
+      font-size: 20px;
+    }
+  }
+  .AboutHeading {
+    border-left: 5px solid #1378be;
+  }
+  .UpDownBtnImg {
+    cursor: pointer;
+  }
+  .UpDownBtn {
+    border: none;
+  }
+  .AboutCard {
+    position: relative;
+    top: 0;
+  }
+  .AboutCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    transition: top ease 0.6s;
+    top: -10px;
+  }
+  .AboutCeoDiv {
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    cursor: pointer;
+  }
+  .AboutCeoDiv:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .TeamImg {
+    border: 2px solid #e30f50 !important;
+    border-radius: 100%;
+    padding: 10px !important;
+  }
+  .CeoText1 {
+    color: black;
+    text-decoration: none !important;
+    font-weight: 500px;
+    font-size: 15px;
+    margin-bottom: -4px;
+    font-style: oblique;
+  }
+  .CeoText2 {
+    color: #1378be;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .ViewMoreBtn {
+    background-color: white;
+    color: #008cba;
+    border: 2px solid #008cba;
+    text-decoration: none;
+  }
+  .ViewMoreBtn:hover {
+    background-color: #008cba;
+    color: white;
+    transition: ease all 1s;
+  }
+  .AboutDivAnchor {
+    text-decoration: none;
+  }
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .GlanceDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .AboutCard {
+      text-align: center;
+      font-size: 12px;
+    }
+  }

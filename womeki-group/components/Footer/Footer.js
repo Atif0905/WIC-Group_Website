@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./Footer.module.css";
 import Image from "next/Image";
 
@@ -6,11 +7,11 @@ const Footer = () => {
   return (
     <>
       <div className={styles.footer}>
-        <div className="fluid ">
+        <div className="fluid mb-3">
           <div className="container">
             <div className="row">
               <div className="col-md-2 d-none d-md-block">
-                <h5 className={`mb-3 ${styles.foothead}`}>Business</h5>
+                <h6 className={`mb-3 ${styles.foothead}`}>Business</h6>
                 <ul className="list-unstyled text-black">
                   <li>
                     <a href="#" className={styles.foottext}>
@@ -43,10 +44,10 @@ const Footer = () => {
                     </a>
                   </li>
                 </ul>
-                <h5 className={`mb-3 ${styles.foothead}`}>Our brands</h5>
+                <h6 className={`mb-3 ${styles.foothead}`}>Our brands</h6>
               </div>
               <div className="col-md-2 d-none d-md-block">
-                <h5 className={`mb-3 ${styles.foothead}`}>Community</h5>
+                <h6 className={`mb-3 ${styles.foothead}`}>Community</h6>
                 <ul className="list-unstyled text-black">
                   <li>
                     <a href="#" className={styles.foottext}>
@@ -71,7 +72,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col-md-2 d-none d-md-block">
-                <h5 className={`mb-3 ${styles.foothead}`}>About</h5>
+                <h6 className={`mb-3 ${styles.foothead}`}>About</h6>
                 <ul className="list-unstyled text-black">
                   <li>
                     <a href="#" className={styles.foottext}>
@@ -120,9 +121,7 @@ const Footer = () => {
                 <h6 className={`mb-3 ${styles.foothead}`}>Careers</h6>
                 <h6 className={`mb-3 ${styles.foothead}`}>Jobs</h6>
                 <div className="mt-5">
-                  <h6 className={`mb-3 ${styles.foothead}`}>
-                     Opportunity
-                  </h6>
+                  <h6 className={`mb-3 ${styles.foothead}`}>Opportunity</h6>
                   <h6 className={`mb-3 ${styles.foothead}`}>Privacy Policy</h6>
                   <h6 className={`mb-3 ${styles.foothead}`}>
                     Legal Disclaimer
@@ -134,9 +133,7 @@ const Footer = () => {
               </div>
               <div className="col-md-4  col-sm-12 justify-content-center">
                 <div className="footer-icons d-flex justify-content-center">
-                  <a
-                    href="https://www.facebook.com/womekiinvestorsclub"
-                  >
+                  <a href="https://www.facebook.com/womekiinvestorsclub">
                     <Image
                       alt="er"
                       height={20}
@@ -204,27 +201,16 @@ const Footer = () => {
                   </a>
                 </div>
                 <div className="form-outline form-black mt-5 d-flex justify-content-center">
-                  <input
-                    type="email"
-                    className={styles.formfooter}
-                    placeholder="Enter your email ID to subscribe"
-                  />
-                  <button type="submit" className={styles.footerbtn}>
-                    <Image
-                      height={15}
-                      width={15}
-                      alt="er"
-                      className={styles.arrowbtn}
-                      src="/arrow-right.svg"
-                    />
-                  </button>
+                  <Link href="ContactPage/Query">
+                    <button class={styles.ViewMoreBtn}>
+                      <span className={styles.BtnSpan}> Contact Us </span>
+                    </button>
+                  </Link>
                 </div>
 
                 <div className="d-flex d-md-none justify-content-center mt-5">
                   <h6 className={`m-2 ${styles.foothead1}`}>Jobs</h6>
-                  <h6 className={`m-2 ${styles.foothead1}`}>
-                    Opportunity
-                  </h6>
+                  <h6 className={`m-2 ${styles.foothead1}`}>Opportunity</h6>
                   <h6 className={`m-2 ${styles.foothead}`}>Privacy Policy</h6>
                 </div>
 
@@ -241,6 +227,16 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="row">
+              <div className="d-flex align-items-center justify-content-center mt-4">
+                <h6 className={`mt-3 mr-2 ${styles.TechDiv}`}>Developed By Womeki Tech</h6>
+              </div>
+            </div>
+            <div className="row">
+            <div className="d-flex align-items-center justify-content-center mt-3">
+              <p className={`${styles.TechDiv}`}>© Copyright by WIC- All rights reserved.</p>
+            </div>
             </div>
           </div>
         </div>

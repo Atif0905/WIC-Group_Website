@@ -45,7 +45,7 @@ const Buisness_Card = () => {
         </div>
         <div className={`text-center mt-5`}>
           <h6>
-            <a className={`p-2 ${styles.Explorebtn}`} href="">
+            <a className={`p-1 ${styles.Explorebtn}`} href="">
               Explore More
             </a>
           </h6>

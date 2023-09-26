@@ -2,6 +2,37 @@
     border-left: 5px solid rgb(0, 110, 255);
     padding-left: 10px;
 }
+.sustainMainHeading{
+  letter-spacing: 2px;
+  margin-top: 50px;
+  font-weight: 800;
+  color: rgb(0,35,73);
+  font-family: 'Cormorant Garamond', serif;
+}
+.sustainMainHeading::after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 2px;
+  background: rgb(0,35,73);
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+}
+.sustain1Heading{
+  font-weight: 800;
+  color: rgb(0,35,73);
+  font-family: 'Cormorant Garamond', serif;
+}
+.sustain1Content{
+  word-spacing: 2px;
+        line-height: 25px;
+        font-weight: 600;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        color: #606060;
+}
 .ViewMoreBtn {
     border-radius: 4px;
     background-color: #1e8df4;
@@ -40,80 +71,3 @@
     opacity: 1;
     right: 0;
   }
-  /* @media screen and (min-width: 320px) and (max-width: 767px) {
-    .SustainDiv2{
-      display: flex;
-      flex-direction: column;
-      
-    }
-    .SustainDiv1{
-      display: flex;
-      flex-direction: column;
-      width: auto;
-
-    }
-    .sustain1{
-      border: none;
-      padding-left: 0px;
-  }
-  .sustain1Heading{
-    border-left: 5px solid rgb(0, 110, 255);
-    padding-left: 10px;
-    font-size: 20px;
-  }
-  .sustain1Content{
-    padding-left: 14px;
-    font-size: 14px;
-  }
-  .ViewMoreBtn {
-    border-radius: 4px;
-    background-color: #1e8df4;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 14px;
-    padding: 5px;
-    width: 80px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-  }
-  
-  .ViewMoreBtn .BtnSpan {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .ViewMoreBtn .BtnSpan:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .ViewMoreBtn:hover .BtnSpan {
-    padding-right: 25px;
-  }
-  
-  .ViewMoreBtn:hover .BtnSpan:after {
-    opacity: 1;
-    right: 0;
-  }
-  .SustainDiv2{
-    width: auto;
-
-  }
-  .SustainDiv3{
-    width: auto;
-  }
-  .SustainRowDiv{
-    display: flex;
-    flex-direction: column;
-  }
-  
-   }
-   */

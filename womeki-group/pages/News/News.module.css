@@ -76,7 +76,8 @@
         font-size: 60px;
         font-weight:bolder;
         width: fit-content;
-        border-bottom: 5px solid red;
+        border-bottom: 5px solid red
+        ;
     }
     .newswomekisubhead{
         font-weight: 400;

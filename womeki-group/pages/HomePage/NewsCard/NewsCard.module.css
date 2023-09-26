@@ -1,42 +1,67 @@
 .NewsHeading::after {
-    content: "";
-    display: block;
-    position: relative;
-    height: 4px;
-    background: rgb(213,0,10);
-    width: 170px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
+  content: "";
+  display: block;
+  position: relative;
+  height: 2px;
+  background: rgb(0,35,73);
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
   }
   .NewsHeading{
-    color: rgb(213,0,10);
     letter-spacing: 2px;
+    margin-top: 50px;
+    font-weight: 800;
+    color: rgb(0,35,73);
+    font-family: 'Cormorant Garamond', serif;
   }
   .FeatureHeading::after{
     content: "";
-    display: block;
-    position: relative;
-    height: 4px;
-    background: rgb(0,35,73);
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15px;
+  display: block;
+  position: relative;
+  height: 2px;
+  background: rgb(0,35,73);
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
   }
   .FeatureHeading{
-    color: rgb(0,35,73);
     letter-spacing: 2px;
+    margin-top: 50px;
+    font-weight: 800;
+    color: rgb(0,35,73);
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .NewsBlogHead{
+    font-weight: 800;
+  color: rgb(0,35,73);
+  font-family: 'Cormorant Garamond', serif;
+  }
+  .NewsBlogContent{
+    word-spacing: 2px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: #606060;
   }
 .newspara {
-  font-weight: lighter;
-  font-size: 14px;
-  margin-top: 70px;
+  word-spacing: 2px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  color: #606060;
  
 }
 .newspara1 {
-  font-weight: bold;
-  font-size: 12px;
+  word-spacing: 2px;
+  font-weight: 900;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  color: #606060;
 }
 .newspara1::after {
   content: "";

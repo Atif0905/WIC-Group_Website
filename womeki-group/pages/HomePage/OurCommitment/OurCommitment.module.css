@@ -2,13 +2,56 @@
     display: none;
     opacity: 0;
     transition:  opacity 0.5s ease, display 0.4s ease;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    color: #606060;
+    font-size: 15px;
 }
+.OurCmtMainDiv{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.OurCmtMainHead{
+    letter-spacing: 2px;
+  font-weight: 800;
+  color: rgb(0,35,73);
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.OurCmtMainHead::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 2px;
+    background: rgb(0,35,73);
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+  }
+  .OurCmtContent{
+    color: #606060;
+        word-spacing: 2px;
+        line-height: 25px;
+        font-weight: 600;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      .OurCmtSubHead{
+        font-weight: 900;
+        font-size: 19px;
+        font-family: 'Cormorant Garamond', serif;
+      }
+
 .DivHover:hover{
     cursor: pointer;
     .RealEstateContent{
         opacity: 1;
         display: block;
         transition-delay: 1s; 
+    
 
     } 
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;

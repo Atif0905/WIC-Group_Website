@@ -6,14 +6,15 @@ import Image from "next/Image";
 const NewsCard = () => {
   return (
     <div>
-      <div className="container mt-5">
+      <div className="fluid mt-5">
+        <div className="container">
         <div className="row">
           <div className="col-12 col-lg mt-5">
             <div className="row">
               {data.FeaturedTopic.map((NewData) => {
                 return (
                   <div>
-                    <h2 className={`mb-5 text-center ${styles.FeatureHeading}`}>{NewData.Heading}</h2>
+                    <h4 className={`mb-5 text-center ${styles.FeatureHeading}`}>{NewData.Heading}</h4>
                   </div>
                 );
               })}
@@ -30,8 +31,8 @@ const NewsCard = () => {
                         src={NewData.Image}
                       />
                       <div className="card-body">
-                        <h5 className="card-title">{NewData.Heading}</h5>
-                        <p className="card-text">{NewData.Content}</p>
+                        <h5 className={`card-title ${styles.NewsBlogHead}`}>{NewData.Heading}</h5>
+                        <p className={`card-text ${styles.NewsBlogContent}`}>{NewData.Content}</p>
                       </div>
                     </div>
                   </div>
@@ -52,8 +53,8 @@ const NewsCard = () => {
                         src={NewData.Image}
                       />
                       <div className="card-body">
-                        <h5 className="card-title">{NewData.Heading}</h5>
-                        <p className="card-text">{NewData.Content}</p>
+                        <h5 className={`card-title ${styles.NewsBlogHead}`}>{NewData.Heading}</h5>
+                        <p className={`card-text ${styles.NewsBlogContent}`}>{NewData.Content}</p>
                       </div>
                     </div>
                   </div>
@@ -74,8 +75,8 @@ const NewsCard = () => {
                         src={NewData.Image}
                       />
                       <div className="card-body">
-                        <h5 className="card-title">{NewData.Heading}</h5>
-                        <p className="card-text">{NewData.Content}</p>
+                        <h5 className={`card-title ${styles.NewsBlogHead}`}>{NewData.Heading}</h5>
+                        <p className={`card-text ${styles.NewsBlogContent}`}>{NewData.Content}</p>
                       </div>
                     </div>
                   </div>
@@ -87,13 +88,13 @@ const NewsCard = () => {
           {data.LatestNews.map((NewData) => {
                 return (
                   <div>
-                    <h2 className={`mb-5 text-center ${styles.NewsHeading}`}>{NewData.Heading}</h2>
+                    <h4 className={`mb-5 text-center ${styles.NewsHeading}`}>{NewData.Heading}</h4>
                   </div>
                 );
               })}
             {data.Section1.map((NewsCardData) => {
               return (
-                <div className={` ${styles.NewsSection}`}>
+                <div className={`mt-5 ${styles.NewsSection}`}>
                   <p className={styles.newspara}>
                     <Image
                       src={NewsCardData.Image}
@@ -121,6 +122,7 @@ const NewsCard = () => {
             })}
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

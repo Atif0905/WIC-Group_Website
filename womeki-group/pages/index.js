@@ -17,8 +17,7 @@ import Sustainability2 from "./HomePage/Sustainability2/Sustainability2";
      <NewsCard/>
      <Sustainability/>
      <OurCommitment/>
-     <Sustainability2/>
-
+     {/* <Sustainability2/> */}
     </div>
   );
 }

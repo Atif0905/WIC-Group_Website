@@ -6,109 +6,115 @@ import Image from "next/Image";
 const OurCommitment = () => {
   return (
     <div>
-      <div className="container  bg-light text-dark ">
-        <div className={`row mt-5 ${styles.MobileView}`}>
-          <div className={`col-4 mt-5 ${styles.ColDiv}`}>
-            {data.Section1.map((NewData) => {
-              return (
-                <div className={styles.OurCmtHeading}>
-                  <h3 className="text-center">{NewData.Heading}</h3>
-                  <p>{NewData.Content}</p>
-                </div>
-              );
-            })}
-          </div>
-          <div className={`col-4 ${styles.ColDiv}`}>
-            <div className={styles.DivHover}>
-              {data.Section2.map((NewData) => {
+      <div className="text-center mt-5">
+        {" "}
+        <h4 className={`mt-5   ${styles.OurCmtMainHead}`}> Our Commitment </h4>
+      </div>
+      <div className={`container ${styles.OurCmtMainDiv}`}>
+          <div className={`row mt-5 ${styles.MobileView}`}>
+            <div className={`col-4 mt-5 ${styles.ColDiv}`}>
+              {data.Section1.map((NewData) => {
                 return (
-                  <>
-                    <h6>
-                      {NewData.Heading}{" "}
-                      <Image
-                        className="mt-1"
-                        src={NewData.Image}
-                        alt="err"
-                        width={40}
-                        height={40}
-                      />
-                    </h6>
-                    <p className={styles.RealEstateContent}>
+                  <div className={styles.OurCmtHeading}>
+                    <h3 className="text-center">{NewData.Heading}</h3>
+                    <p className={` ${styles.OurCmtContent}`}>
                       {NewData.Content}
                     </p>
-                  </>
+                  </div>
                 );
               })}
             </div>
-            <div className={styles.DivHover}>
-              {data.Section3.map((NewData) => {
-                return (
-                  <>
-                    <h6>
-                      {NewData.Heading}{" "}
-                      <Image
-                        className="mt-2"
-                        src={NewData.Image}
-                        alt="err"
-                        width={40}
-                        height={40}
-                      />
-                    </h6>
-                    <p className={styles.RealEstateContent}>
-                      {NewData.Content}
-                    </p>
-                  </>
-                );
-              })}
+            <div className={`col-4 mt-4 ${styles.ColDiv}`}>
+              <div className={styles.DivHover}>
+                {data.Section2.map((NewData) => {
+                  return (
+                    <>
+                      <h6 className={styles.OurCmtSubHead}>
+                        {NewData.Heading}{" "}
+                        <Image
+                          className="mt-1"
+                          src={NewData.Image}
+                          alt="err"
+                          width={40}
+                          height={40}
+                        />
+                      </h6>
+                      <p className={styles.RealEstateContent}>
+                        {NewData.Content}
+                      </p>
+                    </>
+                  );
+                })}
+              </div>
+              <div className={styles.DivHover}>
+                {data.Section3.map((NewData) => {
+                  return (
+                    <>
+                      <h6 className={styles.OurCmtSubHead}>
+                        {NewData.Heading}{" "}
+                        <Image
+                          className="mt-2"
+                          src={NewData.Image}
+                          alt="err"
+                          width={40}
+                          height={40}
+                        />
+                      </h6>
+                      <p className={styles.RealEstateContent}>
+                        {NewData.Content}
+                      </p>
+                    </>
+                  );
+                })}
+              </div>
             </div>
-          </div>
-          <div className={`col-4 ${styles.ColDiv}`}>
-            <div className={styles.DivHover}>
-              {data.Section4.map((NewData) => {
-                return (
-                  <>
-                    <h6>
-                      {NewData.Heading}{" "}
-                      <Image
-                        src={NewData.Image}
-                        alt="err"
-                        width={40}
-                        height={40}
-                      />
-                    </h6>
-                    <p className={styles.RealEstateContent}>
-                      {NewData.Content}
-                    </p>
-                  </>
-                );
-              })}
-            </div>
-            <div className={styles.DivHover}>
-              {data.Section5.map((NewData) => {
-                return (
-                  <>
-                    <h6>
-                      {NewData.Heading}{" "}
-                      <Image
-                        className="mt-2"
-                        src={NewData.Image}
-                        alt="err"
-                        width={40}
-                        height={40}
-                      />
-                    </h6>
+            <div className={`col-4 mt-4 ${styles.ColDiv}`}>
+              <div className={styles.DivHover}>
+                {data.Section4.map((NewData) => {
+                  return (
+                    <>
+                      <h6 className={styles.OurCmtSubHead}>
+                        {NewData.Heading}{" "}
+                        <Image
+                          src={NewData.Image}
+                          alt="err"
+                          width={40}
+                          height={40}
+                        />
+                      </h6>
+                      <p className={styles.RealEstateContent}>
+                        {NewData.Content}
+                      </p>
+                    </>
+                  );
+                })}
+              </div>
+              <div className={styles.DivHover}>
+                {data.Section5.map((NewData) => {
+                  return (
+                    <>
+                      <h6 className={styles.OurCmtSubHead}>
+                        {NewData.Heading}{" "}
+                        <Image
+                          className="mt-2"
+                          src={NewData.Image}
+                          alt="err"
+                          width={40}
+                          height={40}
+                        />
+                      </h6>
 
-                    <p className={styles.RealEstateContent}>
-                      {NewData.Content}
-                    </p>
-                  </>
-                );
-              })}
+                      <p className={styles.RealEstateContent}>
+                        {NewData.Content}
+                      </p>
+                    </>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
