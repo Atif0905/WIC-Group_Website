@@ -1,0 +1,80 @@
+{
+    "Section1": [
+      {
+        "Image": "/../public/AboutBackground.webp",
+        "Heading": "Weaving 36 years of expertise into every venture, from bricks to bits to minds"
+      }
+    ],
+    "Section2": [
+      {
+        "Heading": "About Us",
+        "Content1": "Welcome to the Womeki Group, an elegant union of three related companies. WOMKEI  INVESTORS CLUB has contributed significantly to India's real estate market since its  establishment in 2021 by facilitating the sale and purchase of prestigious properties all  around the country. As organizations are propelled into the digital era, WOMEKI TECH  SOLUTIONS has revolutionized productivity and profitability.  ",
+        "Content2": "MC GOPICHAND, a leader in education, enlightens young minds and gets them ready for a changing world. We stand as a testament to undying devotion, faith, and the hope for a  better future. Beyond a conglomerate, we cordially invite you to engage in this extraordinary    adventure with us."
+      }
+    ],
+    "Section3": [
+      {
+        "Heading": "At a glance"
+      }
+    ],
+    "Section4": [
+      {
+        "Image": "/Protfolio.png",
+        "Number": "2300+",
+        "Content": "Buisness Protfolios"
+      },
+      {
+        "Image": "/Expertise.png",
+        "Number": "3000+ HA",
+        "Content": "Specific Expertise"
+      },
+      {
+        "Image": "/icons8-client-48.png",
+        "Number": "4.4+ Mn",
+        "Content": "Client-Centered Approach"
+      },
+      {
+        "Image": "/Tesimonials.png",
+        "Number": "3.4 MN",
+        "Content": "Testimonials"
+      }
+    ],
+    "Section5": [
+      {
+        "Heading": "Vision",
+        "Content": "Empowering Talent: We are dedicated to promoting the personal and professional development of our partners, employees, and the students we educate"
+      }
+    ],
+    "Section6": [
+      {
+        "Heading": "Our Leadership - One Vision One Team",
+        "Content": "Our Womeki Group leaders personify the 'One Vision, One Team' ethos, guiding us towards a peaceful future of excellence and innovation, the statement reads."
+      }
+    ],
+    "Section7": [
+      {
+        "Image": "/gaurav.jpg",
+        "Content1": "Gaurav Tonger",
+        "Content2": "CEO & Founder, Womeki Group",
+        "Url": "./AboutPage/DetailsPage/DetailsPage1"
+      },
+      {
+        "Image": "/rohit-khari.jpg",
+        "Content1": "Rohit Khari",
+        "Content2": "Sales Territory Director Womeki ",
+        "Url": "./AboutPage/DetailsPage/DetailsPage2"
+      },
+      {
+        "Image": "/Paras-Goyal.jpg",
+        "Content1": "Paras Goyal",
+        "Content2": "Director Sales Womeki Group ",
+        "Url": "./AboutPage/DetailsPage/DetailsPage3"
+      },
+      {
+        "Image": "/Shiv.jpeg",
+        "Content1": "Ankit Tonger",
+        "Content2": "Director Womeki Group",
+        "Url": "./AboutPage/DetailsPage/DetailsPage4"
+      }
+    ]
+  }

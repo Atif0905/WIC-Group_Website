@@ -1,5 +1,6 @@
 .footer{
   background-color: white;
+  margin-top: 100px;
   padding-top: 2%;
 }
  .foottext{
@@ -7,17 +8,14 @@
   font-size: 14px;
   text-decoration: none;
  }
+ .TechDiv{
+  color: #606060;
+ }
  .foothead{
-  color: #007EA8;
+  color: rgb(7,160,232);
   text-decoration: none;
+  cursor: pointer;
  }
- .foothead1{
-  color: #007EA8;
-  text-decoration: none;
-  border-right: 2px solid #007EA8;
-  padding-right: 10px;
- }
-
  .formfooter{
   padding: 7px;
   height: 40px;
@@ -33,4 +31,42 @@
   height: 40px;
   width: 40px;
  }
+ .ViewMoreBtn {
+  border-radius: 4px;
+  background-color: rgb(7,160,232);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 140px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.ViewMoreBtn .BtnSpan {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.ViewMoreBtn .BtnSpan:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.ViewMoreBtn:hover .BtnSpan {
+  padding-right: 25px;
+}
+
+.ViewMoreBtn:hover .BtnSpan:after {
+  opacity: 1;
+  right: 0;
+}
  

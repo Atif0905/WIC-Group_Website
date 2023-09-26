@@ -1,77 +1,94 @@
-import React from 'react';
-import data from './Sustainability.json';
-import styles from './Sustainability.module.css';
-import Image from 'next/Image';
+import React from "react";
+import Link from "next/link";
+import data from "./Sustainability.json";
+import styles from "./Sustainability.module.css";
+import Image from "next/Image";
 
 const Sustainability = () => {
   return (
     <div>
-      <div className="container mt-5">
-        <div className={`row ${styles.SustainRowDiv}`}>
-            <div className={` col-md-8 col-sm-12 ${ styles.SustainDiv1}`}>
-                {data.Section1.map((SustainData1) => {
-                    return(
-                        <div >
-                            <div className={styles.sustain1}>
-                            <h4 className={styles.sustain1Heading}>{SustainData1.Heading}</h4>
-                            <p className={styles.sustain1Content}>{SustainData1.Content}</p>
-                            </div>
-                            <button class={styles.ViewMoreBtn}><span className={styles.BtnSpan}>View more </span></button>
-                        </div>
-                    );
-                })}
-            </div>
-            <div className={`col-md-4 col-sm-12 ${styles.SustainDiv2}`}>
-                {data.Section3.map((SustainData3) => {
-                    return(
-                        <div className={styles.SustainDiv3}>
-                            <div className="sustain3">
-                            <Image  src={SustainData3.Image} alt='img' height={200} width={400} />
-                            </div>
-                            <div className="mt-5">
-                                <h4  className={styles.sustain1Heading}>{SustainData3.Heading}</h4>
-                                <p  className={styles.sustain1Content}>{SustainData3.Content}</p>
-                            </div>
-                        </div>
-                    );
-                })}
-            </div>
-            <div className='row'>
-                <div className={` col-lg-8 col-sm-12 ${styles.SustainDiv2}`}>
+      <div>
+        <h4 className={`text-center ${styles.sustainMainHeading}`}>
+          Sustainability
+        </h4>
+      </div>
+      <div className="fluid mt-5 d-lg-flex">
+        <div className="container">
+          <div className={`row ${styles.SustainRowDiv}`}>
+            <div className={`col-lg-8  ${styles.SustainDiv1}`}>
+              {data.Section1.map((SustainData1) => {
+                return (
+                  <div>
+                    <div className={`col-sm-12 ${styles.sustain1}`}>
+                      <p className={styles.sustain1Content}>
+                        {SustainData1.Content}
+                      </p>
+                    </div>
+                    <Link href={"/Sustainability/SustainabilityPage"}>
+                    <button className={styles.ViewMoreBtn}>
+                      <span className={styles.BtnSpan}>View more</span>
+                    </button>
+                    </Link>
+                  </div>
+                );
+              })}
+              <div className="row">
                 {data.Section2.map((SustainData2) => {
-                    return(
-                        <div className=' d-md-flex'>
-                            <div>
-                                <Image  src={SustainData2.Image} alt='img' height={200} width={400} />
-                            </div>
-                            <div className='ms-3'>
-                                <h4  className={styles.sustain1Heading}>{SustainData2.Heading}</h4>
-                                <p className={`mt-2 ${styles.sustain1Content}`}>{SustainData2.Content}</p>
-                            </div>
+                  return (
+                    <div className={` mt-3 ${styles.SustainDiv2}`}>
+                      <div className="d-lg-flex">
+                        <div className="col-lg-6 col-sm-12">
+                          <Image
+                            src={SustainData2.Image}
+                            alt="img"
+                            height={200}
+                            width={400}
+                          />
                         </div>
-                    );
-                })}
-                </div>
-                </div>
-            {/* <div className={`col-md-4 col-sm-12 ${styles.SustainDiv2}`}>
-                {data.Section3.map((SustainData3) => {
-                    return(
-                        <div className={styles.SustainDiv3}>
-                            <div className="sustain3">
-                            <Image  src={SustainData3.Image} alt='img' height={180} width={400} />
-                            </div>
-                            <div className="mt-5">
-                                <h4  className={styles.sustain1Heading}>{SustainData3.Heading}</h4>
-                                <p  className={styles.sustain1Content}>{SustainData3.Content}</p>
-                            </div>
+                        <div className="col-lg-6 col-sm-12 ms-2 mt-1 p-4">
+                          <h4 className={styles.sustain1Heading}>
+                            {SustainData2.Heading}
+                          </h4>
+                          <p className={`mt-3 ${styles.sustain1Content}`}>
+                            {SustainData2.Content}
+                          </p>
                         </div>
-                    );
+                      </div>
+                    </div>
+                  );
                 })}
-            </div> */}
+              </div>
+            </div>
+
+            <div className={`col-lg-4  ${styles.SustainDiv2}`}>
+              {data.Section3.map((SustainData3) => {
+                return (
+                  <div className={styles.SustainDiv3}>
+                    <div className="sustain3 ">
+                      <Image
+                        src={SustainData3.Image}
+                        alt="img"
+                        height={200}
+                        width={400}
+                      />
+                    </div>
+                    <div className="col-sm-12 p-4">
+                      <h4 className={`mt-5 ${styles.sustain1Heading}`}>
+                        {SustainData3.Heading}
+                      </h4>
+                      <p className={styles.sustain1Content}>
+                        {SustainData3.Content}
+                      </p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Sustainability
+export default Sustainability;

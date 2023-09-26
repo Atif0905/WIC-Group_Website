@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato:ital,wght@1,300&display=swap');
 .card2{
     background-color: rgb(234,235,241);
 }
 .card3{
-    background-color: rgb(0,35,73);
+    background-color: rgb(82, 140, 202);
     color: white;
 } 
 .card1{
@@ -12,13 +10,30 @@
     color: white;  
 }
 .aboutcardhead{
-    font-family: 'Cormorant Garamond', serif;
+    font-weight: 800;
     text-align: center;
-    letter-spacing: 1px;
-    font-weight: 700;
+    font-family: 'Cormorant Garamond', serif;
 }
+.AboutSectionMainHeading{
+    letter-spacing: 2px;
+    margin-top: 50px;
+    font-weight: 800;
+    color: rgb(0,35,73);
+    font-family: 'Cormorant Garamond', serif;
+}
+.AboutSectionMainHeading::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 2px;
+    background: rgb(0,35,73);
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+  }
 .aboutcardcontent{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     word-spacing: 4px;
     line-height: 30px;
     font-weight: 400;

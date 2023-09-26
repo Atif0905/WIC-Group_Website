@@ -24,6 +24,13 @@ const Aboutcard = () => {
     };
 }, []);
   return (
+    <div>
+    <div>
+        <h4 className={`text-center ${styles.AboutSectionMainHeading}`}>
+          ABOUT
+        </h4>
+      </div>
+    
     <div className='container mt-5'>
       <div className='row'>
 
@@ -51,6 +58,7 @@ const Aboutcard = () => {
           );
         })}
       </div>
+    </div>
     </div>
   )
 }
