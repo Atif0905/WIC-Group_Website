@@ -9,11 +9,13 @@ const Aboutcard = () => {
       <div className='row'>
         {data.Section1.map((NewData) => {
           return(
-            <div className='col-lg-4 col-12-sm'>
+            <div key={NewData.id} >
+            <div  className='col-lg-4 col-12-sm'>
         <div className={`card shadow mb-2 rounded-0 border-white ${styles.card1}`}>
         <div className='card-body'>
         <h5 className="card-title">{NewData.Heading}</h5>
         <p className="card-text">{NewData.Content}</p>
+        </div>
         </div>
         </div>
         </div>
@@ -22,7 +24,8 @@ const Aboutcard = () => {
 
         {data.Section2.map((NewData) => {
           return(
-        <div className='col-lg-8 col-sm-12'>
+            <div key={NewData.id}>
+        <div key={NewData.id} className='col-lg-8 col-sm-12'>
           <div className={`card shadow mb-2 rounded-0 border-white`}>
               <div className={`row d-flex`}>
               <div className={`col-md-6 col-sm-12 ${styles.card2}`}>
@@ -34,6 +37,7 @@ const Aboutcard = () => {
               </div>  
               </div>
           </div>
+        </div>
         </div>
           );
         })}

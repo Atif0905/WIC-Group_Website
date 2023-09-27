@@ -1,22 +1,43 @@
 import React from "react";
-import data from "./NewsCard.json";
 import styles from "./NewsCard.module.css";
-import Image from "next/Image";
 
 const NewsCard = ({ title, cover, summary, createdAt, content }) => {
   return (
     <div>
-          <div className={`container mt-5 ${styles.maindiv}`}>
-      <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-12">
-          <img className={styles.newsimg} height={300} width={300} src={"http://localhost:4000/" + cover} alt="nn" />
+     
+      <div className="fluid mt-5">
+        <div className="container">
+          <div className="row">
+            <div className="d-flex">
+          <div className=" d-flex col-lg-12 col-md-12 mt-5">
+                  <div
+                    className={`card border-0 rounded-0 ${styles.businesscardbox}`}
+                  >
+                    <img
+                      className={`card-img-top ${styles.businesscardimg}`}
+                      height={300}
+                      width={300}
+                      src={"http://localhost:4000/" + cover}
+                      alt="nn"
+                    />
+                    <div className="card-body">
+                      <h5 className={`card-title ${styles.NewsBlogHead}`}>
+                        {title}
+                      </h5>
+                      {/* <p className={`card-text ${styles.NewsBlogContent}`}>
+                        {summary}
+                      </p>
+                      <p className={`card-text ${styles.NewsBlogContent}`}>
+                        {createdAt}
+                      </p>
+                      <p className={`card-text ${styles.NewsBlogContent}`}>
+                        {content}
+                      </p> */}
+                    </div>
+                  </div>
+                </div>
+                </div>
           </div>
-          <div className="col-lg-8 col-md-6 col-sm-12">
-          <h2 className={styles.newshead}>{title}</h2>
-          <p className={styles.newscontent}>{summary}</p>
-          <p className={`mt-5 ${styles.newspara}`}>{createdAt}</p>
-          </div>
-          {/* <p>{content}</p> */}
         </div>
       </div>
     </div>
