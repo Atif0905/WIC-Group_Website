@@ -51,7 +51,7 @@ const Navbar = () => {
           <div className="mega-box">
             <div className="content">
               <div className="row">
-                <Image src="navabout.jpg" alt=""/>
+                <Image width={500} height={100} src="/navabout.jpg" alt=""/>
               </div>
               <h4 className=" text-dark mt-5 " >Building a Legacy of Trust</h4>
               <div className="row">
@@ -78,7 +78,7 @@ const Navbar = () => {
           <div className="mega-box">
             <div className="content">
               <div className="row">
-                <Image src="navconnect.jpg" width={700} height={100} alt="err"/>
+                <Image src="/navconnect.jpg" width={700} height={100} alt="err"/>
               </div>
               <h4 className=" text-dark mt-5 " >Here to Serve, Ready to Listen</h4>
               <div className="row">
