@@ -1,10 +1,10 @@
 import React from 'react'
-import data from "./Realestatecard3.json"
+import data from "./Realestatecard6.json"
 import styles from "./Realestatecards.module.css"
 import Image from 'next/Image'
 
 
-const Realestatecard1 = () => {
+const Realestatecard6 = () => {
   return (
     <div>
     {data.Section1.map((NewData) => {
@@ -24,7 +24,7 @@ const Realestatecard1 = () => {
       return(
       <div className={`row mt-5 ${styles.realestatecardrow}`}>
         <div className='col-lg-4 col-sm-12'>
-          <Image height={200} width={300} alt='aa' src={NewData.Image}/>
+          <Image height={300} width={400} alt='aa' src={NewData.Image}/>
         </div>
         <div className='col-lg-8 col-sm-12'>
           <h2 className={styles.realestatehead}>{NewData.Heading}</h2>
@@ -42,7 +42,7 @@ const Realestatecard1 = () => {
         <p className={styles.realestatecontent}>{NewData.Content}</p>
         </div>
         <div className='col-lg-4 col-sm-12'>
-          <Image height={200} width={300} alt='aa' src={NewData.Image}/>
+          <Image height={300} width={400} alt='aa' src={NewData.Image}/>
         </div>
       </div>
        )
@@ -60,4 +60,4 @@ const Realestatecard1 = () => {
   )
 }
 
-export default Realestatecard1
+export default Realestatecard6

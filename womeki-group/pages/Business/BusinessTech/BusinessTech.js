@@ -13,10 +13,10 @@ const BusinessTech = () => {
                     
                       <div className={`card border-0 rounded-0 ${styles.businesscardbox}`}>
                       <a className={styles.alink} href={NewData.Link}>
-                        <Image className={`card-img-top ${styles.businesscardimg}`} width={500} height={250}  src={NewData.Image}/>
+                        <Image className={`card-img-top rounded-1 ${styles.businesscardimg}`} width={500} height={350}  src={NewData.Image}/>
                         <div className='card-body'>
-                        <h5 className="card-title">{NewData.Heading}</h5>
-                        <p className="card-text">{NewData.Content}</p>
+                        <h5 className={`card-title ${styles.Head}`}>{NewData.Heading}</h5>
+                        <p className={`card-text ${styles.Text}`}>{NewData.Content}</p>
                         </div>
                         </a>
                       </div>

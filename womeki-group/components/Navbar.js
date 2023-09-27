@@ -20,9 +20,9 @@ const Navbar = () => {
           <div className="mega-box">
             <div className="content">
               <div className="row">
-                <img src="https://www.adani.com/-/media/Project/Adani/Blog/Dharavi-Oped-Image-min.jpg" alt=""/>
+                <img src="/navbusiness.jpg" alt=""/>
               </div>
-              <h2 className=" text-dark mt-5 " >Explore with us</h2>
+              <h4 className=" text-dark mt-5 " >Innovation at your service</h4>
               <div className="row">
                 <header>Sectors</header>
                 <ul className="mega-links">
@@ -49,9 +49,9 @@ const Navbar = () => {
           <div className="mega-box">
             <div className="content">
               <div className="row">
-                <img src="https://www.adani.com/-/media/Project/Adani/Blog/Dharavi-Oped-Image-min.jpg" alt=""/>
+                <img src="navabout.jpg" alt=""/>
               </div>
-              <h2 className=" text-dark mt-5 " >Explore About Us</h2>
+              <h4 className=" text-dark mt-5 " >Building a Legacy of Trust</h4>
               <div className="row">
                 <header>Explore About Us</header>
                 <ul className="mega-links">
@@ -76,11 +76,11 @@ const Navbar = () => {
           <div className="mega-box">
             <div className="content">
               <div className="row">
-                <img src="https://www.adani.com/-/media/Project/Adani/Blog/Dharavi-Oped-Image-min.jpg" alt=""/>
+                <img src="navconnect.jpg" alt=""/>
               </div>
-              <h2 className=" text-dark mt-5 " >Talk To Us</h2>
+              <h4 className=" text-dark mt-5 " >Here to Serve, Ready to Listen</h4>
               <div className="row">
-                <header>Explore About Us</header>
+                <header>Connect with Us</header>
                 <ul className="mega-links">
                   <li><a className=" h6 mt-3 " href="/BookAnAppoinment">Book An Appointment</a></li>
                   <li><a className=" h6 mt-3 " href="/ConatctForQuery">Contact For Query</a></li>

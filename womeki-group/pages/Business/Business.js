@@ -34,7 +34,7 @@ const Business = () => {
     <div className='row p-5'>
 {data.Section2.map((NewData) => {
         return (
-            <div className='col-lg-12 mt-5'>
+            <div className='col-lg-12'>
             <h4 className={styles.Head}>{NewData.Heading}</h4>
             <p className={styles.Text}>{NewData.Content}</p>
             </div>
