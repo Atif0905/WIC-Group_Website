@@ -12,7 +12,7 @@ const Sustainability = () => {
           Sustainability
         </h4>
       </div>
-      <div className="fluid mt-5 d-lg-flex">
+      <div className={`fluid d-lg-flex ${styles.sustainMainDiv2}`}>
         <div className="container">
           <div className={`row ${styles.SustainRowDiv}`}>
             <div className={`col-lg-8  ${styles.SustainDiv1}`}>

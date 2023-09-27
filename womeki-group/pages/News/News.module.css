@@ -6,7 +6,6 @@
     font-size: 100px;
     margin-left: 20px;
     font-weight:bolder;
-    width: fit-content;
     border-bottom: 8px solid red;
 }
 .newswomekisubhead{
@@ -39,7 +38,6 @@
         font-family:'Times New Roman', Times, serif;
         font-size: 60px;
         font-weight:bolder;
-        width: fit-content;
         border-bottom: 5px solid red;
     }
     .newswomekisubhead{
@@ -58,7 +56,6 @@
         font-family:'Times New Roman', Times, serif;
         font-size: 60px;
         font-weight:bolder;
-        width: fit-content;
         border-bottom: 5px solid red;
     }
     .newswomekisubhead{
@@ -78,7 +75,6 @@
         font-family:'Times New Roman', Times, serif;
         font-size: 60px;
         font-weight:bolder;
-        width: fit-content;
         border-bottom: 5px solid red
         ;
     }

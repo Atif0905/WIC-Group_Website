@@ -10,12 +10,15 @@
 .OurCmtMainDiv{
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 80px;
+    margin-bottom: 200px;
 }
 .OurCmtMainHead{
     letter-spacing: 2px;
   font-weight: 800;
   color: rgb(0,35,73);
   font-family: 'Cormorant Garamond', serif;
+  margin-top: 90px;
 }
 
 .OurCmtMainHead::after {

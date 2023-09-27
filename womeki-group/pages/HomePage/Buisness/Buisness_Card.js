@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import data from "./Buisness_Card.json";
 import styles from "./Buisness_Card.module.css";
 import Image from "next/Image";
+import Link from "next/link";
 
 const Buisness_Card = () => {
   useEffect(() => {
@@ -37,7 +38,7 @@ const Buisness_Card = () => {
                 />
                 <p className={styles.businesshead1}>{BuisnessCardData.Heading1}</p>
                 <p className={styles.KnowMoreBtn}>
-                  <a className={styles.businesscontent1} href="">{BuisnessCardData.Content1}</a>
+                  <Link className={styles.businesscontent1} href={BuisnessCardData.link}>{BuisnessCardData.Content1}</Link>
                 </p>
               </div>
             );

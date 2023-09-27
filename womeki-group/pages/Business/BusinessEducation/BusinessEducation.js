@@ -6,7 +6,9 @@ import Image from "next/Image";
 
 const BusinessEducation = () => {
   return (
-    <div className='container'>
+    <div>
+      <h3 className={styles.BSEdiv}>Education</h3>
+    <div className='container mt-5'>
          <div className='row bg-white'>
             {data.Education.map((NewData) => {
                 return(
@@ -28,6 +30,7 @@ const BusinessEducation = () => {
            
         </div>
       
+    </div>
     </div>
   )
 }

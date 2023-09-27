@@ -8,7 +8,7 @@ const OurCommitment = () => {
     <div>
       <div className="text-center mt-5">
         {" "}
-        <h4 className={`mt-5   ${styles.OurCmtMainHead}`}> Our Commitment </h4>
+        <h4 className={`${styles.OurCmtMainHead}`}> Our Commitment </h4>
       </div>
       <div className={`container ${styles.OurCmtMainDiv}`}>
           <div className={`row mt-5 ${styles.MobileView}`}>

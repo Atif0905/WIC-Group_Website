@@ -14,7 +14,7 @@ const NewsCard = () => {
               {data.FeaturedTopic.map((NewData) => {
                 return (
                   <div>
-                    <h4 className={`mb-5 text-center ${styles.FeatureHeading}`}>{NewData.Heading}</h4>
+                    <h4 className={` text-center ${styles.FeatureHeading}`}>{NewData.Heading}</h4>
                   </div>
                 );
               })}
@@ -88,7 +88,7 @@ const NewsCard = () => {
           {data.LatestNews.map((NewData) => {
                 return (
                   <div>
-                    <h4 className={`mb-5 text-center ${styles.NewsHeading}`}>{NewData.Heading}</h4>
+                    <h4 className={` text-center ${styles.NewsHeading}`}>{NewData.Heading}</h4>
                   </div>
                 );
               })}
