@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import data from "./Buisness_Card.json";
 import styles from "./Buisness_Card.module.css";
 import Image from "next/Image";
+import Link from "next/link";
 
 const Buisness_Card = () => {
   useEffect(() => {
@@ -13,9 +14,9 @@ const Buisness_Card = () => {
     <div>
       <div className={` fluid mt-5 ${styles.BuisnessCardBgColor}`}>
         <div className="container"  data-aos="fade-up"  data-aos-duration="2000" >
-        {data.Section1.map((BuisnessCardData) => {
+        {data.Section1.map((BuisnessCardData,index) => {
           return (
-            <div className="row">
+            <div key={index} className="row">
               <h4 className={` text-center mt-3 ${styles.sectionHeading}`}>
                 {BuisnessCardData.Heading}
               </h4>
@@ -26,9 +27,9 @@ const Buisness_Card = () => {
           );
         })}
         <div className={`row d-flex mt-3 ${styles.Img_Cards} `}>
-          {data.Section2.map((BuisnessCardData) => {
+          {data.Section2.map((BuisnessCardData,index) => {
             return (
-              <div className={`col-4 text-center ${styles.Img_Card}`}>
+              <div key={index} className={`col-4 text-center ${styles.Img_Card}`}>
                 <Image
                   src={BuisnessCardData.Url}
                   alt="btn-img"
@@ -37,7 +38,7 @@ const Buisness_Card = () => {
                 />
                 <p className={styles.businesshead1}>{BuisnessCardData.Heading1}</p>
                 <p className={styles.KnowMoreBtn}>
-                  <a className={styles.businesscontent1} href="">{BuisnessCardData.Content1}</a>
+                  <Link className={styles.businesscontent1} href={BuisnessCardData.link}>{BuisnessCardData.Content1}</Link>
                 </p>
               </div>
             );

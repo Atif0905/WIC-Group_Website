@@ -15,11 +15,11 @@ const CareerCard2 = () => {
     <div className='container'>
       <div className='row'>
        
-        {data.Section1.map((NewData) => {
+        {data.Section1.map((NewData,index) => {
             return(
-            <div className='d-lg-flex d-sm-block'>
+            <div key={index} className='d-lg-flex d-sm-block'>
             <div className='col-lg-6 col-sm-12 p-4'> 
-            <Image className='cardimg' width={800} height={500}  src={NewData.Image}/>
+            <Image className='cardimg' width={800} height={500} alt='pp'  src={NewData.Image}/>
             </div>
             <div className='col-lg-6 col-sm-12 p-5'>
             <h5 className={styles.card2head}>{NewData.Heading}</h5>
@@ -44,16 +44,16 @@ const CareerCard2 = () => {
         pagination={{ clickable: true }}
         >
         <div className='row'>
-         {data.Section2.map((NewData) => {
+         {data.Section2.map((NewData,index) => {
             return(
-              <SwiperSlide>
+              <SwiperSlide key={index}>
           <div className=" d-flex">
               <div className="col-lg-6 col-md-6 col-sm-12 ">
                 <div className='p-4'>
               <Image width={500} height={300}
                       className="Carousel-img1"
                       src={NewData.Image}
-                      alt=""
+                      alt="ss"
                     />
                   </div>
               </div>

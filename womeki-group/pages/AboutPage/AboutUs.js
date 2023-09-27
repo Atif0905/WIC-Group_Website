@@ -6,11 +6,17 @@ import img from "../../public/SlideDown.png";
 import img1 from "../../public/SlideUp.png";
 
 const AboutUs = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+   
+
+  const toggleReadMore = () => {
+    setIsExpanded(!isExpanded);
+  };
   return (
     <div className={styles.maindiv}>
-      {data.Section1.map((AboutData) => {
+      {data.Section1.map((AboutData, index) => {
         return (
-          <div>
+          <div key={index} >
             <div>
               <Image
                 src={AboutData.Image}
@@ -24,14 +30,9 @@ const AboutUs = () => {
         );
       })}
 
-      {data.Section2.map((AboutData1) => {
-        const [isExpanded, setIsExpanded] = useState(false);
-
-        const toggleReadMore = () => {
-          setIsExpanded(!isExpanded);
-        };
+      {data.Section2.map((AboutData1, index) => {
         return (
-          <div className="container mt-5">
+          <div key={index} className="container mt-5">
             <div className="row">
               <h3 className={styles.AboutHeading}>{AboutData1.Heading}</h3>
             </div>
@@ -59,9 +60,9 @@ const AboutUs = () => {
           </div>
         );
       })}
-      {data.Section3.map((HeadingAbout) => {
+      {data.Section3.map((HeadingAbout,index) => {
         return (
-          <div className={`container mt-5 ${styles.GlanceHeading}`}>
+          <div key={index} className={`container mt-5 ${styles.GlanceHeading}`}>
             <div className="row">
               <h3 className={styles.AboutHeading}>{HeadingAbout.Heading}</h3>
             </div>
@@ -71,9 +72,9 @@ const AboutUs = () => {
 
       <div className="container mt-5">
         <div className={`row d-flex ${styles.GlanceDiv}`}>
-          {data.Section4.map((AboutData3) => {
+          {data.Section4.map((AboutData3,index) => {
             return (
-              <div className={`col-3 text-center pt-3 ${styles.AboutCard}`}>
+              <div key={index} className={`col-3 text-center pt-3 ${styles.AboutCard}`}>
                 <Image
                   className={` ${styles.TeamImg} `}
                   src={AboutData3.Image}
@@ -88,9 +89,9 @@ const AboutUs = () => {
           })}
         </div>
       </div>
-      {data.Section5.map((AboutSection5) => {
+      {data.Section5.map((AboutSection5,index) => {
         return (
-          <div className="container mt-5">
+          <div key={index} className="container mt-5">
             <div className="row">
               <h3 className={styles.AboutHeading}>{AboutSection5.Heading}</h3>
               <p className={`mt-4 ${styles.Aboutpara}`}>{AboutSection5.Content}</p>
@@ -98,9 +99,9 @@ const AboutUs = () => {
           </div>
         );
       })}
-      {data.Section6.map((AboutSection6) => {
+      {data.Section6.map((AboutSection6,index) => {
         return (
-          <div className="container mt-5">
+          <div key={index} className="container mt-5">
             <div className="row">
               <h3 className={styles.AboutHeading}>{AboutSection6.Heading}</h3>
               <p className={`mt-4 ${styles.Aboutpara}`}>{AboutSection6.Content}</p>
@@ -109,11 +110,12 @@ const AboutUs = () => {
         );
       })}
       <div className="container mt-5">
-      <div className="row ">
-          {data.Section7.map((AboutData7) => {
+        <div className="row ">
+          {data.Section7.map((AboutData7,index) => {
             return (
-              
-              <div className={`col-md-3 text-center ${styles.AboutCeoDiv} `}>
+              <div key={index}
+                className={`col-md-3  text-center ${styles.AboutCeoDiv} `}
+
                 <a href={AboutData7.Url} className={styles.AboutDivAnchor}>
                   <Image
                     src={AboutData7.Image}

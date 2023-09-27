@@ -8,14 +8,14 @@ const OurCommitment = () => {
     <div>
       <div className="text-center mt-5">
         {" "}
-        <h4 className={`mt-5   ${styles.OurCmtMainHead}`}> Our Commitment </h4>
+        <h4 className={`${styles.OurCmtMainHead}`}> Our Commitment </h4>
       </div>
       <div className={`container ${styles.OurCmtMainDiv}`}>
           <div className={`row mt-5 ${styles.MobileView}`}>
             <div className={`col-4 mt-5 ${styles.ColDiv}`}>
-              {data.Section1.map((NewData) => {
+              {data.Section1.map((NewData,index) => {
                 return (
-                  <div className={styles.OurCmtHeading}>
+                  <div key={index} className={styles.OurCmtHeading}>
                     <h3 className="text-center">{NewData.Heading}</h3>
                     <p className={` ${styles.OurCmtContent}`}>
                       {NewData.Content}
@@ -26,10 +26,10 @@ const OurCommitment = () => {
             </div>
             <div className={`col-4 mt-4 ${styles.ColDiv}`}>
               <div className={styles.DivHover}>
-                {data.Section2.map((NewData) => {
+                {data.Section2.map((NewData,index) => {
                   return (
                     <>
-                      <h6 className={styles.OurCmtSubHead}>
+                      <h6 key={index} className={styles.OurCmtSubHead}>
                         {NewData.Heading}{" "}
                         <Image
                           className="mt-1"
@@ -47,10 +47,10 @@ const OurCommitment = () => {
                 })}
               </div>
               <div className={styles.DivHover}>
-                {data.Section3.map((NewData) => {
+                {data.Section3.map((NewData,index) => {
                   return (
                     <>
-                      <h6 className={styles.OurCmtSubHead}>
+                      <h6 key={index} className={styles.OurCmtSubHead}>
                         {NewData.Heading}{" "}
                         <Image
                           className="mt-2"
@@ -70,10 +70,10 @@ const OurCommitment = () => {
             </div>
             <div className={`col-4 mt-4 ${styles.ColDiv}`}>
               <div className={styles.DivHover}>
-                {data.Section4.map((NewData) => {
+                {data.Section4.map((NewData,index) => {
                   return (
                     <>
-                      <h6 className={styles.OurCmtSubHead}>
+                      <h6 key={index} className={styles.OurCmtSubHead}>
                         {NewData.Heading}{" "}
                         <Image
                           src={NewData.Image}
@@ -90,10 +90,10 @@ const OurCommitment = () => {
                 })}
               </div>
               <div className={styles.DivHover}>
-                {data.Section5.map((NewData) => {
+                {data.Section5.map((NewData,index) => {
                   return (
                     <>
-                      <h6 className={styles.OurCmtSubHead}>
+                      <h6 key={index} className={styles.OurCmtSubHead}>
                         {NewData.Heading}{" "}
                         <Image
                           className="mt-2"

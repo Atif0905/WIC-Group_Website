@@ -12,13 +12,13 @@ const Sustainability = () => {
           Sustainability
         </h4>
       </div>
-      <div className="fluid mt-5 d-lg-flex">
+      <div className={`fluid d-lg-flex ${styles.sustainMainDiv2}`}>
         <div className="container">
           <div className={`row ${styles.SustainRowDiv}`}>
             <div className={`col-lg-8  ${styles.SustainDiv1}`}>
-              {data.Section1.map((SustainData1) => {
+              {data.Section1.map((SustainData1,index) => {
                 return (
-                  <div>
+                  <div key={index}>
                     <div className={`col-sm-12 ${styles.sustain1}`}>
                       <p className={styles.sustain1Content}>
                         {SustainData1.Content}
@@ -33,9 +33,9 @@ const Sustainability = () => {
                 );
               })}
               <div className="row">
-                {data.Section2.map((SustainData2) => {
+                {data.Section2.map((SustainData2,index) => {
                   return (
-                    <div className={` mt-3 ${styles.SustainDiv2}`}>
+                    <div key={index} className={` mt-3 ${styles.SustainDiv2}`}>
                       <div className="d-lg-flex">
                         <div className="col-lg-6 col-sm-12">
                           <Image
@@ -61,9 +61,9 @@ const Sustainability = () => {
             </div>
 
             <div className={`col-lg-4  ${styles.SustainDiv2}`}>
-              {data.Section3.map((SustainData3) => {
+              {data.Section3.map((SustainData3,index) => {
                 return (
-                  <div className={styles.SustainDiv3}>
+                  <div key={index} className={styles.SustainDiv3}>
                     <div className="sustain3 ">
                       <Image
                         src={SustainData3.Image}
