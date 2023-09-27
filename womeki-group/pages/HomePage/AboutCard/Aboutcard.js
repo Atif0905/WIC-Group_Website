@@ -34,24 +34,24 @@ const Aboutcard = () => {
     <div className='container mt-5'>
       <div className='row'>
 
-        {data.Section1.map((NewData) => {
+        {data.Section1.map((NewData,index) => {
           return(
-        <div data-aos="fade-up" data-aos-duration="2000" className={`col-lg-4 col-sm-12 shadow p-4 ${styles.card1}`}>
+        <div key={index} data-aos="fade-up" data-aos-duration="2000" className={`col-lg-4 col-sm-12 shadow p-4 ${styles.card1}`}>
         <h4 className={`mt-2 ${styles.aboutcardhead}`}>{NewData.Heading}</h4>
         <p className={`mt-4 ${styles.aboutcardcontent}`}>{NewData.Content}</p>
         </div>
         );
         })}
-        {data.Section2.map((NewData) => {
+        {data.Section2.map((NewData,index) => {
           return(
-        <div className={`col-lg-4 col-md-6 col-sm-12  ${styles.card2}`}>
+        <div key={index} className={`col-lg-4 col-md-6 col-sm-12  ${styles.card2}`}>
               <Image width={400} height={500} alt='gt' src={NewData.Image}/>
               </div>
           );
         })}
-        {data.Section3.map((NewData) => {
+        {data.Section3.map((NewData,index) => {
           return(
-             <div  data-aos="fade-up"  data-aos-duration="2000"  className={`col-lg-4 col-md-6 col-sm-12 shadow p-4 ${styles.card3}`}>
+             <div key={index}  data-aos="fade-up"  data-aos-duration="2000"  className={`col-lg-4 col-md-6 col-sm-12 shadow p-4 ${styles.card3}`}>
               <h4 className={`mt-2 ${styles.aboutcardhead}`}>{NewData.Heading}</h4>
               <p className={`mt-4 ${styles.aboutcardcontent}`}>{NewData.Content}</p>
               </div>

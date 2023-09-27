@@ -24,9 +24,9 @@ const Carousel = () => {
     }}
      pagination={{ clickable: true }}>
      {
-        data.map((Newdata) =>{
+        data.map((Newdata,index) =>{
            return(
-            <SwiperSlide>
+            <SwiperSlide key={index}>
             <div>
                 <Image className={styles.videobg} width={1500} height={700} src={Newdata.Image} alt="kk" />
                 <div className={styles.bgoverlay}></div>

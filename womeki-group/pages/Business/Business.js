@@ -14,14 +14,15 @@ const Business = () => {
   return (
     <div className={` fluid ${styles.maindiv}`}>
   
-         {data.Section1.map((NewData) => {
+         {data.Section1.map((NewData, index) => {
         return (
-            <div>
+            <div key={index}>
             <div>
               <Image
                 src={NewData.Image}
                 height={600}
                 width={1400}
+                alt='kk'
               />
             </div>
             <h1 className={styles.bgImgHead}>{NewData.Heading}</h1>
@@ -32,9 +33,9 @@ const Business = () => {
       
       <div className={`container ${styles.maindiv2}`}>
     <div className='row p-5'>
-{data.Section2.map((NewData) => {
+{data.Section2.map((NewData,index) => {
         return (
-            <div className='col-lg-12 '>
+            <div key={index} className='col-lg-12 '>
             <h4 className={styles.Head}>{NewData.Heading}</h4>
             <p className={styles.Text}>{NewData.Content}</p>
             </div>

@@ -28,9 +28,9 @@ const HomeBlog = () => {
     <div className={`container mt-5 ${styles.homeblogmain} `}>
        <div className='row'>
         <h4 className={`mt-5 mb-5 text-center ${styles.homeblogmainhead}`}>BLOGS</h4>
-        {data.Section1.map((NewData) => {
+        {data.Section1.map((NewData,index) => {
             return(
-              <div  className='col-lg-8 col-sm-12'>
+              <div key={index} className='col-lg-8 col-sm-12'>
               <div className={`card shadow rounded-0 border-0 ${styles.bloghomecard}`}>
                   <div className={`row d-flex`}>
                   <div data-aos="fade-up" data-aos-duration="2000" className={`col-md-6 col-sm-12`}>
@@ -46,9 +46,9 @@ const HomeBlog = () => {
             );
         })}
 
-          {data.Section2.map((NewData) => {
+          {data.Section2.map((NewData,index) => {
             return(
-              <div  className={`col-lg-8 col-sm-12 mt-3 ${styles.colsection2}`}>
+              <div key={index} className={`col-lg-8 col-sm-12 mt-3 ${styles.colsection2}`}>
               <div className={`card shadow rounded-0 border-0 ${styles.bloghomecard} `}>
                   <div className={`row d-flex`}> 
                   <div className={`col-md-6 col-sm-12 p-4`}>

@@ -6,9 +6,9 @@ import styles from "../AboutUs.module.css";
 const OneVission = () => {
   return (
     <div>
-      {data.Section6.map((AboutSection6) => {
+      {data.Section6.map((AboutSection6, index) => {
         return (
-          <div className="container">
+          <div key={index} className="container">
             <div className="row">
               <h3 className={styles.AboutHeading}>{AboutSection6.Heading}</h3>
               <p className="mt-4">{AboutSection6.Content}</p>
@@ -18,9 +18,9 @@ const OneVission = () => {
       })}
       <div className="container mt-5">
         <div className="row d-flex">
-          {data.Section7.map((AboutData7) => {
+          {data.Section7.map((AboutData7, index) => {
             return (
-              <div
+              <div key={index}
                 className={`col-md-3 mb-4  text-center ${styles.AboutCeoDiv} `}
               >
                 <a href={AboutData7.Url}>
