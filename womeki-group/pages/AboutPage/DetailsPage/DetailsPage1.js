@@ -8,10 +8,11 @@ const DetailsPage1 = () => {
     <div>
       <div className="container">
         <div className="row">
+          <h1 className={`text-center ${styles.Head}`}>About Ceo</h1>
           {data.Section1.map((DetailData) => {
             return (
               <>
-                  <div className="col-md-3 col-sm-12 mt-5">
+                  <div className={` col-lg-3 col-md-4 col-sm-12 ${styles.aboutimg}`}>
                     <Image
                     className={styles.DetailsPageDivImg}
                       src={DetailData.Image}
@@ -20,10 +21,10 @@ const DetailsPage1 = () => {
                       width={500}
                     />
                   </div>
-                  <div className="col-md-9 col-sm-12 mt-5">
-                    <h3>{DetailData.Heading}</h3>
-                    <h6>{DetailData.SubHeading}</h6>
-                    <p>{DetailData.Content}</p>
+                  <div className="col-lg-9 col-md-8 col-sm-12">
+                    <h3 className={styles.Head}>{DetailData.Heading}</h3>
+                    <h6 className={styles.SubHead}>{DetailData.SubHeading}</h6>
+                    <p className={styles.text}>{DetailData.Content}</p>
                   </div>
               </>
             );

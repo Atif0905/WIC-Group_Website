@@ -1,12 +1,14 @@
 .card1head{
-    font-size:large;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: rgb(0,35,73);
+    font-family: 'Cormorant Garamond', serif;
 }
 .card1text{
-    font-size: small;
-}
-.carouselcard1head{
-    font-size: large;
-}
-.carouselcard1text{
-    font-size: small;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: #606060;
 }

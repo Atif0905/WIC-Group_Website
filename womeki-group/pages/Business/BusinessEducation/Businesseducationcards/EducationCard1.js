@@ -13,7 +13,7 @@ const EducationCard1 = () => {
           <Image width={1500} height={620} src={NewData.Image} alt="img" />
           <div className='container mt-5'>
             <h2 className={styles.educationhead}>{NewData.Heading}</h2>
-            <p className={styles.educationpara}>{NewData.Content}</p>
+            <p className={styles.educationcontent}>{NewData.Content}</p>
           </div>
         </div> 
       )
@@ -24,7 +24,7 @@ const EducationCard1 = () => {
       return(
       <div key={index} className={`row mt-5 ${styles.educationcardrow}`}>
         <div className='col-md-4 col-sm-12'>
-          <Image height={200} width={300} alt='aa' src={NewData.Image}/>
+          <Image height={300} width={400} alt='aa' src={NewData.Image}/>
         </div>
         <div className='col-md-8 col-sm-12'>
           <h2 className={styles.educationhead}>{NewData.Heading}</h2>
@@ -42,37 +42,16 @@ const EducationCard1 = () => {
           <p className={styles.educationcontent}>{NewData.Content}</p>
         </div>
         <div className='col-md-4 col-sm-12'>
-          <Image height={200} width={300} alt='aa' src={NewData.Image}/>
+          <Image height={300} width={400} alt='aa' src={NewData.Image}/>
         </div>
       </div>
        )
       })}
-
 {data.Section4.map((NewData,index) => {
       return(
-      <div key={index} className={`row mt-5 ${styles.educationcardrow}`}>
-        <div className='col-md-4 col-sm-12'>
-          <Image height={200} width={300} alt='aa' src={NewData.Image}/>
+      <div key={index} className={"container mt-5"}>
+        <p className={styles.educationcontent}>{NewData.Content}</p>
         </div>
-        <div className='col-md-8 col-sm-12'>
-          <h2 className={styles.educationhead}>{NewData.Heading}</h2>
-          <p className={styles.educationcontent}>{NewData.Content}</p>
-        </div>
-      </div>
-       )
-      })}
-
-{data.Section5.map((NewData,index) => {
-      return(
-      <div key={index} className='row mt-5 d-flex flex-column-reverse flex-md-row'>
-        <div className='col-md-8 col-sm-12'>
-          <h2 className={styles.educationhead}>{NewData.Heading}</h2>
-          <p className={styles.educationcontent}>{NewData.Content}</p>
-        </div>
-        <div className='col-md-4 col-sm-12'>
-          <Image height={200} width={300} alt='aa' src={NewData.Image}/>
-        </div>
-      </div>
        )
       })}
       </div>
