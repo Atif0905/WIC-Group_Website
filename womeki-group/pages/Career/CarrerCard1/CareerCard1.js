@@ -30,7 +30,7 @@ const CareerCard1 = () => {
         })}
       </div>
       
-      <h4 className='p-3'>Caring for our employees</h4>
+      <h4 className={`p-3 ${styles.card1head}`}>Caring for our employees</h4>
       <Swiper className=" Carouseldiv "
         modules={[Pagination, Autoplay]}
         spaceBetween={50}
@@ -59,10 +59,10 @@ const CareerCard1 = () => {
               </div>
               <div className="col-lg-6 col-md-12 p-5">
                 <div className={styles.carouselcard1head}>
-                <h5 className="text-center">{NewData.Heading}</h5>
+                <h5 className={`text-center ${styles.card1head}`}>{NewData.Heading}</h5>
                 </div>
                 <div className={styles.carouselcard1text}>
-                <p className="carousel-content">{NewData.Content}</p>
+                <p className={`carousel-content ${styles.card1text}`}>{NewData.Content}</p>
                 </div>
               </div>
               </div>

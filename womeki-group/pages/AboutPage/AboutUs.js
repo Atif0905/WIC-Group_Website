@@ -37,7 +37,7 @@ const AboutUs = () => {
               <h3 className={styles.AboutHeading}>{AboutData1.Heading}</h3>
             </div>
             <div className="row">
-              <p className="mt-4">
+              <p className={`mt-4 ${styles.Aboutpara}`}>
                 {isExpanded
                   ? AboutData1.Content1 + AboutData1.Content2
                   : AboutData1.Content1 + "..."}
@@ -94,7 +94,7 @@ const AboutUs = () => {
           <div key={index} className="container mt-5">
             <div className="row">
               <h3 className={styles.AboutHeading}>{AboutSection5.Heading}</h3>
-              <p className="mt-4">{AboutSection5.Content}</p>
+              <p className={`mt-4 ${styles.Aboutpara}`}>{AboutSection5.Content}</p>
             </div>
           </div>
         );
@@ -104,18 +104,18 @@ const AboutUs = () => {
           <div key={index} className="container mt-5">
             <div className="row">
               <h3 className={styles.AboutHeading}>{AboutSection6.Heading}</h3>
-              <p className="mt-4">{AboutSection6.Content}</p>
+              <p className={`mt-4 ${styles.Aboutpara}`}>{AboutSection6.Content}</p>
             </div>
           </div>
         );
       })}
       <div className="container mt-5">
-        <div className="row d-flex">
+        <div className="row ">
           {data.Section7.map((AboutData7,index) => {
             return (
               <div key={index}
-                className={`col-md-3 mb-4  text-center ${styles.AboutCeoDiv} `}
-              >
+                className={`col-md-3  text-center ${styles.AboutCeoDiv} `}
+
                 <a href={AboutData7.Url} className={styles.AboutDivAnchor}>
                   <Image
                     src={AboutData7.Image}
@@ -123,18 +123,21 @@ const AboutUs = () => {
                     height={350}
                     width={350}
                   />
-                  <p className={`p-1 mt-3 ${styles.CeoText1} `}>
+                  <p className={`${styles.CeoText1} `}>
                     {AboutData7.Content1}
+                    
                   </p>
                   <p className={` ${styles.CeoText2} `}>
                     {AboutData7.Content2}
                   </p>
                 </a>
               </div>
+             
             );
           })}
         </div>
-      </div>
+        </div>
+     
       <div className={`text-center mt-5`}>
         <p>
           <a className={`p-2 ${styles.ViewMoreBtn}`} href="">

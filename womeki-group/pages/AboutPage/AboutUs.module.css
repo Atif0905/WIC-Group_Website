@@ -10,7 +10,12 @@
   padding-left: 10px;
 }
 .aboutimgtxt{
-  font-weight: bold;
+  word-spacing: 2px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: #606060;
 }
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .bgImgText {
@@ -35,13 +40,31 @@
   }
 }
 .AboutHeading {
-  border-left: 5px solid #1378be;
+  border-left: 5px solid rgb(0,35,73);
+  letter-spacing: 2px;
+  margin-top: 50px;
+  font-weight: 800;
+  color: rgb(0,35,73);
+  font-family: 'Cormorant Garamond', serif;
+}
+.Aboutpara{
+  word-spacing: 2px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  color: #606060;
 }
 .UpDownBtnImg {
   cursor: pointer;
 }
 .UpDownBtn {
   border: none;
+  word-spacing: 2px;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  color: #606060;
 }
 .AboutCard {
   position: relative;
@@ -68,27 +91,31 @@
   padding: 10px !important;
 }
 .CeoText1 {
-  color: black;
-  text-decoration: none !important;
-  font-weight: 500px;
-  font-size: 15px;
-  margin-bottom: -4px;
-  font-style: oblique;
+  word-spacing: 2px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: black;
 }
 .CeoText2 {
-  color: #1378be;
-  text-decoration: none !important;
-  font-weight: 500;
-  font-size: 15px;
+  word-spacing: 2px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    color: #606060;
+  
 }
 .ViewMoreBtn {
   background-color: white;
-  color: #008cba;
-  border: 2px solid #008cba;
+  color: rgb(0,35,73);
+  word-spacing: 2px;
+  font-weight: 600;
+  font-family: 'Cormorant Garamond', serif;
+  border: 2px solid rgb(0,35,73);
   text-decoration: none;
 }
 .ViewMoreBtn:hover {
-  background-color: #008cba;
+  background-color: rgb(0,35,73);
   color: white;
   transition: ease all 1s;
 }

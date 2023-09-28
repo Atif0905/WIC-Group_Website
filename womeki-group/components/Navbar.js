@@ -22,9 +22,9 @@ const Navbar = () => {
             <div className="content">
               <div className="row">
                 {/* <img src="https://www.adani.com/-/media/Project/Adani/Blog/Dharavi-Oped-Image-min.jpg" alt=""/> */}
-                <Image src={'/connected-1327191_1280.jpg'} width={500} height={100} alt="err"/>
+                <Image src="/navbusiness.jpg" width={500} height={100} alt="err"/>
               </div>
-              <h2 className=" text-dark mt-5 " >Explore with us</h2>
+              <h4 className=" text-dark mt-5 " >Innovation at your service</h4>
               <div className="row">
                 <header>Sectors</header>
                 <ul className="mega-links">
@@ -51,9 +51,9 @@ const Navbar = () => {
           <div className="mega-box">
             <div className="content">
               <div className="row">
-                <Image src="https://www.adani.com/-/media/Project/Adani/Blog/Dharavi-Oped-Image-min.jpg" alt=""/>
+                <Image width={500} height={100} src="/navabout.jpg" alt=""/>
               </div>
-              <h2 className=" text-dark mt-5 " >Explore About Us</h2>
+              <h4 className=" text-dark mt-5 " >Building a Legacy of Trust</h4>
               <div className="row">
                 <header>Explore About Us</header>
                 <ul className="mega-links">
@@ -78,11 +78,11 @@ const Navbar = () => {
           <div className="mega-box">
             <div className="content">
               <div className="row">
-                <Image src={'/connected-1327191_1280.jpg'} width={700} height={100} alt="err"/>
+                <Image src="/navconnect.jpg" width={700} height={100} alt="err"/>
               </div>
-              <h2 className=" text-dark mt-5 " >Talk To Us</h2>
+              <h4 className=" text-dark mt-5 " >Here to Serve, Ready to Listen</h4>
               <div className="row">
-                <header>Explore About Us</header>
+                <header>Connect with Us</header>
                 <ul className="mega-links">
                   <li><Link className=" h6 mt-3 " href="/BookAnAppoinment">Book An Appointment</Link></li>
                   <li><Link className=" h6 mt-3 " href="/ConatcthtmlForQuery">Contact htmlFor Query</Link></li>

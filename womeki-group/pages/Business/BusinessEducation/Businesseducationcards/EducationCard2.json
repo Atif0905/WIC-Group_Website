@@ -1,0 +1,27 @@
+{
+    "Section1":[
+        {
+            "Image": "/BusinessImg/educationcardimg2.jpg ",
+            "Heading":"A Holistic Approach to Education, Community Impact, and Sustainable Growth",
+            "Content":"The beautiful campus, covering 4.4 acres, provides a safe and peaceful environment for learning. With lovely gardens, various plants, and a herb garden, the school offers students a calm and inspiring setting for their educational journey. The extra security of CCTV surveillance ensures a safe learning environment. MC Gopichand Inter College's impact goes beyond education. As part of the Womeki Group, it is actively engaged in community-building and social welfare initiatives "
+        }
+
+        ],
+        "Section2":[
+            {
+                "Image":"/BusinessImg/educationcard2img1.jpg",
+                "Content": "The school's commitment to community impact shows its dedication to overall development. The visionary founder of the Womeki Group, Mr. Gaurav Tonger, has not only established the basis for educational excellence but has also entered the real estate sector, focusing on quality, affordability, and community well-being. His forward-looking approach has greatly contributed to the institution's success."
+            }
+        ],
+        "Section3":[
+            {
+                "Image":"/BusinessImg/educationcard2img2.jpg",
+                "Content": "Indeed, MC Gopichand Inter College has not only been a place of learning but a true symbol of hope and a source of unmatched opportunity for rural areas. Its legacy since 1988 stands as a shining example of commitment and dedication to the noble goal of offering good education to children coming from rural backgrounds."
+            }
+        ],
+        "Section4":[
+            {
+                "Content": "MC Gopichand Inter College holds the honor of being one of the earliest respected public schools in the area. This determined attitude shows a strong commitment to closing the educational difference in rural areas and providing the advantages of good education to those who need it the most. Beyond education, the Womeki Group's venture into real estate demonstrates their dedication to building sustainable living environments. This focus on quality and community well-being is changing the way people live and prosper"
+            }
+        ] 
+}

@@ -42,7 +42,7 @@
   "Section5": [
     {
       "Heading": "Vision",
-      "Content": "Empowering Talent: We are dedicated to promoting the personal and professional development of our partners, employees, and the students we educate"
+      "Content": "Empowering Talent: We are dedicated to promoting the personal and professional development of our partners, employees, and the students."
     }
   ],
   "Section6": [
@@ -54,25 +54,26 @@
   "Section7": [
     {
       "Image": "/gaurav.jpg",
-      "Content1": "Gaurav Tonger",
+      "Content1": "Mr. Gaurav Tonger",
       "Content2": "CEO & Founder, Womeki Group",
       "Url": "./AboutPage/DetailsPage/DetailsPage1"
     },
     {
       "Image": "/rohit-khari.jpg",
-      "Content1": "Rohit Khari",
-      "Content2": "Sales Territory Director Womeki",
+      "Content1": "Mr. Rohit Khari",
+      "Content2": "Sales Territory Director Womeki ",
+
       "Url": "./AboutPage/DetailsPage/DetailsPage2"
     },
     {
       "Image": "/Paras-Goyal.jpg",
-      "Content1": "Paras Goyal",
-      "Content2": "Director Sales Womeki Group ",
+      "Content1": "Mr. Paras Goyal",
+      "Content2": "Sales Director, Womeki Group ",
       "Url": "./AboutPage/DetailsPage/DetailsPage3"
     },
     {
       "Image": "/Shiv.jpeg",
-      "Content1": "Ankit Tonger",
+      "Content1": "Mr. Ankit Tonger",
       "Content2": "Director Womeki Group",
       "Url": "./AboutPage/DetailsPage/DetailsPage4"
     }

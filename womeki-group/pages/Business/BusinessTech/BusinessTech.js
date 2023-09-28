@@ -17,8 +17,8 @@ const BusinessTech = () => {
                       <a className={styles.alink} href={NewData.Link}>
                         <Image className={`card-img-top ${styles.businesscardimg}`} width={500} height={250} alt='pp'  src={NewData.Image}/>
                         <div className='card-body'>
-                        <h5 className="card-title">{NewData.Heading}</h5>
-                        <p className="card-text">{NewData.Content}</p>
+                        <h5 className={`card-title ${styles.Head}`}>{NewData.Heading}</h5>
+                        <p className={`card-text ${styles.Text}`}>{NewData.Content}</p>
                         </div>
                         </a>
                       </div>

@@ -9,22 +9,17 @@
     background-color: white;
     color: rgb(32,146,155);
   }
-  .BSRdiv{
-    letter-spacing: 2px;
+  .Text {
+    word-spacing: 2px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    color: #606060;
+  }
+  .Head {
+    letter-spacing: 1px;
     font-weight: 800;
     color: rgb(0,35,73);
     font-family: 'Cormorant Garamond', serif;
-    margin-top: 100px;
-    text-align: center;
-  }
-  .BSRdiv::after {
-    content: "";
-    display: block;
-    position: relative;
-    height: 2px;
-    background: rgb(0,35,73);
-    width: 140px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 6px;
   }

@@ -21,10 +21,17 @@
   }
   
   .careertxt{
-    font-size: 13px;
+    word-spacing: 2px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    color: #606060;
   }
   .careerhead{
-    font-size: medium;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: rgb(0,35,73);
+    font-family: 'Cormorant Garamond', serif;
   }
 
   @media (min-width:426px) and (max-width:767px) {

@@ -16,7 +16,7 @@ const CareerHome = () => {
       })}
 <div className="container">
       <div className="row">
-        <h4 className=" mt-5">Life at Womeki</h4>
+        <h4 className={`mt-5 ${styles.careerhead}`}>Life at Womeki</h4>
         {data.Section2.map((NewData,index) => {
           return (
             <div key={index} className="col-md-4 col-sm-12 mt-4">
