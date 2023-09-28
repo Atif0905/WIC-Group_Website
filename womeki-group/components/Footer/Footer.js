@@ -202,7 +202,7 @@ const Footer = () => {
                 </div>
                 <div className="form-outline form-black mt-5 d-flex justify-content-center">
                   <Link href="ContactPage/Query">
-                    <button class={styles.ViewMoreBtn}>
+                    <button className={styles.ViewMoreBtn}>
                       <span className={styles.BtnSpan}> Contact Us </span>
                     </button>
                   </Link>
@@ -222,6 +222,7 @@ const Footer = () => {
                         width={200}
                         className={styles.wiclogo}
                         src="/Logo.png"
+                        alt="p"
                       />
                     </a>
                   </div>

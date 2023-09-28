@@ -12,7 +12,7 @@ const BlogsHome = () => {
         return (
             <> 
             <div className={`mt-5 ${styles.container}`}>
-            <Image width={800} height={400} src={NewData.Image} />
+            <Image width={800} height={400} src={NewData.Image} alt='l' />
             <div className={styles.overlay}>
                 <div className={styles.text}>
                   <p>{NewData.Heading}</p>

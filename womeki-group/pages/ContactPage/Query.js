@@ -25,7 +25,7 @@ const Query = () => {
       <div className='row'>
         <div className='col-lg-6 col-md-12'>
           <Image src="/Logo.png" height={100} width={200} alt='logo'/> 
-            <h6 className={styles.labeltxt}>Feel free to ask for details, don't save any questions!</h6>
+            <h6 className={styles.labeltxt}>Feel free to ask for details dont save any questions</h6>
   <form ref={form} onSubmit={sendEmail}>
   <div className={`${styles.formdiv1}`}>
   <div className={styles.formgroup}>

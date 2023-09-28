@@ -56,9 +56,9 @@ const Sustainability2 = () => {
           </div>
          
           <div className={`col-6 mt-4 ${styles.ColDiv}`}>
-            {data.Section1.map((NewData) => {
+            {data.Section1.map((NewData,index) => {
               return (
-                <div className={styles.OurCmtHeading}>
+                <div key={index} className={styles.OurCmtHeading}>
                   <h3 className="text-center mt-2">{NewData.Heading}</h3>
                   <p>{NewData.Content}</p>
                 </div>

@@ -14,6 +14,7 @@ const WomekiTechSol = () => {
           height={120}
           src={'/rocket.png'}
           className={styles.rocket}
+          alt="p"
         />
       </div>
     </div>
