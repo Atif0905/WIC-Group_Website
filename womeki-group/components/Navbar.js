@@ -21,15 +21,14 @@ const Navbar = () => {
           <div className="mega-box">
             <div className="content">
               <div className="row">
-                {/* <img src="https://www.adani.com/-/media/Project/Adani/Blog/Dharavi-Oped-Image-min.jpg" alt=""/> */}
-                <Image src="/navbusiness.jpg" width={500} height={100} alt="err"/>
+                <Image src="/navbusiness.jpg" width={10} height={20} alt="err"/>
               </div>
               <h4 className=" text-dark mt-5 " >Innovation at your service</h4>
               <div className="row">
                 <header>Sectors</header>
                 <ul className="mega-links">
                   <li><Link href={'/Business/BusinessRealestate/BusinessRealestate'}>Real Estate</Link></li>
-                  <li><Link className=" h6 " href={'/Business/BusinessTech/BusinessTech'}>InhtmlFormation Technology</Link></li>
+                  <li><Link className=" h6 " href={'/Business/BusinessTech/BusinessTech'}>Information Technology</Link></li>
                   <li><Link href={'/Business/BusinessEducation/BusinessEducation'}>Education</Link></li>
                 </ul>
               </div>
@@ -85,7 +84,7 @@ const Navbar = () => {
                 <header>Connect with Us</header>
                 <ul className="mega-links">
                   <li><Link className=" h6 mt-3 " href="/BookAnAppoinment">Book An Appointment</Link></li>
-                  <li><Link className=" h6 mt-3 " href="/ConatcthtmlForQuery">Contact htmlFor Query</Link></li>
+                  <li><Link className=" h6 mt-3 " href="/ConatctForQuery">Contact Query</Link></li>
                 </ul>
               </div>
             </div>
@@ -98,5 +97,4 @@ const Navbar = () => {
   </div>
   )
 };
-
 export default Navbar;
