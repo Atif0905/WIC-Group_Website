@@ -15,7 +15,9 @@ const Navbar = () => {
       <ul className="nav-links">
         <label htmlFor="close-btn" className="btn close-btn"><i className="fas fa-times"></i></label>
         <li>
-          <Link href={'/Bussiness'} className="desktop-item">Business</Link>  
+          <Link href={'/Bussiness'} >
+            <a className="desktop-item">Business</a>
+            </Link>  
           <input type="checkbox" id="showBusiness"/>
           <label htmlFor="showBusiness" className="mobile-item">Business</label>
           <div className="mega-box">
@@ -45,7 +47,9 @@ const Navbar = () => {
           </div>
         </li>
         <li>
-          <Link href="about" className="desktop-item">About</Link>
+          <Link href="about" >
+            <a className="desktop-item">About</a>
+          </Link>
           <input type="checkbox" id="showAbout"/>
           <label htmlFor="showAbout" className="mobile-item">About</label>
           <div className="mega-box">
@@ -73,7 +77,7 @@ const Navbar = () => {
         </li>
         <li><Link href="/News">News</Link></li>
         <li>
-          <Link href="contact" className="desktop-item">Connect</Link>
+          <Link href="contact"><a  className="desktop-item">Connect</a></Link>
           <input type="checkbox" id="showConnect"/>
           <label htmlFor="showConnect" className="mobile-item">Connect</label>
           <div className="mega-box">

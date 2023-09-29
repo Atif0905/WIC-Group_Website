@@ -190,6 +190,9 @@ nav .wrapper{
     font-size: 15px;
     color: black;
   }
+  .desktop-item{
+    display: none !important;
+  }
   .nav-links .drop-menu{
     position: static;
     opacity: 1;
