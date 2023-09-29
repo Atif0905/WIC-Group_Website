@@ -6,7 +6,7 @@ import Image from "next/Image";
 const BusinessRealestate = () => {
   return (
     <div>
-      <h3 className={styles.BSRdiv}>RealEstate</h3>
+      <h3 className={` text-center ${styles.BSRdiv}`}>RealEstate</h3>
     <div className='container mt-5'>
          <div className='row bg-white'>
             {data.RealEstate.map((NewData,index) => {

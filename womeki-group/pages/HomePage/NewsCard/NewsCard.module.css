@@ -91,3 +91,35 @@
   background-color: white;
   color: rgb(32,146,155);
 }
+.newshead{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 900;
+
+}
+.newsimg{
+  transition: transform 1.0s;
+}
+.newsimg:hover{
+  transform:scale(1.1);
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .newsimg{
+    height: 120px;
+    width: 280px;
+  }
+  .newshead{
+    font-size: medium;
+  } 
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .newsimg{
+    height: 150px;
+    width: 350px;
+  }
+  .newshead{
+    font-size: 15px;
+  }
+  
+}

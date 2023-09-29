@@ -2,21 +2,21 @@ import React from "react";
 import data from "./NewsCard.json";
 import styles from "./NewsCard.module.css";
 import Image from "next/Image";
+import Link from "next/link";
 
 const NewsCard = ({ title, cover, summary, createdAt, content }) => {
   return (
     <div>
           <div className={`container mt-5 ${styles.maindiv}`}>
       <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-12">
-          <img className={styles.newsimg} height={300} width={300} src={"http://localhost:4000/" + cover} alt="nn" />
+        <div className="col-12 text-center">
+          <Link href={'/News'}>
+          <div>
+          <img className={styles.newsimg} height={300} width={600} src={"http://localhost:4000/" + cover} alt="nn" />
+          <h5 className={`mt-4 ${styles.newshead} `}>{title}</h5>
           </div>
-          <div className="col-lg-8 col-md-6 col-sm-12">
-          <h2 className={styles.newshead}>{title}</h2>
-          <p className={styles.newscontent}>{summary}</p>
-          <p className={`mt-5 ${styles.newspara}`}>{createdAt}</p>
+          </Link>
           </div>
-          {/* <p>{content}</p> */}
         </div>
       </div>
     </div>
