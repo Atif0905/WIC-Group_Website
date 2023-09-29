@@ -11,9 +11,9 @@ const LatestNews = () => {
             
           <div className="row">
             <div className={`col-12 col-md-12 mt-5 ms-3 ${styles.News_Card}`}>
-              {data.LatestNews.map((NewData) => {
+              {data.LatestNews.map((NewData,index) => {
                 return (
-                  <div>
+                  <div key={index}>
                     <h4 className={` text-center ${styles.NewsHeading}`}>
                       {NewData.Heading}
                     </h4>
@@ -21,9 +21,9 @@ const LatestNews = () => {
                   </div>
                 );
               })}
-              {data.Section1.map((NewsCardData) => {
+              {data.Section1.map((NewsCardData,index) => {
                 return (
-                  <div className={`mt-5 ${styles.NewsSection}`}>
+                  <div key={index} className={`mt-5 ${styles.NewsSection}`}>
                     <p className={styles.newspara}>
                       <Image
                         src={NewsCardData.Image}
@@ -56,5 +56,4 @@ const LatestNews = () => {
     </div>
   );
 };
-
 export default LatestNews;
