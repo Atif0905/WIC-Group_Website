@@ -12,7 +12,7 @@ const NewsCard = ({ title, cover, summary, createdAt, content }) => {
         <div className="col-12 text-center">
           <Link href={'/News'}>
           <div>
-          <img className={styles.newsimg} height={300} width={600} src={"http://localhost:4000/" + cover} alt="nn" />
+          <Image className={styles.newsimg} height={300} width={600} src={"http://localhost:4000/" + cover} alt="nn" />
           <h5 className={`mt-4 ${styles.newshead} `}>{title}</h5>
           </div>
           </Link>

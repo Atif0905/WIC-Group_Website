@@ -2,12 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+   domains:['localhost']
+  },
   
 }
-// module.exports = {
-//   images: {
-//     domains: ['localhosthttp://localhost:4000/'],
-//   },
-// }
 
 module.exports = nextConfig
