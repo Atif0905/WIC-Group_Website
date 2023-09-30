@@ -49,10 +49,7 @@
     background-color: white;
     color: rgb(32,146,155);
   }
-  /* .lastdiv{
-
-  }
-   */
+  
   @media (max-width:768px) {
     .bgImgHead {
       font-size: 25px;
