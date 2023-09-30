@@ -1,22 +1,14 @@
 {
     "Section1":[
         {
-            "Heading": "Realestate",
-            "Content": "mgrrgmrg",
-            "Image": "/../public/blogimg1.png"
+            "Heading": "Real estate investment strategies for beginners",
+            "Image": "/../public/BlogImg/blogimg1.png",
+            "url": "./Blogs/Blogpage/BlogpageOne"
         },
         {
-            "Heading": "Realestate",
-            "Content": "mgrrgmrg",
-            "Image": "/../public/blogimg2.png"
-        },
-        {
-            "Heading": "Realestate",
-            "Content": "mgrrgmrg",
-            "Image": "/../public/blogimg3.png"
-        },
-        {
-            "Image":"/../public/blogimg4.jpg"
+            "Heading": " Mastering IT Project Management: A Guide to Success with Agile and Scrum",
+            "Image": "/../public/BlogImg/techblogimg1.png",
+            "url": "./Blogs/Blogpage/BlogpageTwo"
         }
     ]
 }
