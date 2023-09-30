@@ -61,20 +61,13 @@
   z-index: 2;
 }
 .bannerheading {
-  font-size: 6rem;
+  font-size: 2.5rem;
   animation-name: fade;
-  animation-duration: 4s;
+  animation-duration: 8s;
   margin-top: -25%;
   text-align: center;
   color: white;
 } 
-.Description {
-  justify-self: flex-end;
-  font-size: 1.5rem;
-  margin-top: -10%;
-  text-align: center;
-  color: white;
-}
 .home-btn {
   width: 6em;
   height: 2em;
@@ -120,13 +113,6 @@
     text-align: center;
     color: white;
   }  
-  .Description {
-    justify-self: flex-end;
-    font-size: 10px;
-    margin-top: -5%;
-    text-align: center;
-    color: white;
-  }
   @keyframes fade {
     0% {
         opacity: 0;
@@ -160,13 +146,6 @@
     text-align: center;
     color: white;
   }  
-  .Description {
-    justify-self: flex-end;
-    font-size: 1rem;
-    margin-top: -15%;
-    text-align: center;
-    color: white;
-  }
   @keyframes fade {
     0% {
         opacity: 0;
@@ -178,40 +157,64 @@
   }
 }
 @media (min-width:508px) and (max-width:992px) {
-  .videobg {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    object-fit: cover;
-  }
-  .bgoverlay {
-    height: 10% !important;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 0;
-  }
-  .bannerheading {
-    font-size: 3rem;
-    animation-name: fade;
-    animation-duration: 4s;
-    margin-top: -35%;
-    text-align: center;
-  }  
-  .Description {
-    justify-self: flex-end;
-    font-size: 1.5rem;
-    margin-top: -15%;
-    text-align: center;
+  .btn{
+    margin-bottom: 50px !important;
+    margin-right: 50%;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    text-decoration: none;
     color: white;
+    border: 2px solid white;
+    font-weight: 500;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    transition: all .9s;
   }
-  @keyframes fade {
-    0% {
-        opacity: 0;
-        margin-left: 3em;
-    }
-    100% {
-        opacity: 1;
-    }
-  }}
+}
+  .btn{
+    margin-bottom: 50px;
+    margin-right: 50%;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    font-weight: 500;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    transition: all .9s;
+  }
+  
+  .btn span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .btn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: white;
+    transition: all 1s;
+  }
+  
+  .btn:hover{
+    color: rgb(86, 85, 85);
+  }
+  
+  .btn:hover:after{
+    width: 100%;
+    border-radius: 19px;
+  }

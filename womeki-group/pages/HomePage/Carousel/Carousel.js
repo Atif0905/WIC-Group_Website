@@ -23,21 +23,22 @@ const Carousel = () => {
         disableOnInteraction: false
     }}
      pagination={{ clickable: true }}>
-     {
+    
+    </Swiper>
+    {
         data.map((Newdata,index) =>{
            return(
-            <SwiperSlide key={index}>
-            <div>
+            
+            <div key={index} >
                 <Image className={styles.videobg} width={1500} height={700} src={Newdata.Image} alt="kk" />
                 <div className={styles.bgoverlay}></div>
                 <div className={styles.hometext}>
                 <h3 className={styles.bannerheading} >{Newdata.Heading}</h3>
-                <p className={styles.Description} >{Newdata.Description}</p>
+                <a className={styles.btn} ><span>Explore With Us</span></a>
                 </div>
             </div>
-            </SwiperSlide>
+          
            )})}
-    </Swiper>
     </div>
   )}
 export default Carousel
