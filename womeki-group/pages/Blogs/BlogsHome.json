@@ -9,6 +9,11 @@
             "Heading": " Mastering IT Project Management: A Guide to Success with Agile and Scrum",
             "Image": "/../public/BlogImg/techblogimg1.png",
             "url": "./Blogs/Blogpage/BlogpageTwo"
+        },
+        {
+            "Heading": " Education and Mental Health: Nurturing Minds for a Brighter Future",
+            "Image": "/../public/BlogImg/educationblogimg1.png",
+            "url": "./Blogs/Blogpage/BlogpageThree"
         }
     ]
 }
