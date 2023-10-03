@@ -20,7 +20,7 @@ const SustainabilityPage = () => {
               <Image
                 src={AboutData.Image}
                 alt="img"
-                height={600}
+                height={650}
                 width={1500}
               />
             </div>

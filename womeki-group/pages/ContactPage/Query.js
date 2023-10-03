@@ -40,11 +40,11 @@ const Query = () => {
   <div  className={styles.formgroup}>
     <label className={styles.labeltxt}>Subject</label>
     <select className={`form-control ${styles.formcontrol}`} >
-      <option className={styles.labeltxt}>...</option>
-      <option className={styles.labeltxt}>Option1</option>
-      <option className={styles.labeltxt}>Option2</option>
-      <option className={styles.labeltxt}>Option3</option>
-      <option className={styles.labeltxt}>Option4</option>
+      <option className={styles.labeltxt}></option>
+      <option className={styles.labeltxt}>Real Estate</option>
+      <option className={styles.labeltxt}>Education</option>
+      <option className={styles.labeltxt}>IT Services</option>
+      <option className={styles.labeltxt}>General</option>
     </select>
   </div>
   <div className={styles.formgroup}>
@@ -56,11 +56,10 @@ const Query = () => {
   </div>
   </div>
 </form>
-       </div>
-         
+       </div>         
         <div className='col-lg-6 col-md-12 mt-5 '>
           <h5 className={styles.head5}>Get in Touch</h5>
-          <p className={styles.paratxt}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus.</p>
+          <p className={styles.paratxt}>We are always happy to hear from  you if you face any problem,or want to seek anything.</p>
           <h5  className={styles.head5}>Our Office</h5>
           <div className='d-flex'>
             <h6 className={styles.head6}>Address:</h6>
@@ -72,7 +71,7 @@ const Query = () => {
           </div>
           <div className='d-flex'>
             <h6 className={styles.head6}>Email:</h6>
-            <p className={styles.paratxt}>abc@gmail.com</p>
+            <p className={styles.paratxt}>info@wic.org.in</p>
           </div>
           <div className='d-lg-flex d-md-block'>
             <div className='p-2'>

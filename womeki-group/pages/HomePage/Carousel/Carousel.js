@@ -34,7 +34,7 @@ const Carousel = () => {
                 <div className={styles.bgoverlay}></div>
                 <div className={styles.hometext}>
                 <h3 className={styles.bannerheading} >{Newdata.Heading}</h3>
-                <a className={styles.btn} ><span>Explore With Us</span></a>
+                <a href='about' className={styles.btn} ><span>Explore With Us</span></a>
                 </div>
             </div>
           

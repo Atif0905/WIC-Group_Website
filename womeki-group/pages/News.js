@@ -15,7 +15,7 @@ const NewsPage = () => {
   }, []);
 
   return (
-    <div className="pt-5">
+    <div className={`pt-5 ${styles.BackgruondColour}`}>
       <div className={`d-flex ms-5 ${styles.responsivediv}`}>
         <div className={` text-center ${styles.newswomekihead}`}>
           <h1 className={` text-center ${styles.newswomekiheading}`}>Womeki Times</h1>
@@ -24,9 +24,6 @@ const NewsPage = () => {
           <span className={styles.hiddenText}>aaaaaaaaaaaaaaaaaa</span>
         </div>
       </div>
-      {/* <h4 className={`${styles.newswomekisubhead}`}>
-        Groups insider scoop Your passport to insights
-      </h4> */}
       <h1 className={`text-center ${styles.newsmaintitle}`}>News</h1>
       {posts.length > 0 ? (
         posts.map((newPost, index) => <News key={index} {...newPost} />)

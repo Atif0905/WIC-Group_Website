@@ -3,6 +3,9 @@
   padding-bottom: 2%;
   border-bottom: 1px solid gray;
 }
+.BackgruondColour{
+  background-color: rgb(238, 244, 247);
+}
 .overDiv {
   width: 70%;
   margin-top: -80px;
@@ -26,12 +29,12 @@
   font-weight: bolder;
 }
 .borderDiv {
-  border-top: 8px solid rgb(219, 40, 0);
-  border-right: 8px solid rgb(219, 40, 0);
+  border-top: 18px solid #07A0E8;
+  border-right: 18px solid #07A0E8;
 }
 .borderDiv1 {
-  border-bottom: 8px solid rgb(219, 40, 0);
-  border-left: 8px solid rgb(219, 40, 0);
+  border-bottom: 18px solid #07A0E8;
+  border-left: 18px solid #07A0E8;
 }
 .hiddenText1 {
   visibility: hidden;
@@ -44,7 +47,7 @@
   display: block;
   position: relative;
   height: 5px;
-  background: rgb(219, 40, 0);
+  background: #07A0E8;
   width: 300px;
   margin-left: auto;
   margin-right: auto;
@@ -69,7 +72,7 @@
   display: block;
   position: relative;
   height: 3px;
-  background: rgb(0, 35, 73);
+  background: #07A0E8;
   width: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -104,7 +107,7 @@
     display: block;
     position: relative;
     height: 4px;
-    background: rgb(219, 40, 0);
+    background: #07A0E8;
     width: 150px;
     margin-left: auto;
     margin-right: auto;

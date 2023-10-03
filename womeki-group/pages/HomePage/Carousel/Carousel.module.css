@@ -52,7 +52,7 @@
 }
 .menu div:nth-of-type(2) {width: 40%;}
 .hometext {
-  width: 70%;
+  width: 100%;
   height: 60%;
   display: flex;
   flex-direction: column;
@@ -63,8 +63,9 @@
 .bannerheading {
   font-size: 2.5rem;
   animation-name: fade;
-  animation-duration: 8s;
+  animation-duration: 6s;
   margin-top: -25%;
+  margin-left: 0%;
   text-align: center;
   color: white;
 } 
@@ -176,8 +177,8 @@
   }
 }
   .btn{
-    margin-bottom: 50px;
-    margin-right: 50%;
+    margin-bottom: 60px;
+    margin-left: -4%;
     display: block;
     cursor: pointer;
     width: 200px;
